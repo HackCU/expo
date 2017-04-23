@@ -171,7 +171,7 @@ Set Password Function
 
 The photon's code has a function connected to the particle cloud. This enables the key combination to be modified through the web interface.
 
-Challenges that were overcome
+Challenges That Were Overcome
 
 Prior to the start of the hackathon, James, the main developer of this project, knew almost nothing about how to use the main hardware components and how to set up particle devices to receive input rather than to post data. These were all challenges that over the course of the hackathon he overcame. He learned a large amount about how to get the various hardware components to work together.
 ",,https://github.com/phobos2390/magicbox,https://s3.amazonaws.com/challengepost/zip_files/production/23169/zip_files/magicbox.zip,"","arduino, particle, adafruit","Brigham Young University, Lindenwood University, University of Colorado",Particle Photon,phobos2390,"Lindenwood University, University of Colorado at Boulder",Lanceitar,adamcasey
@@ -982,6 +982,10 @@ Collisions without quote issues
 Collisions with quote issues
 
 
+Tooling
+
+We used a lot of python scripts to help solve the initial encoding of characters. All python files can be found at github.com/mguida22/alteryx-crypto and the alteryx workflow was submitted by email.
+
 Contributors
 
 
@@ -991,7 +995,7 @@ Andrew Gentry
 Travis Benson
 Collin Berg
 
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/23170/zip_files/final_proof.txt,Alteryx,alteryx,University of Colorado Boulder,"",mguida22,""
+",,https://github.com/mguida22/alteryx-crypto,https://s3.amazonaws.com/challengepost/zip_files/production/23179/zip_files/Archive.zip,Alteryx,alteryx,University of Colorado Boulder,"",mguida22,""
 HackCU 3 Plays: Mystery Dungeon,http://hackcu3.devpost.com/submissions/72393-hackcu-3-plays-mystery-dungeon,"Inspiration
 
 Twitch Plays Pokemon seemed like a really cool idea, and I thought, why can't I try and build that?
@@ -1092,6 +1096,39 @@ What's next for CardioWear
 
 We want to have a realtime later
 ",,https://ecg01.herokuapp.com/index/,,"","swift, d3.js, django, python, sqlite, heroku, simblee",University of Colorado at Boulder,"",YanyuXiong,University of Colorado at Boulder,woshibala
+hackcu-clickbait,http://hackcu3.devpost.com/submissions/72397-hackcu-clickbait,"Inspiration
+
+Click bait articles are really annoying, and we want to help solve that
+
+What it does
+
+We trained an ML model to power a Chrome Extension to make scrolling Facebook a better experience. The goal was to eliminate titles such as ""12 reasons why you should..."" and 
+
+How I built it
+
+We utilized Python BeauitfulSoup, CheerioJs, and the Reddit API to scrape articles to train an ML model. We used a node backend to set up an API to talk to Amazon ML to determine wether or not an article is clickbait. From there it communicates with a chrome extension to pull article links and headlines. After this we used Cheerio and Node to scrape the source of the article. This accomplished several things. We can combined multi page articles down to a single reading experience with the hopes of injecting the new content directly into a users Facebook feed after passing through a summarization API called summary.
+
+Challenges I ran into
+
+Facebook was very blocking with the scripts we could inject. No two news websites are the same so scraping the articles themselves was a large challenge. On top of that we had to compile together a dataset to train the ML model. 
+
+Accomplishments that I'm proud of
+
+Some crazy Regex
+Real Time API 
+Accurately identify clickbait articles
+Scraping data from news sites that were not alike.
+
+What I learned
+
+Node
+Chrome API
+Amazon ML
+
+What's next for hackcu-clickbait
+
+We are very close to having a product worth being very proud of that will hopefully catch some traction. I am excited to move forward with the project.
+",,https://github.com/JustinWayneOlson/hackcu-clickbait,,Best use of Amazon Web Services,"javascript, python, amazon-web-services, amazon-machine-learning, node.js","Milwaukee School of Engineering, UC Boulder","",zawadzkip,"Milwaukee School of Engineering, University of Colorado Boulder",laurenraddatz
 whereUchat,http://hackcu3.devpost.com/submissions/72398-whereuchat,"HackCU Hackathon
 
 Location Based Chatting
@@ -1201,6 +1238,10 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Alteryx challenge Ali-Smit
+
+Table Number
+
+ROOM 205 Table 1
 ",,https://www.dropbox.com/sh/j0x4shonh0059ak/AACEO4vFO3xM9GnWRBDy-mC8a?dl=0,https://s3.amazonaws.com/challengepost/zip_files/production/23176/zip_files/Alteryx_Smit.zip,"","python, alteryx",CU Boulder,"",alnassirah95,University of Colorado at Boulder
 Reverever,http://hackcu3.devpost.com/submissions/72408-reverever,"Inspiration
 
@@ -1248,3 +1289,17 @@ What's next for Reverever
 
 We are Planning to expand with improvement in CUDNN Models for improved Machine learning
 ",,https://github.com/Mounika1494/HackCU.git,,"MapQuest API Prize, Best use of Amazon Web Services, BMW Motorrad/Rever","python, mapquest, google-web-speech-api, google-maps, ml, gpu",The University of Colorado Boulder,"",MounikaReddyEdula,"University of Colorado, University of Colorado Boulder",abhijit5893,bhallaji,disa6302
+Accident detection and Prevention System (ADPS),http://hackcu3.devpost.com/submissions/72412-accident-detection-and-prevention-system-adps,"Cars have been increased in past 10 years. So accidents rate is also drastically increased. So the idea is to avoid accidents and assist the driver with some information
+
+It detects speed limit signs, stop signs on the road. Some times drivers will not see the signs properly. So if they go in a speed of 70mph in a area which has a limit of 40 mph then accidents can occur easily. So our application assists the driver to find the current speed limit of the road. It also detects the accidents
+
+We used python scripts to emulate the process. The script lies in the raspberry pi. It takes snapshots every second and analyzes the image for stop sign and speed limit sign. This can be extended for any sign. We also have a vibration sensor which is used to detect an accident. If an accident is detected then the accident information is sent to near by hospitals and also to registered people. We used APIs like Cisco Spark, Microsoft Cognitive services, Google APIs.
+
+To detect the speed limit sign it was little difficult because we didnot had the sign with us. We did not get a camera to interface with the raspberry pi. 
+
+We are proud about the fact that we have contributed an application that assists drivers to avoid accidents.
+
+We learned a lot through out the process. We learned how to use Microsoft Cognitive services and also MapQuest API.
+
+Next our idea is to get a good camera and research about the accuracy. 
+",,https://github.com/avra0601/Hack-CU---ADPS,https://s3.amazonaws.com/challengepost/zip_files/production/23181/zip_files/code.zip,"","python, microsoft-cognitive-api, amazon-web-services, android-studio",University of Colorado Boulder,"",avinashrmaharaj,University of Colorado Boulder,sisu7691
