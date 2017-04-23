@@ -6,7 +6,7 @@ expo_list = ["1"]
 #get submissions from csv
 title_col = "Submission Title"
 description_col = "Plain Description"
-sponsors_row = "Opt-in prize"
+sponsors_row = "Desired Prizes"
 link_col = "Submission Url"
 
 input_path = 'data/devpost.csv'
