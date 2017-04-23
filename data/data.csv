@@ -1,151 +1,52 @@
 table,project,sponsors,link
-1,HackSat,ShapeWays Challenge: Best 3D printing hack,http://hackupc2017w.devpost.com/submissions/68745-hacksat
-2,Assist Me,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68776-assist-me
-3,Whale Protection,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68780-whale-protection
-4,Whale Protection,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68780-whale-protection
-5,UPCoin,FIB API Challenge,http://hackupc2017w.devpost.com/submissions/68782-upcoin
-6,UPCoin,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68782-upcoin
-7,UPCoin,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68782-upcoin
-8,UPCoin,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68782-upcoin
-9,UPCoin,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68782-upcoin
-10,ChATURAT,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68784-chaturat
-11,ChATURAT,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68784-chaturat
-12,ChATURAT,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68784-chaturat
-13,ReportEs,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68785-reportes
-14,ReportEs,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68785-reportes
-15,eink.news,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68787-eink-news
-16,eink.news,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68787-eink-news
-17,AmISafe,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68789-amisafe
-18,AmISafe,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68789-amisafe
-19,GIF Palette,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68790-gif-palette
-20,GIF Palette,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68790-gif-palette
-21,GIF Palette,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68790-gif-palette
-22,GIF Palette,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68790-gif-palette
-23,Car AI 2,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68791-car-ai-2
-24,Car AI 2,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68791-car-ai-2
-25,Crowd.io,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68794-crowd-io
-26,Crowd.io,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68794-crowd-io
-27,Chromelexa,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68795-chromelexa
-28,Chromelexa,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68795-chromelexa
-29,Chromelexa,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68795-chromelexa
-30,filo : findthelost,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68797-filo-findthelost
-31,filo : findthelost,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68797-filo-findthelost
-32,MAKE THE DIFFERENCE,Signaturit Challenge: Best use of Signaturit API,http://hackupc2017w.devpost.com/submissions/68798-make-the-difference
-33,Twittola,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68799-twittola
-34,StarMotion,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68801-starmotion
-35,Carthumbing,Esri Challenge: Improve Blablarcar search algorithm,http://hackupc2017w.devpost.com/submissions/68803-carthumbing
-36,inclusivewords.com,Best Domain Name from Domain.com,http://hackupc2017w.devpost.com/submissions/68804-inclusivewords-com
-37,inclusivewords.com,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68804-inclusivewords-com
-38,inclusivewords.com,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68804-inclusivewords-com
-39,Emaption,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68806-emaption
-40,Emaption,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68806-emaption
-41,MotoCare,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68807-motocare
-42,MotoCare,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68807-motocare
-43,MotoCare,Esri Challenge: Improve Blablarcar search algorithm,http://hackupc2017w.devpost.com/submissions/68807-motocare
-44,MotoCare,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68807-motocare
-45,MotoCare,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68807-motocare
-46,MotoCare,Best Domain Name from Domain.com,http://hackupc2017w.devpost.com/submissions/68807-motocare
-47,MotoCare,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68807-motocare
-48,NeuName,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68808-neuname
-49,TTTiPoT,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68809-tttipot
-50,TTTiPoT,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68809-tttipot
-51,TTTiPoT,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68809-tttipot
-52,VisionWare,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68811-visionware
-53,"Medbay, the AI-powered medical kit",Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68812-medbay-the-ai-powered-medical-kit
-54,"Medbay, the AI-powered medical kit",Signaturit Challenge: Best use of Signaturit API,http://hackupc2017w.devpost.com/submissions/68812-medbay-the-ai-powered-medical-kit
-55,KarmaNews Telegram bot,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68814-karmanews-telegram-bot
-56,KarmaNews Telegram bot,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68814-karmanews-telegram-bot
-57,KarmaNews Telegram bot,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68814-karmanews-telegram-bot
-58,Emergency-helper,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68816-emergency-helper
-59,Emergency-helper,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68816-emergency-helper
-60,Emergency-helper,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68816-emergency-helper
-61,Emergency-helper,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68816-emergency-helper
-62,IonicFIB,FIB API Challenge,http://hackupc2017w.devpost.com/submissions/68817-ionicfib
-63,Signature Conditions,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68820-signature-conditions
-64,Signature Conditions,Signaturit Challenge: Best use of Signaturit API,http://hackupc2017w.devpost.com/submissions/68820-signature-conditions
-65,Signature Conditions,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68820-signature-conditions
-66,Signature Conditions,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68820-signature-conditions
-67,CareBot,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68823-carebot
-68,CareBot,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68823-carebot
-69,partyDonator,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68826-partydonator
-70,partyDonator,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68826-partydonator
-71,partyDonator,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68826-partydonator
-72,partyDonator,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68826-partydonator
-73,AI Barney,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68827-ai-barney
-74,Everyday Hero,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68828-everyday-hero
-75,Everyday Hero,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68828-everyday-hero
-76,Everyday Hero,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68828-everyday-hero
-77,Everyday Hero,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68828-everyday-hero
-78,Safe Me,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68830-safe-me
-79,Safe Me,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68830-safe-me
-80,Safe Me,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68830-safe-me
-81,Vibes,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68832-vibes
-82,Vibes,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68832-vibes
-83,Vibes,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68832-vibes
-84,EducApp,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68833-educapp
-85,EducApp,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68833-educapp
-86,EducApp,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68833-educapp
-87,RescueMe,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68834-rescueme
-88,Twin NP Pong,FIB API Challenge,http://hackupc2017w.devpost.com/submissions/68835-twin-np-pong
-89,Lazying fun,ShapeWays Challenge: Best 3D printing hack,http://hackupc2017w.devpost.com/submissions/68836-lazying-fun
-90,Lightspeed Study,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68837-lightspeed-study
-91,Lightspeed Study,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68837-lightspeed-study
-92,Lightspeed Study,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68837-lightspeed-study
-93,Lightspeed Study,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68837-lightspeed-study
-94,besafe-app,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68840-besafe-app
-95,Cortiris,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68841-cortiris
-96,aimalaif,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68843-aimalaif
-97,Awhere,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68848-awhere
-98,Awhere,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68848-awhere
-99,Awhere,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68848-awhere
-100,Alife,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68849-alife
-101,Orus: An easy and fast way to keep you updated,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68851-orus-an-easy-and-fast-way-to-keep-you-updated
-102,Orus: An easy and fast way to keep you updated,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68851-orus-an-easy-and-fast-way-to-keep-you-updated
-103,Harambot,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68853-harambot
-104,Harambot,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68853-harambot
-105,Harambot,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68853-harambot
-106,TeamHack,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68854-teamhack
-107,FiY - Find it Yourself,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68855-fiy-find-it-yourself
-108,FiY - Find it Yourself,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68855-fiy-find-it-yourself
-109,Room condition sensors that help to sleep better,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68856-room-condition-sensors-that-help-to-sleep-better
-110,Room condition sensors that help to sleep better,Best Domain Name from Domain.com,http://hackupc2017w.devpost.com/submissions/68856-room-condition-sensors-that-help-to-sleep-better
-111,Pear,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68860-pear
-112,Pear,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68860-pear
-113,EnterwaveMe,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68863-enterwaveme
-114,EnterwaveMe,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68863-enterwaveme
-115,DEMM - Dynamic Emergency Management Mapping,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68864-demm-dynamic-emergency-management-mapping
-116,DEMM - Dynamic Emergency Management Mapping,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68864-demm-dynamic-emergency-management-mapping
-117,DEMM - Dynamic Emergency Management Mapping,Esri Challenge: Improve Blablarcar search algorithm,http://hackupc2017w.devpost.com/submissions/68864-demm-dynamic-emergency-management-mapping
-118,DEMM - Dynamic Emergency Management Mapping,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68864-demm-dynamic-emergency-management-mapping
-119,DEMM - Dynamic Emergency Management Mapping,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68864-demm-dynamic-emergency-management-mapping
-120,RGBArchitect,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68865-rgbarchitect
-121,RGBArchitect,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68865-rgbarchitect
-122,emergencymap.tech,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68867-emergencymap-tech
-123,uCode Cluster,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68868-ucode-cluster
-124,TaskBot,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68869-taskbot
-125,TaskBot,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68869-taskbot
-126,BIENE,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68870-biene
-127,BIENE,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68870-biene
-128,BIENE,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68870-biene
-129,Accidentally Safe,FIB API Challenge,http://hackupc2017w.devpost.com/submissions/68871-accidentally-safe
-130,Accidentally Safe,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/68871-accidentally-safe
-131,Accidentally Safe,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68871-accidentally-safe
-132,Accidentally Safe,Esri Challenge: Improve Blablarcar search algorithm,http://hackupc2017w.devpost.com/submissions/68871-accidentally-safe
-133,Accidentally Safe,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68871-accidentally-safe
-134,Accidentally Safe,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68871-accidentally-safe
-135,Accidentally Safe,Amazon Web Services - Best Use of AWS,http://hackupc2017w.devpost.com/submissions/68871-accidentally-safe
-136,Accidentally Safe,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68871-accidentally-safe
-137,Good=win,EVERIS Challenge: Help people with AI,http://hackupc2017w.devpost.com/submissions/68872-good-win
-138,Good=win,Esri Challenge: Improve Blablarcar search algorithm,http://hackupc2017w.devpost.com/submissions/68872-good-win
-139,Good=win,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/68872-good-win
-140,Good=win,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68872-good-win
-141,Good=win,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68872-good-win
-142,TeamBuilder,FIB API Challenge,http://hackupc2017w.devpost.com/submissions/68873-teambuilder
-143,TeamBuilder,#HackHarassment,http://hackupc2017w.devpost.com/submissions/68873-teambuilder
-144,Hooman,Signaturit Challenge: Best use of Signaturit API,http://hackupc2017w.devpost.com/submissions/68874-hooman
-145,Code Dungeon,Best .tech domain,http://hackupc2017w.devpost.com/submissions/68876-code-dungeon
-146,Code Dungeon,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/68876-code-dungeon
-147,Refugees_rescue,Signaturit Challenge: Best use of Signaturit API,http://hackupc2017w.devpost.com/submissions/69149-refugees_rescue
-148,SafeWhistle,Between Challenge:  SmartLocation to save lives,http://hackupc2017w.devpost.com/submissions/69151-safewhistle
-149,SafeWhistle,Scalingo Challenge: The coolest Hack Hosted on Scalingo,http://hackupc2017w.devpost.com/submissions/69151-safewhistle
-150,SafeWhistle,Best hack by Bloomberg,http://hackupc2017w.devpost.com/submissions/69151-safewhistle
+1,Aria: Your Personal Smart Home Butler,"Best domain name registered with Domain.com, Best use of Amazon Web Services",http://hackcu3.devpost.com/submissions/72056-aria-your-personal-smart-home-butler
+2,ShortWormMemory,Best domain name registered with Domain.com,http://hackcu3.devpost.com/submissions/72090-shortwormmemory
+3,Alteryx submission by team Marmathor,Alteryx,http://hackcu3.devpost.com/submissions/72094-alteryx-submission-by-team-marmathor
+4,"Alteryx Blob Decryption (Bri, Wes, Alex, Matt)",,http://hackcu3.devpost.com/submissions/72104-alteryx-blob-decryption-bri-wes-alex-matt
+5,noiamyourfather.net,Best domain name registered with Domain.com,http://hackcu3.devpost.com/submissions/72116-noiamyourfather-net
+6,CrashBoulder,"Workday: API prize, Best domain name registered with Domain.com, MapQuest API Prize, Best use of Amazon Web Services",http://hackcu3.devpost.com/submissions/72128-crashboulder
+7,magicbox,,http://hackcu3.devpost.com/submissions/72184-magicbox
+8,Athena,,http://hackcu3.devpost.com/submissions/72196-athena
+9,OBD Buddy,"MapQuest API Prize, BMW Motorrad/Rever",http://hackcu3.devpost.com/submissions/72198-obd-buddy
+10,CrossOVr,,http://hackcu3.devpost.com/submissions/72205-crossovr
+11,3D Model Maker,"Workday: API prize, MapQuest API Prize",http://hackcu3.devpost.com/submissions/72209-3d-model-maker
+12,Motion Cntrl,,http://hackcu3.devpost.com/submissions/72214-motion-cntrl
+13,Kyokan,,http://hackcu3.devpost.com/submissions/72234-kyokan
+14,keepcalmandcyb.org,Best domain name registered with Domain.com,http://hackcu3.devpost.com/submissions/72236-keepcalmandcyb-org
+15,Oodler,#HackHarassment,http://hackcu3.devpost.com/submissions/72322-oodler
+16,mrmr,,http://hackcu3.devpost.com/submissions/72324-mrmr
+17,GOTO,Best use of Amazon Web Services,http://hackcu3.devpost.com/submissions/72332-goto
+18,squidwardplaysclari.net,Best domain name registered with Domain.com,http://hackcu3.devpost.com/submissions/72336-squidwardplaysclari-net
+19,SpektrumVR,,http://hackcu3.devpost.com/submissions/72348-spektrumvr
+20,HackCU III Asymmetrical Game,,http://hackcu3.devpost.com/submissions/72354-hackcu-iii-asymmetrical-game
+21,Hashlock Option,,http://hackcu3.devpost.com/submissions/72355-hashlock-option
+22,Phobos Jump,,http://hackcu3.devpost.com/submissions/72357-phobos-jump
+23,IsThisWebsiteOffline.com,Best domain name registered with Domain.com,http://hackcu3.devpost.com/submissions/72361-isthiswebsiteoffline-com
+24,u mad bro?,#HackHarassment,http://hackcu3.devpost.com/submissions/72362-u-mad-bro
+25,Over.LFG,,http://hackcu3.devpost.com/submissions/72363-over-lfg
+26,Risk.io,,http://hackcu3.devpost.com/submissions/72373-risk-io
+27,HypeYoLyfe,,http://hackcu3.devpost.com/submissions/72375-hypeyolyfe
+28,Pundering To The Masses,Best domain name registered with Domain.com,http://hackcu3.devpost.com/submissions/72377-pundering-to-the-masses
+29,Chartographer,Best use of Amazon Web Services,http://hackcu3.devpost.com/submissions/72378-chartographer
+30,N_body_simulation,,http://hackcu3.devpost.com/submissions/72379-n_body_simulation
+31,Downspin Balloonist,,http://hackcu3.devpost.com/submissions/72380-downspin-balloonist
+32,Super Emoji Face,"Best domain name registered with Domain.com, Best use of Amazon Web Services",http://hackcu3.devpost.com/submissions/72381-super-emoji-face
+33,ReverQuest,,http://hackcu3.devpost.com/submissions/72382-reverquest
+34,Sinque,,http://hackcu3.devpost.com/submissions/72383-sinque
+35,ID10T-errors,Best domain name registered with Domain.com,http://hackcu3.devpost.com/submissions/72387-id10t-errors
+36,Tonite,,http://hackcu3.devpost.com/submissions/72388-tonite
+37,Re-Cal-Ibrate,,http://hackcu3.devpost.com/submissions/72389-re-cal-ibrate
+38,Real Talk,"#HackHarassment, Best use of Amazon Web Services",http://hackcu3.devpost.com/submissions/72390-real-talk
+39,The case of the missing ceiling tile,,http://hackcu3.devpost.com/submissions/72391-the-case-of-the-missing-ceiling-tile
+40,Alteryx Decryption,Alteryx,http://hackcu3.devpost.com/submissions/72392-alteryx-decryption
+41,HackCU 3 Plays: Mystery Dungeon,Best use of Amazon Web Services,http://hackcu3.devpost.com/submissions/72393-hackcu-3-plays-mystery-dungeon
+42,PartyBuddy,"MapQuest API Prize, Best use of Amazon Web Services",http://hackcu3.devpost.com/submissions/72394-partybuddy
+43,CyberTurret,#HackHarassment,http://hackcu3.devpost.com/submissions/72395-cyberturret
+44,CardioWear,,http://hackcu3.devpost.com/submissions/72396-cardiowear
+45,whereUchat,,http://hackcu3.devpost.com/submissions/72398-whereuchat
+46,wholesome booty,#HackHarassment,http://hackcu3.devpost.com/submissions/72399-wholesome-booty
+47,SiriQuery,"Best domain name registered with Domain.com, Best use of Amazon Web Services",http://hackcu3.devpost.com/submissions/72401-siriquery
+48,HackCU-2017,,http://hackcu3.devpost.com/submissions/72402-hackcu-2017
+49,Alteryx Cryptography Challenge,Alteryx,http://hackcu3.devpost.com/submissions/72403-alteryx-cryptography-challenge
+50,Alteryx challenge Ali-Smit,,http://hackcu3.devpost.com/submissions/72407-alteryx-challenge-ali-smit
+51,Reverever,"MapQuest API Prize, Best use of Amazon Web Services, BMW Motorrad/Rever",http://hackcu3.devpost.com/submissions/72408-reverever
