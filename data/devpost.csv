@@ -127,7 +127,7 @@ Utilizing crosstab and transpose tools to translate single words in a column to 
 What's next for Alteryx Blob Decryption (Bri, Wes, Alex, Matt)
 
 Perfecting syntax decryption and translation accuracy... and a long night's sleep :)
-",,https://www.dropbox.com/s/p91ugm57lyu5c2n/AlteryxChallenge_AMidHackacthonsNightDreamV2.zip?dl=0,,"","",University of Colorado Boulder,"",brianabutler,"University of Colorado, University of Colorado at Boulder",alextruesdale,matt855,westonballard
+",,https://www.dropbox.com/s/6fzzliimckf2de0/AlteryxChallenge_AMidHackacthonsNightDreamV3%20%282%29.zip?dl=0,,"","",University of Colorado Boulder,"",brianabutler,"University of Colorado, University of Colorado at Boulder",alextruesdale,matt855,westonballard
 noiamyourfather.net,http://hackcu3.devpost.com/submissions/72116-noiamyourfather-net,"In the center of Cloud City, Luke Skywalker, battered and bruised, confronts Darth Vader about his father Anakin.
 NOTE devpost isn't registering that the domain is valid so here it is: noiamyourfather.com
 ",,http://www.noiamyourfather.net,,Best domain name registered with Domain.com,"html, domain.com, youtube",Miami University,"",ezapanta,Miami University
@@ -392,6 +392,7 @@ Try it out on the chrome store, link down below
 mrmr,http://hackcu3.devpost.com/submissions/72324-mrmr,"mrmr
 
 A simple but nice webchat application with rooms and fun!
+mrmrchat.net
 
 Goals
 
@@ -1098,7 +1099,7 @@ We want to have a realtime later
 ",,https://ecg01.herokuapp.com/index/,,"","swift, d3.js, django, python, sqlite, heroku, simblee",University of Colorado at Boulder,"",YanyuXiong,University of Colorado at Boulder,woshibala
 hackcu-clickbait,http://hackcu3.devpost.com/submissions/72397-hackcu-clickbait,"Inspiration
 
-Click bait articles are really annoying, and we want to help solve that
+Browsing the internet and getting the content you are looking for has actually become a challenge in today's world. Every news outlet breaks an article down into multiple pages for extra ad revenue. 
 
 What it does
 
@@ -1106,7 +1107,7 @@ We trained an ML model to power a Chrome Extension to make scrolling Facebook a 
 
 How I built it
 
-We utilized Python BeauitfulSoup, CheerioJs, and the Reddit API to scrape articles to train an ML model. We used a node backend to set up an API to talk to Amazon ML to determine wether or not an article is clickbait. From there it communicates with a chrome extension to pull article links and headlines. After this we used Cheerio and Node to scrape the source of the article. This accomplished several things. We can combined multi page articles down to a single reading experience with the hopes of injecting the new content directly into a users Facebook feed after passing through a summarization API called summary.
+We utilized Python BeauitfulSoup, CheerioJs, and the Reddit API to scrape articles to train an ML model. We used a node backend to set up an API to talk to Amazon ML to determine wether or not an article is clickbait. From there it communicates with a chrome extension to pull article links and headlines while the user is scrolling facebook. After this in real time, we used Node and Cheerio to scrape the source of the article. This accomplished several things. We can combined multi page articles down to a single reading experience with the hopes of injecting the new content directly into a users Facebook feed after passing through a summarization API called summary.
 
 Challenges I ran into
 
@@ -1119,15 +1120,18 @@ Real Time API
 Accurately identify clickbait articles
 Scraping data from news sites that were not alike.
 
-What I learned
+What we learned
 
-Node
-Chrome API
 Amazon ML
+NodeJS
+Express
+jQuery
+Chrome API
+Reddit API
 
 What's next for hackcu-clickbait
 
-We are very close to having a product worth being very proud of that will hopefully catch some traction. I am excited to move forward with the project.
+We are very close to having a product worth being very proud of that will hopefully catch some traction. We are excited to move forward with the project.
 ",,https://github.com/JustinWayneOlson/hackcu-clickbait,,Best use of Amazon Web Services,"javascript, python, amazon-web-services, amazon-machine-learning, node.js","Milwaukee School of Engineering, UC Boulder","",zawadzkip,"Milwaukee School of Engineering, University of Colorado Boulder",laurenraddatz
 whereUchat,http://hackcu3.devpost.com/submissions/72398-whereuchat,"HackCU Hackathon
 
@@ -1200,7 +1204,6 @@ We'd like to make it so the audio is transferred live like a phone call so queri
 HackCU-2017,http://hackcu3.devpost.com/submissions/72402-hackcu-2017,"1) Command.py is python file which queries DynamoDB on AWS and print changing direction.
 2) NewWorkingLambdaFunc is the lambda function code which needs to be there on AWS (not to be run on local system)
 3) ""Intent Schema"" on developer.amazon.com:
-
 {
   ""intents"": [
     {
@@ -1210,17 +1213,23 @@ HackCU-2017,http://hackcu3.devpost.com/submissions/72402-hackcu-2017,"1) Command
           ""type"": ""LIST_OF_COMMANDS""
         }
       ],
-      ""intent"": ""MyColorIsIntent""
+      ""intent"": ""BotMovementIsIntent""
     },
     {
-      ""intent"": ""WhatsMyColorIntent""
+      ""intent"": ""WhatsNewBotDirectionIsIntent""
     },
     {
       ""intent"": ""AMAZON.HelpIntent""
     }
   ]
 }
-",,https://github.com/vibhormishra/HackCU-2017,,"","python, amazon-web-services, amazon-dynamodb, aws-lambda",University of Colorado Boulder,Amazon Echo,vibhormishra,University of Colorado at Boulder
+
+4) Echo Skill Config
+
+
+5) Lambda Configureation:
+
+",,https://github.com/vibhormishra/HackCU-2017,,"","python, amazon-web-services, amazon-dynamodb, aws-lambda, ros",University of Colorado Boulder,Amazon Echo,vibhormishra,University of Colorado at Boulder
 Alteryx Cryptography Challenge,http://hackcu3.devpost.com/submissions/72403-alteryx-cryptography-challenge,"Alteryx Crypto Challenge. Solved individually with no mentor assistance and only the first 4 hints.
 ",,https://github.com/gsawich/AlteryxChallenge,https://s3.amazonaws.com/challengepost/zip_files/production/23173/zip_files/gsawichCypher.zip,Alteryx,alteryx,University of Colorado Denver,"",gsawich,University of Colorado Denver
 Alteryx challenge Ali-Smit,http://hackcu3.devpost.com/submissions/72407-alteryx-challenge-ali-smit,"Inspiration
@@ -1289,15 +1298,15 @@ What's next for Reverever
 
 We are Planning to expand with improvement in CUDNN Models for improved Machine learning
 ",,https://github.com/Mounika1494/HackCU.git,,"MapQuest API Prize, Best use of Amazon Web Services, BMW Motorrad/Rever","python, mapquest, google-web-speech-api, google-maps, ml, gpu",The University of Colorado Boulder,"",MounikaReddyEdula,"University of Colorado, University of Colorado Boulder",abhijit5893,bhallaji,disa6302
-Accident detection and Prevention System (ADPS),http://hackcu3.devpost.com/submissions/72412-accident-detection-and-prevention-system-adps,"Cars have been increased in past 10 years. So accidents rate is also drastically increased. So the idea is to avoid accidents and assist the driver with some information
+Accident detection and Prevention System (ADPS),http://hackcu3.devpost.com/submissions/72412-accident-detection-and-prevention-system-adps,"Number of cars have increased in the past 10 years, and hence the accidents rate has also drastically increased. Our  idea is to avoid accidents as much as possible and assist the driver with some essential information
 
-It detects speed limit signs, stop signs on the road. Some times drivers will not see the signs properly. So if they go in a speed of 70mph in a area which has a limit of 40 mph then accidents can occur easily. So our application assists the driver to find the current speed limit of the road. It also detects the accidents
+Our product detects ""speed limit"" signs, ""stop signs"" on the road. Some times drivers will not see the signs properly. So if they go in a speed of 70mph in an area which has a limit of 40 mph, then accidents can occur easily. So our application assists the driver to find the current speed limit of the road. It also detects the accidents and reports on the accidents.
 
-We used python scripts to emulate the process. The script lies in the raspberry pi. It takes snapshots every second and analyzes the image for stop sign and speed limit sign. This can be extended for any sign. We also have a vibration sensor which is used to detect an accident. If an accident is detected then the accident information is sent to near by hospitals and also to registered people. We used APIs like Cisco Spark, Microsoft Cognitive services, Google APIs.
+We used python scripts to emulate the process. The script runs in the raspberry pi. It takes snapshots every second and analyzes the image for stop sign and speed limit sign. This can be extended for any sign. We also have a vibration sensor which is used to detect an accident. If an accident is detected then the accident information is sent to near by hospitals and also to registered people. We used APIs like Cisco Spark, Microsoft Cognitive services, Google APIs and MapQuest APIs.
 
-To detect the speed limit sign it was little difficult because we didnot had the sign with us. We did not get a camera to interface with the raspberry pi. 
+To detect the speed limit sign it was little difficult because we didnot had the sign with us. We did not get a camera to interface with the raspberry pi and have simulated the same in the laptop.
 
-We are proud about the fact that we have contributed an application that assists drivers to avoid accidents.
+We are proud about the fact that we have contributed an application that assists drivers to avoid accidents and save potential lives.
 
 We learned a lot through out the process. We learned how to use Microsoft Cognitive services and also MapQuest API.
 
