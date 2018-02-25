@@ -401,7 +401,7 @@ Unity, Leap Motion, C#, Oculus Rift
 What's next for Virtual Reality/Leap Motion Piano
 
 Add more features such as a collection of songs, speed of song tutorial, expand the piano key set
-",,https://github.com/dara1429/VirtualReality_LeapMotion_Piano,,"","unity, leap-motion, c#, oculus",Neptune,88,danyibarra,"University of Arizona, University of Colorado at Boulder, College of DuPage",2,dara1429,arrowman413
+",,https://github.com/dara1429/VirtualReality_LeapMotion_Piano,,"","unity, leap-motion, c#, oculus, lmms",Neptune,88,danyibarra,"University of Arizona, University of Colorado at Boulder, College of DuPage",3,dara1429,arrowman413,Vinnyhd
 CertChain,http://hackcu4.devpost.com/submissions/89158-certchain,"Inspiration
 
 We wanted to use blockchain technology as a way to remove unnecessary third parties. After a member learned about TLS and certificate authorities in a cyber security class, the connection was made.
@@ -585,11 +585,11 @@ Using the Alexa Skills toolkit, and programming it in Python 3, on amazon lambda
 
 Challenges we ran into
 
-Really, mostly is that Alexa's skills are really not easy to debut, several hours were lost just because an amazon account issue.
+Really, mostly is that Alexa's skills are really not easy to debug, several hours were lost just because an amazon account issue.
 
 Accomplishments that we're proud of
 
-Alexa actually listen and replies to our commands.
+Alexa actually listen and replies to our commands, and sometimes is nice!
 
 What we learned
 
@@ -598,7 +598,7 @@ Alexa's skills technology
 What's next for snarky alexa
 
 Being even more snarky
-",,https://github.com/auburus/alexa-teen,,Amazon Web Services - Best Use of AWS,"python, amazon-alexa, amazon-lambda",Mars,99,auburus,"University of Colorado at Colorado Springs, Colorado Technical University",1,vlasse86
+",,https://github.com/auburus/alexa-teen,,Amazon Web Services - Best Use of AWS,"python, amazon-alexa",Mars,99,auburus,"University of Colorado at Colorado Springs, Colorado Technical University",2,vlasse86,avlasse81
 my hackathon,http://hackcu4.devpost.com/submissions/89279-my-hackathon,"Inspiration
 
 After struggling for a few hours on a project well out of my depth. I stormed out of the building and headed back to main campus. As the wind blew the snow right through my sweater, I realized I needed a coat and a new project idea. The idea came to me somewhere between 30th and the math building.  
@@ -914,7 +914,7 @@ working on the search function to make it searchable on other fields than just m
 Project-IoT,http://hackcu4.devpost.com/submissions/89336-project-iot,"Raspberry pi monitors the temperature, humidity, and light in the house and reports it all back to AWS to be served up for consumer consumption on times series graphs on the webpage.
 
 Domain name: totallynotanest.com 
-",,https://github.com/Kyle-Helmick/Project-IoT,https://s3.amazonaws.com/challengepost/zip_files/production/30254/zip_files/Project-IoT-master.zip,"Amazon Web Services - Best Use of AWS, Best Domain Name from Domain.com","css, javascript, html, python, c++",Earth-B,15,seanharrison143,University of Colorado at Boulder,1,JohnLetey
+",,https://github.com/Kyle-Helmick/Project-IoT,https://s3.amazonaws.com/challengepost/zip_files/production/30254/zip_files/Project-IoT-master.zip,"Amazon Web Services - Best Use of AWS, Best Domain Name from Domain.com","css, javascript, html, python, c++",Earth-B,15,seanharrison143,University of Colorado at Boulder,3,Kyle-Helmick,JohnLetey,adamtenhoeve
 IRMI (Intuitive Remote Manipulation Interface),http://hackcu4.devpost.com/submissions/89340-irmi-intuitive-remote-manipulation-interface,"Inspiration
 
 With IRMI (Intuitive Remote Manipulation Interface), we aim to:
@@ -2243,22 +2243,34 @@ We have two repositories with our code. This only allowed uploading one.
 
 Our app allows users to tweet and control a multiplayer socket based game inside an Angular web app. Please ask for more details!
 ",,https://hack-cu-iv.firebaseapp.com,,"","javascript, html, shell, batchfile, css",102,102,mrgoodrich,California Polytechnic State University-San Luis Obispo,0
-BeatBounties,http://hackcu4.devpost.com/submissions/89453-beatbounties,"Inspiration
+Non-Fungible Song Tokens,http://hackcu4.devpost.com/submissions/89453-non-fungible-song-tokens,"Inspiration
+
+This project was inspired by my design for Etheradio. Etheradio requires songs to be tracked on the blockchain to prevent unsolicited reproduction and confirm uniqueness. No two songs should be exactly alike, so I found the ERC721 non-fungible token standard to be appropriate. 
 
 What it does
 
+Connects Song to a unique token using the ERC721 token standard.
+
 How I built it
+
+I use Node, Truffle, Ganache, and OpenZeppelin to develop my contracts.
 
 Challenges I ran into
 
+Finding an appropriate editor, I ended up using notepad++ but found later that Atom is much better.
+
 Accomplishments that I'm proud of
+
+Developed my first token using a new and exciting standard. ERC721 is more complex than the common ERC20.
 
 What I learned
 
-What's next for BeatBounties
+I learned the basics to Solidity and how to configure a development environment for creating smart contracts on the Ethereum test network, Ropnek. I learned how to define a non-fungible token using code and interface with the contract using web3.js
 
-To be edited
-",,,,"","web3, solidity",neptune,78,CaseyKey,Colorado State University,0
+What's next for Non-Fungible Song Token
+
+Add song tokens to my novel vertical implementation of the ConsenSys Bounty Network.
+",,,,"","web3, solidity, javascript, ethereum",neptune,78,CaseyKey,Colorado State University,0
 Spot-A-DJ,http://hackcu4.devpost.com/submissions/89454-spot-a-dj,"Inspiration
 
 In HackCU there was a room with some fire music going on, and I wanted to raise the volume so as to get more coding-hype. The thing is that there were over 100 hackers in the room and satisfying my hunger may bother other hackers. So I thought about creating a simple platform that lets a user share their ""actions"" on Spotify, as in changing the song that is being played or adjusting some settings, for example.
@@ -2280,3 +2292,19 @@ Accomplishments that I'm proud of
 
 Being able to think so fast in so much little time.
 ",,,,"","python, selenium",MLH Hardware booth,1,AlaaMouch,UPC,0
+NEO.TIX,http://hackcu4.devpost.com/submissions/89473-neo-tix,"Inspiration
+
+What it does
+
+NEO
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for NEO.TIX
+",,https://cooperkernan7.wixsite.com/mysite ,,Neo dApp Challenge,"",N107 Hallway Nook,Back of the Cave,laneolsen,University of Colorado at Boulder,0
