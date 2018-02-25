@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset='utf-8'>
-  <title>HackCU III Expo</title>
+  <title>HackCU IV Expo</title>
 
   <!-- Meta tags to eliminate caching. I don't totally get how these work, so you might not need all of them. cribbed from: http://stackoverflow.com/questions/1341089/using-meta-tags-to-turn-off-caching-in-all-browsers-->
   <meta http-equiv="cache-control" content="max-age=0" />
@@ -26,8 +26,8 @@
   <div class="container">
     <div id="header">
       <h1>
-       <a href="http://hackcu3.devpost.com/" title="HackCU III Expo">
-          <img src="favicon.png" style="vertical-align:middle; width:60px; margin-right: 16px;">HackCU III
+       <a href="http://hackcu4.devpost.com/" title="HackCU IV Expo">
+          <img src="logo.png" style="vertical-align:middle; width:60px; margin-right: 16px;">HackCU IV
         </a>
       </h1>
     </div>
@@ -38,19 +38,12 @@
     <div class="search_container">
       <input class="search" type="search" placeholder="Filter by sponsor prize, project name or whatever" id="filter"/>
     </div>
-    <p>Demo fair will be at Wolf Law <strong>1st and 2nd</strong> floors.
-    <br><b>Legend</b>
-    <br>T -> Table number</p>
-<p>- Room 205: 1-17 <br>
-- Room 206: 18-32 <br>
-- Room 207: 33-50 <br>
-- Room 304: 51 <br>
-- Room 2nd floor commons: 52 <br>
-- Room 1nd floor commons: 53 <br>
-- Room 304: 54-80 </p>
+    
+<p></p>
     <table id="expoTable">
       <thead>
         <tr>
+          <th class="number">Room</th>
           <th class="number">Table</th>
           <th class="name">Project</th>
           <th class="prize">Sponsor Prizes</th>
@@ -59,7 +52,8 @@
       <tbody class="list">
         {{#data}}
           <tr>
-            <td style=class="number">T: {{table}}</td>
+            <td style=class="number">{{room}}</td>
+            <td style=class="number">{{table}}</td>
             <td class="name"><a href="{{{link}}}" target="_blank">{{project}}</a></td>
             <td class="prize">{{sponsors}}</td>
           </tr>
@@ -70,10 +64,9 @@
   <br>
   <div id="footer">
 
-    <p>HackCU III 2017</p>
+    <p>HackCU IV 2018</p>
     <p>HackCU &copy; </p>
 
-    <a href="http://devpost.com"><img src="http://devpost0.assetspost.com/assets/shared/devpost_logo-646bdf6ac6663230947a952f8d354cad.svg" style="height: 30px;"></a>
 
   </div>
 
