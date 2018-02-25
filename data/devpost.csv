@@ -1,10 +1,1054 @@
 Submission Title,Submission Url,Plain Description,Video,Website,File Url,Desired Prizes,Built With,What Room Are You In?,What's Your Table Number?,Submitter Screen Name,College/Universities Of Team Members,Additional Team Member Count,Team Member 1 Screen Name,...
+breveo,http://hackcu4.devpost.com/submissions/88850-breveo,"Inspiration
+
+Nobody likes to watch long watch videos.  Because of this, lot's of relevant content gets ignored.  
+
+What it does
+
+Our application will watch a video for you and generate a summary in seconds.
+
+How we built it
+
+We decided that breveo should first learn to summarize the audio of a video, so we began looking into machine learned text summarization.  After researching different open source machine learning libraries, we began using Google's 2016 release TensorFlow.  However, after running many hours of machine training on our GPU and CPUs, we still weren't able to generate good enough models.  So we began looking for pre-trained models, that have been trained on multiple GPU's for many days.  We landed with OpenNMT (under Harvard University) which had pre-trained models that trained on GigaWord (the de-facto text data for machine learning).  
+
+Challenges
+
+Machine learning for a long time was something only cutting-edge researchers could work on.  Now, thanks to open source libraries like TensorFlow and OpenNMT, machine learning is in the hands of anyone who knows how to run a python script.  However, this access to the public is still very new and there is not a whole lot of trial and error to learn from in the open source machine learning community.  Therefore, we spent lots of time just getting these APIs to work on our machines.
+
+Things we learned
+
+Anaconda: Python data science platform
+
+TensorFlow: open source machine learning framework
+
+Keras: high level neural network api, can run on top of tensorflow
+
+AWS Elastic Beanstalk: service for deploying and scaling web applications
+
+Torch
+
+Lua
+
+Opennmt
+
+Windows command prompt
+
+Pandas: high performance data structures and data analysis tools for Python
+
+Tools we used
+
+Anaconda: Python data science platform
+
+TensorFlow: open source machine learning framework
+
+Keras: high level neural network api, can run on top of tensorflow
+
+AWS Elastic Beanstalk: service for deploying and scaling web applications
+
+Github/git: version control system
+
+Python3
+
+Torch
+
+Lua
+
+Opennmt
+
+Future
+
+Breveo's next step is to train with images to gain more context on the video.  After that, breveo will move into training with multiple frames.  The goal is to be able to create the most concise and effective summary of a video possible through audio, visuals, and text.
+",,https://www.abreveo.com,,"Amazon Web Services - Best Use of AWS, Best Domain Name from Domain.com","tensorflow, python, lua, opennmt",Cafe ping pong table,100,JakeJohnson,"University of Colorado at Boulder, University of Colorado at Colorado Springs",1,ElijahSalberg
+Labor Log ,http://hackcu4.devpost.com/submissions/88858-labor-log,"Inspiration
+
+The horrendous treatments toward migrant labor worker
+
+What it does
+
+Block chain technology allow for transparency of labor contract by using smart contract. 
+2 Factor Identification and tracking of persons helps us to ensure their physical safety  
+
+How we built it
+
+With a lot of tears.
+We use RFID technology to log locations, and we have a NEO block chain running on an Amazon virtual machine that logs the location. 
+
+Challenges we ran into
+
+We have found difficulty moving the text from the local machine logging the information involved in the RFID interaction to the virtual machine on Amazon Web Services.
+
+Accomplishments that we're proud of
+
+We're proud that we even had the courage to take on such an ambitious project for which the technology was completely foreign to us, and we had to learn everything from scratch.
+
+What we learned
+
+As mentioned above, we learned almost everything involved that went into making the project over the last 24 hours.
+
+What's next for Labor Log
+
+We hope to one day see this implemented in real life. 
+",,,,"Twitter - Best use of Public API, HackDFW/AUVSI, Neo dApp Challenge","arduino, neo, c++, github, smart-contract, python, arduino-hardware, blockchain, rdif-technology, amazon-ec2",Sun,52,ving8121,"University of Colorado at Boulder, Drake University, Colorado School of Mines",3,nodelic,Bradley_Egan,zachnahman
+symtex,http://hackcu4.devpost.com/submissions/88962-symtex,"LateX/Python hybrid that symbolically solves equations on the fly (WIP! Will fill in as we complete more). As of now, we have a python script that can take a latex input, parse it into a format that SymPy can understand and then return a response
+",,https://github.com/ShadowWarden/symtex,https://s3.amazonaws.com/challengepost/zip_files/production/30309/zip_files/2018hackCU.pdf,"","python, latex, sympy",Sun,"Table 54, Row 6",ShadowWarden,"University of Colorado Boulder, University of Colorado at Boulder",2,aibo3269,antr9811
+Small-Neo-Coin,http://hackcu4.devpost.com/submissions/88969-small-neo-coin,"Inspiration
+
+Neon based Crypto currency.
+
+What it does
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for Small-Neo-Coin
+",,https://github.com/Lordsmeet/Small-Neo-Coin,,Neo dApp Challenge,neon,"","",Lordsmeet,University of Colorado at Boulder,1,teamusaftw
+HackCU-2018,http://hackcu4.devpost.com/submissions/88971-hackcu-2018,"HackCU-2018
+
+Alteryx Challenge
+
+We worked in team of 2: Myself(Vibhor Mishra) and Prasanna Kumar Srinivasachar
+
+We mostly relied on Python for data processing and hitting URL to fetch data. Figuring out what binary data represents was the tricky part and even after we figured that out, it was hard to figure out what actually is being asked in the challenge question. We assumed that we have to call the URLs, fetch JSON and sum up the elements decoded with the URLs to output the attendence of the event. We didn't get any other attendence related info anywhere else with it. And the sum that we got from summing up count related URLs also came up close to the HackCU event headcount.
+
+Here is the code flow:
+
+1) Alteryx data file HackCU2018_AlteryxChallenge.yxdb is read in read data step of workflow where the binary data is read.
+2) It then calls the run command  step which calls Python executable that we have created, with Write Source as the csv file written by Alteryx that has binary data, path of pthon executable in Command and results.csv in Read Input to read the output of python file into Alteryx.
+3) The following tasks are performed in python file (which is converted to exe and used in Alteryx as there was some error in executing .py file directly in there):
+
+
+Convert Binary data to ascii chars by reading 8 bits at a time and converting them to corresponding ascii values
+It results in the following URLs:
+
+
+https://data.cityofnewyork.us/api/views/kku6-nxdu,columns.0.cachedContents.top.16.count,0
+https://data.kingcounty.gov/api/views/b27z-cdmk,columns.3.cachedContents.null,2
+........
+........
+
+We then hit those URLs and fetch the JSON response and extract the elememnt's value mentioned with each URL like mentioned in this: (,columns.3.cachedContents.null,2).
+Only those URLs are hit which have ""count"" field mentioned with them and thus, counting only those results because the chanllenge says, to count the attendance at this event. So, we thought that URLs with count mentioned with them(to fetch from JSON) only would make sense here.
+Finally we total the count and store in Results.csv which is read in Alteryx.
+
+
+I hope what we calculated makes sense and is the output expected from us.
+",,https://github.com/vibhormishra/HackCU-2018,https://s3.amazonaws.com/challengepost/zip_files/production/30111/zip_files/HackCU_2018.rar,Alteryx Data Challenge,"jupyter-notebook, python, alteryx","","",vibhormishra,University of Colorado at Boulder,0
+Spot,http://hackcu4.devpost.com/submissions/88984-spot,"Inspiration
+
+We love dogs and want to share it w the world (Twitter)
+
+What it does
+
+Display image of a dog (or literally anything) to the user
+Interpret user's facial reaction of the image using sentiment analysis
+Calculate user's rating of the image
+Post the rating and the image on the user's Twitter account
+
+How I built it
+
+Twitter API
+Tensorflow
+QT
+
+Challenges I ran into
+
+Windows, man
+
+Accomplishments that I'm proud of
+
+Gathering data, sleep deprivation
+
+What I learned
+
+What didn't we learn? 
+
+What's next for Spot
+",,https://github.com/HackCU-Spot/woofwoof,,"Oppenheimer Funds/Beacon.io Business Challenge, Twitter - Best use of Public API","python, twitter-ads-api, qt, opencv","","",susanscfae,University of Florida,0
+Ruperta temperature,http://hackcu4.devpost.com/submissions/89018-ruperta-temperature,"Inspiration
+
+What it does
+
+We implemented different approaches for controlling the robot without having it connected to the computer.
+There's also some code to control it when connected to the laptop, that includes how to play songs with the roomba, for example the Star Wars theme.
+
+How we built it
+
+Challenges we ran into
+
+Learning how to couple both systems
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Ruperta temperature
+
+We would be able to control it with Myo Armband if we had bluetooth receiver for the Arduino board
+",,,,"","arduino, irobot","","",Alehausdorff,"",1,ximo_g_
+the {text-based} perils of rosella,http://hackcu4.devpost.com/submissions/89026-the-text-based-perils-of-rosella,"the-perils-of-rosella
+
+text version of king's quest iv
+
+Plan A was to build a digital harmonograph with a piano hat, a(n unsoldered) raspberry pi zeroW and a lot of Python...on a chromebook. After that adventure in masochism ended late in the afternoon I just wanted to get something demo-able together. This is my first hackathon, after all. A (tiny) text-based adventure game seemed like an achievable goal. It's based on what I can remember (with help from http://sierrachest.com/ and textadventures.co.uk) from the storyline of the Sierra game King's Quest IV. 
+",,https://github.com/woadspindle/the-perils-of-rosella,,"",quest-5.5,sun,"21, row 1",woadspindle,"",0
+Possible solution to Alteryx challenge,http://hackcu4.devpost.com/submissions/89031-possible-solution-to-alteryx-challenge,"It's my solution to the Alteryx challenge
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/30140/zip_files/alteryx_challenge.zip,Alteryx Data Challenge,"",Neptune,91,maddieide,University of Colorado at Boulder,0
+CU Party Play ,http://hackcu4.devpost.com/submissions/89063-cu-party-play,"Inspiration
+
+Creating a playlist for a party or an event can be hard! Sick of having people complain about the tracks on your playlist? Let the people do the selecting! No need to download an app, all you need is a Twitter account, a Spotify account, and great test in music :) 
+
+What it does
+
+Here's the low down:
+
+Creating a music playlist couldn't be more simple! 
+
+Start by creating a fresh playlist on Spotify by tweeting #cupartyplay follow by ""create playlist"" with the name you want to call your playlist 
+
+#cupartyplay create playlist < playlistname >
+
+Get your guests to add songs by tweeting 
+
+_#cupartyplay #playlistname + < the song name > - < artist name > _
+
+Get guests to upvote songs - more votes moves the song up the queue! Majority rules! <3 
+
+It's that simple! 
+
+With Spotify's huge music library guests have an endless choice of dope tracks! 
+
+How I built it
+
+Built with coffee & love <3 
+
+What I learned
+
+Leveraging the Twitter API & Spotify API - never used either before! And being realistic about what can be built in 24 hours... with trips to the planetarium, card games, and hikes in the mountains!  
+
+What's next for CU Party Play
+
+Enable folks to downvote!
+",,http://kimcodesin.space/cupartyplay/.,,Twitter - Best use of Public API,"javascript, twitter",North Atrium,81,kimcodes,"Concordia University, ",1,abdulajet
+LRT - Linguistic Relativity Transfer - Extension,http://hackcu4.devpost.com/submissions/89075-lrt-linguistic-relativity-transfer-extension,"Inspiration
+
+Inspired by a generation of content creators, lifestyle vloggers, and role models on Youtube, Twitter, and other social media platforms, we built the LRT -Linguistics Relativity Transfer - Extension. The principle of linguistic relativity holds that the structure of a language affects its speakers' worldview or cognition. It is evident that YouTubers have the power to entertain and influence decision making for their audience across the globe.
+
+What it does
+
+We used the voice of influencers on Youtube provided by the transcripts of their videos alongside tweets from Twitter to conduct semantic analysis on the products they love and share with their viewers. We gather these metrics and make it available for our users to with one click of the button in while you are on Youtube with our chrome extension. You will get data pertaining to the influencer you are watching as well as information relating to the products they are talking about without obstruction to your viewership.
+
+How we built it
+
+Our application is largely being powered by Google services leveraging Firebase for Database, Storage, and hosting our Node.js server. We used the neural net in SCIKIT for Machine Learning. Front End is built with standard web-dev technologies in the form of an extension designed to provide optimal customer experience. 
+
+Challenges we ran into
+
+Some of the biggest challenges we ran into definitely came as a result of limited/incomplete documentation of Youtube Data API. For example, we tested sample code on the API site's page that Youtube provides with the relevant supporting files but it didn't run properly. There also wasn't a workaround online and the online general consensus was that it would be fixed in a later update. We didn't accept this answer and after much perseverance, we found the solution buried in one of the included modules by Youtube. 
+
+We received a lot of pushback in this area but we pushed through each problem carefully. We also were challenged by how limited the data was when we finally reached the endpoint of the API but manage to get insightful data for our users. 
+
+Accomplishments that we're proud of
+
+
+Pushing through the problems with Youtube's Data API and not accepting defeat despite what sites like Stack Overflow and GitHub users were suggesting. 
+Helping make up for each other's weak points, learning, and laughing through those difficult problems we encountered. We also had the honor of working with a first-time hacker in our group who reminded us how important qualities like curiosity and determination are. 
+Making it through the night! 
+
+
+What we learned
+
+We learned how to interact with/further our understanding of various technologies such as Google Cloud Platform tools such as Firebase Database and Storage, SCIKIT,  and Sentiment Analysis (more specifically with Twitter API). Aside from that, we realized how rusty our web-dev skills had become and spent the weekend of learning to polish and hone our skills especially with solving backend problems.
+
+What's next for LRT - Linguistic Relativity Transfer - Extension
+
+Short Answer? TBD. Long Answer? Well, we would have loved to build our own custom API (perhaps with Ruby on Rails) with more capability than what the Youtube Data API could provide us with. In a 24 hour stretch with time ticking away, the realization came to us when the possibility of deploying our own API was no longer possible. We would also have approached the UI differently more like a dark yet translucent layover with the visualization of data in the surrounding edges of the Youtube Video. 
+",,https://github.com/Amerterasu/LTR-HackCU,https://s3.amazonaws.com/challengepost/zip_files/production/30156/zip_files/LTR-HackCU-master.zip,"Oppenheimer Funds/Beacon.io Business Challenge, Twitter - Best use of Public API","node.js, google-cloud, firebase, tweetfeel-twitter-sentiment, javascript, html5, css3, python, django",North Atrium,70,dannypenguin,"University of California - San Diego, Make School, University of California - Santa Barbara, University of Colorado at Boulder",3,elliekuang33,Amerterasu,abulg
+Gesture controlled smart lighting,http://hackcu4.devpost.com/submissions/89076-gesture-controlled-smart-lighting,"Inspiration
+
+It is cool to have a light of your choice light up with just a finger gesture
+
+What it does
+
+Leap motion sensor is used to control the LED colors using PubNub software from laptop to raspberry pi. The leap sensor is connected to the laptop and the raspberry pi connects the LEDS. 
+
+How we built it
+
+We didn't have much software connection. We installed a couple of software's such as LEAP SDK, JAVA Leap SDK, python, pip, The leap is a geature and accelerometer.
+
+Challenges we ran into
+
+We tried to use myo wrist band to connect to VR occulus and have a project on virtual reality controlling actuators. 
+But the myro wrist band software once installed happened to not work well, didn't calibrate properly. The VR occulus was completely useless , it wasn't compatible with any laptops we had. So have the day was wasted in downloading and setting the hardware up
+
+Accomplishments that we're proud of
+
+Despite difficulties we have a full project completed. Had fun working with myo.
+
+What we learned
+
+We learned interfacing leap motion in java and transferring sensor data to raspberry pi which uses python scripts to control the Light
+
+What's next for Gesture controlled smart lighting
+
+Adding more sensors, be more accurate and field testing. 
+",https://youtu.be/KYVYJVeHZ50,https://github.com/sahanasadagopan/HackCUIV.git,,Dish Network - GPS Sticker Labels,"python, pubnub, leap-motion, raspberry-pi, led","","",SahanaSadagopan,University of Colorado at Boulder,1,SharatRattehalliPuttaraju
+midi griddy,http://hackcu4.devpost.com/submissions/89098-midi-griddy,"We're a bunch of musicians and programmers. So we wanted to build a nice visualizer for MIDI notes at HackCU IV.
+
+(it requires a MIDI device or devices)
+",,https://midi-griddy.github.io/midi-griddy/,,"","react, github","","",evanram,University of Colorado at Boulder,0
+Personal Website,http://hackcu4.devpost.com/submissions/89104-personal-website,"Inspiration
+
+I'm going to graduate next year and need to start building my online presence
+
+What it does
+
+Hopefully tells anyone looking at it more about me
+
+How I built it
+
+Plain HTML/CSS
+
+Challenges I ran into
+
+I don't know how to display my projects in an effective manner
+
+Accomplishments that I'm proud of
+
+I build a new navigation
+
+What I learned
+
+This is hard
+
+What's next for Personal Website
+
+A job
+",,,,"","",Venus (Sun),"Table 18, Row 1",koscida,"",0
+ARGBot2018,http://hackcu4.devpost.com/submissions/89119-argbot2018,"ARGBot 2018
+
+What is an ARG?
+
+An alternate reality game (ARG) is an interactive networked narrative that uses the real world as a platform and employs transmedia storytelling to deliver a story that may be altered by players' ideas or actions.
+
+Taken from Wikipedia
+
+What is ARGBot?
+
+ARGBot is a bot that mixes a few different technologies to provide a unique puzzle experience. Going across Twitter and Discord, ARGBot uses Markov chains to try and fool the player with a fake tweet, then does a question-asking game on Discord. 
+
+Technologies used
+
+
+Markov Chains
+Twitter Scraper
+Twitter Python API
+Discord Python API
+
+
+How To Play
+
+Check the #HackCU tag on Twitter for a tweet from @ARGBot2018 with the first part of the game and its instructions!
+",,https://github.com/Eragon5779/ARGBot2018,,Twitter - Best use of Public API,python,North Atrium,75,Eragon5779,University of Northern Colorado,1,idgd
+Pixel-Minigame,http://hackcu4.devpost.com/submissions/89129-pixel-minigame,"Inspiration
+
+I wanted to make a simple game within 24 hours. I have had struggled clamping down on the scope of my games, so I wanted get practice estimating how long a project will take. 
+
+What it does
+
+Two players can play on a keyboard against each other. 
+
+Challenges I ran into
+
+I first wanted to do some pixel art for the game, but I axed that after realizing that simply using pixels would save time, and look better.
+
+Accomplishments that I'm proud of
+
+I managed to finish a game, and not overdo the scope.
+
+What I learned
+
+I know better how to estimate the scope of a Unity project.
+
+What's next for Pixel-Minigame
+
+Some polishing and additions. The core game is built!
+",,https://github.com/miyo6032/Pixel-Minigame,,"","c#, unity",North Atrium,72,miyo6032,University of Colorado at Boulder,0
+YABA - Yet Another Bounty App,http://hackcu4.devpost.com/submissions/89139-yaba-yet-another-bounty-app,"YABA allows repo owners to post bounties for contributors to solve difficult issues using NEO’s blockchain system. 
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/30179/zip_files/Untitled_1.pdf,Neo dApp Challenge,"html5, css, php, javascript",North Atrium,81,whodotcom,"University of Florida, ",2,sprusr,abdulajet
+Virtual Reality/Leap Motion Piano,http://hackcu4.devpost.com/submissions/89151-virtual-reality-leap-motion-piano,"What it does
+
+This application provides the ability for a user to play a virtual piano (with Virtual Reality), while using fully mapped hands (via Leap Motion). This allows for more accurate, real-to-life playing of a piano.
+
+The user can choose to play on the virtual piano freely, highlighting his/her keystrokes, or practice by following a series of keystrokes read in by a sample song file.
+
+Challenges we ran into
+
+Learning a new platform, learning how to use Unity/Leap Motion, finding piano sounds
+
+Accomplishments that we're proud of
+
+First hackathon for all members and learned about Virtual Reality technologies and its compatibility with other hardware
+
+What we learned
+
+Unity, Leap Motion, C#, Oculus Rift
+
+What's next for Virtual Reality/Leap Motion Piano
+
+Add more features such as a collection of songs, speed of song tutorial, expand the piano key set
+",,https://github.com/dara1429/VirtualReality_LeapMotion_Piano,,"","unity, leap-motion, c#, oculus",Neptune,88,danyibarra,"University of Arizona, University of Colorado at Boulder, College of DuPage",2,dara1429,arrowman413
+CertChain,http://hackcu4.devpost.com/submissions/89158-certchain,"Inspiration
+
+We wanted to use blockchain technology as a way to remove unnecessary third parties. After a member learned about TLS and certificate authorities in a cyber security class, the connection was made.
+
+What it does
+
+(CertChain-01.jpg)
+
+CertChain holds companies' certificate information and provides an interface for the browser to verify the certificate. This cuts out the need for a certificate authority's signature, as the blockchain technology provides a man-in-the-middle proof way to verify a certificate. 
+
+How We built it
+
+Our implementation is split into three parts:
+
+Blockchain Interface
+
+This provides a key/value store type layer of abstraction on top of the blockchain. This allows us to insert and get values as if the blockchain was just a database.
+
+Certificate Generation
+
+This is a tool that generates the required certificates, places the what is needed on the blockchain, and downloads a certificate for the user to place on their server. 
+
+Blockchain-Browser Sync
+
+Due to the limitations of current browser security (discussed more below), we were forced to work within the certificate authority system. This piece periodically syncs the certificates with the trusted certificates in the browser (currently Firefox). This is the part that in a full implementation, we would like to see be swapped out for a simple key check. 
+
+Challenges We ran into
+
+
+NEO
+
+
+NEO has sparse documentation, and we encountered challenges in accessing the API. Their custom build of Python (neo-python) lacked functionality common to regular Python (i.e.: appending to lists). We also did not have any experience deploying to or working with blockchains.
+
+
+Existing Browser Security
+
+
+In modern browsers, there is not a lot of flexibility with SSL certificates. For example, front end JavaScript is unable to access details about the site's SSL certificate. This blocked an idea we had to use a chrome extension to act as an extra layer of security. In addition, we were unable to get a modern browser to trust a self signed certificate, even if the signing certificate was in the browser's trusted certificates. As a result, our implementation involves generating a temporary CA, signing a certificate, and throwing away the private key in order to prevent the kind of security vulnerabilities certificate authorities themselves present.
+
+
+Updating Firefox's Local Certificate Authority Database
+
+
+Firefox stores its local certificate authority database in a user's local app data in a database file. The most supported way of reading from and writing to this database file is to use certutil. However, Firefox 58's certificate settings did not seem to match up with the database file; we were able to manually use Firefox's UI to add certificates, but updating the database file seemed to have no effect. In order to get something working, we used Firefox 48 instead, which did not seem to have this bug.
+
+Accomplishments that we're proud of
+
+-We managed to setup and interface with a private blockchain.
+-We managed to create a user-friendly interface to generate and deploy keys.
+-We managed to work with the security constraints that modern browsers impose on us.
+-We managed to deploy and integrate this group of applications efficiently.
+
+What we learned
+
+-We learned more about how blockchain operates.
+-We learned a lot about how certificates are distributed as well as how to generate and sign our own with OpenSSL.
+
+What's next for CertChain
+
+As CertChain is meant as a proof of concept, we would like to see an open source community take over and provide a more thorough analysis to using block chain as a 
+",,https://github.com/ryanrouleau/CertChain,https://s3.amazonaws.com/challengepost/zip_files/production/30261/zip_files/CertChain.pdf,Neo dApp Challenge,"neo, flask, openssl, neo-python, python",Neptune,90,JakeC1020,University of Colorado at Boulder,3,ryanrouleau,BrentDagdagan,Boskin
+CU Travel,http://hackcu4.devpost.com/submissions/89172-cu-travel,"Inspiration
+
+The idea is inspired by my friend Sophy Zhou and also my experience when planning a trip to California, I have to either switch among pages to make a plan or rely on the automatic travel planner which generates a typical ""tourist"" itinerary for almost everyone. It seems I have to make a decision between ""troublesome"" and ""boring"". NO! That's why we came up with the idea of CU Travel. 
+
+What it does
+
+CU Travel is a web application to help design travel itinerary for solo or group. Individual can start a trip and add collaborators to plan trip together. For single user, he start a trip by adding basic information about the trip, e.g. origin, destination, start date, number of days and size of group. With the basic information, a group of users can select the Point of Interest (POI) they would like to visit and map those POIs to the map. The map would generate an optimal route for users, and then the users can set breakpoints on the route as to divide the route to each traveling day. Finally, CU Travel would automatically generate an initial trip itinerary for users. Users can add more details to it. 
+
+How we built it
+
+We built this web application using Django and deployed it using Heroku. 
+
+Challenges we ran into
+
+Three of us have no experience with Django, we learned and played with it in 24 hours. 
+The logic of this trip planner is not that straightforward, it took us some time to figure out the feasible solution for it. 
+
+Accomplishments that we're proud of
+
+Impossible mission completed. 
+
+What we learned
+
+The logic design is important when developing the web application. We achieved it in an incremental way. 
+
+What's next for CU Travel
+
+More functions, e.g. collaborating work on a trip plan, budget planning. 
+",,https://cutravel.herokuapp.com/,,"","heroku, django, mysql, python, javascript, google-maps",Sun,Table 56 Row 6,yawenz,University of Colorado at Boulder,0
+Bot Killer,http://hackcu4.devpost.com/submissions/89179-bot-killer,"Inspiration
+
+After seeing how people with lots of followers struggle to keep the bots who flood their mentions with spam, I thought there had to be an easier way.
+
+What it does
+
+It lets you block a list of known twitter bots with a single click, saving you the hassle of blocking one by one and avoiding having to interact with them again.
+
+How I built it
+
+I built a simple Flask app with an SQL database to save the bot list, as the interface is so simple it does not need any more difficult technologies.
+
+Challenges I ran into
+
+I had a lot of trouble getting OAuth to work, but once that worked everything kept rolling in.
+
+Accomplishments that I'm proud of
+
+I'm proud of the idea this will help save people from social network stress and make Twitter a more enjoyable experience for everyone
+
+What I learned
+
+I learned how to work with OAuth and the Twitter API.
+
+What's next for Bot Killer
+
+Making the bot list collaborative under the supervision of a set of trusted moderators which will ensure no real accounts end up in the list, even those like @realDoanldTrump.
+",,http://18.222.50.196/,,Twitter - Best use of Public API,"python, html, javascript",Sun,"41, row 4",aviros,Cornell University,0
+savering me,http://hackcu4.devpost.com/submissions/89203-savering-me,"Inspiration
+
+The reality that being out alone isn't always safe. During nights out we often get separated from our friends and may find ourselves in uncomfortable circumstances.  Savering Me allows you to always feel safe at all times since you friends are just a ring away.
+
+What it does
+
+Provides safety and peace of mind.
+
+How we built it
+
+Prototype 'ring' with an Arduino, App through Android Studio.  We used Google Play Services locations API to retrieve our current devices location.  Our goal was then to calculate distance from other selected mobile devices to set of an alarm when the devices were separated by a certain distance.  The other functionality of our app would allow the user to twist the ring which is connected to the app.  This would trigger a signal to predetermined contacts that they need help.  This was accomplished using the Arduino 
+
+Challenges we ran into
+
+React Native gave us tons of installation issues which unfortunately ate up a large chunk of our time before we decided to just switch to android studio. Due to our limited time with android studio, we also ran into a few challenges.  One of our main issues was communicating to the API using the emulator.  We kept running into authorization errors when trying to access our location.
+
+Accomplishments that we're proud of
+
+Jumping straight into mobile development and learning about various aspects along the way!
+
+What we learned
+
+Set-up often takes longer (or much longer) than expected.
+
+What's next for savering me
+
+A prototype ring to see if we can fit the technology needed into a small accessory
+",,https://github.com/annie-hua/HackCU,,"","java, android-studio, arduino, react, react-native",Earth-A,11,wow1881,"University of Washington, University of Nebraska - Lincoln, University of Waterloo",3,annie-hua,Jeremie-Gabor97,JimmyWhua
+DroneView,http://hackcu4.devpost.com/submissions/89271-droneview,"This project is about controlling a drone with body movements while the user is
+visualising, using VR goggles, what the drone is capturing with its camera. This goggles
+will have a smartphone inside which using an own app will send orders to the drone via
+WiFi. This project will use the DJI Spark drone which has a complete mobile SDK
+available.
+The DJI Spark drone has three axes to control: Pitch (Y axis), Yaw (Z axis) and Roll (X
+axis). If the aircraft rotates around the Pitch axis it will move in the X axis direction. If the
+Pitch angle is positive, the direction will be backwards, or in the negative X axis. The
+same will be applied when rotating the Roll axis, which will move the aircraft in the Y
+axis direction.
+We will control the axes of the drone using the gyroscope sensor of the phone inside
+the VR goggles, which also provides Pitch, Yaw and Roll axes. For instance, moving the
+users head Yaw will rotate the drone in the Yaw axis. The same will be applied for the
+Pitch and Roll axes.
+There is another drone variable we will have the control of, the Throttle. This controls
+the aircraft's average thrust from its propulsion system. When the aircraft is level,
+adjusting the throttle will move the aircraft up or down as all the thrust is in the vertical
+direction. However, when the aircraft is not level (has non-zero pitch or roll), the thrust
+will have a horizontal component, and therefore the aircraft will move horizontally. A
+larger pitch or roll angle will result in more horizontal thrust and therefore faster
+horizontal movement.
+",,https://github.com/damiafuentes/drone-view,,"",java,Cafe area,98,ericvelazquez,University of Colorado at Colorado Springs,0
+snarky alexa,http://hackcu4.devpost.com/submissions/89275-snarky-alexa,"Inspiration
+
+Alexa is usually so nice, we wanted something that would make things more fun, and completely useless!
+
+What it does
+
+It replaces Alexa's built in commands with snarky replies.
+
+How we built it
+
+Using the Alexa Skills toolkit, and programming it in Python 3, on amazon lambda.
+
+Challenges we ran into
+
+Really, mostly is that Alexa's skills are really not easy to debut, several hours were lost just because an amazon account issue.
+
+Accomplishments that we're proud of
+
+Alexa actually listen and replies to our commands.
+
+What we learned
+
+Alexa's skills technology
+
+What's next for snarky alexa
+
+Being even more snarky
+",,https://github.com/auburus/alexa-teen,,Amazon Web Services - Best Use of AWS,"python, amazon-alexa, amazon-lambda",Mars,99,auburus,"University of Colorado at Colorado Springs, Colorado Technical University",1,vlasse86
+my hackathon,http://hackcu4.devpost.com/submissions/89279-my-hackathon,"Inspiration
+
+After struggling for a few hours on a project well out of my depth. I stormed out of the building and headed back to main campus. As the wind blew the snow right through my sweater, I realized I needed a coat and a new project idea. The idea came to me somewhere between 30th and the math building.  
+
+What it does
+
+Its a blog to chronicle my experiences at this hackathon. As a noob I had a steep learning curve and I felt very insecure in a room of people who all look like they have taken at least one programming class.  
+
+How I built it
+
+I used the HTML experience I got over winter break learning with codecademy and sheer will to write the code. CSS and I are friends now
+
+Challenges I ran into
+
+My lack of experience and need to google simple things like how do you add a photo ... then how do you resize that photo! I also struggled to get my code onto a test site. I'm still struggling to get my stuff onto github. that is why my submission is on a crazy URL. If I can figure it out before 12 then maybe I can put it on github.
+
+Accomplishments that I'm proud of
+
+I'm just happy to have something to turn in. Yesterday I was ready to quite and just leave. I felt so out of my depth and lonely with out a team. Now I can say I put in a solid effort 
+
+This is where I started in December    http://spacecat.bitballoon.com/   just to show how far I have come and I'm proud of that.
+
+What I learned
+
+If you can make a team with strangers when all your 'friends' don't show up- Do it. I had a really good time, but I think it wouldn't have been so rocky and anxiety filled if I felt like I knew other people there. 
+
+What's next for my hackathon
+
+Maybe this is be the landing space for my thoughts as I enter more hackathons and chronicle the experience of getting better at coding 
+",,http://hopeful-bhabha-bdc089.bitballoon.com/,https://s3.amazonaws.com/challengepost/zip_files/production/30230/zip_files/WebContent.zip,"","html5, css3, javascript",MARS,Floor,outerspacecat,University of Colorado at Boulder,0
+TweetMasher,http://hackcu4.devpost.com/submissions/89280-tweetmasher,"Inspiration
+
+Google translate can garble the meaning when translating. What if you had it bounce between different languages and back to English.
+
+What it does
+
+It takes the tweets from the hash tag #HackCU and runs them though Google translate a bunch before replying to that tweet the mashed up tweet.
+the bot is @mlghackerbot
+
+How I built it
+
+I took the twitter API and Google's Cloud platform translate feature and put them together.
+
+Challenges I ran into
+
+There is more them one python implantation of the twitter API. Some do things better then others. So I ended up using two.
+
+Accomplishments that I'm proud of
+
+I'm proud about the turnaround from idea with no experience with Google cloud or the Twitter API how it could get off the ground so quickly.
+
+What I learned
+
+With a little bit of code you can do something pretty cool
+
+What's next for TweetMasher
+
+TweetMasher will be shut down. But from it the knowledge about the Twitter API and Google cloud will be used in later projects.
+",,https://github.com/W1r3W0lf/TweetMasher,,Twitter - Best use of Public API,python,Between Mercury and Mars,64,W1r3W0lf,"Brigham Young University - Idaho, University of Colorado at Boulder",1,JuanchoVilla
+Galactic Munchkin,http://hackcu4.devpost.com/submissions/89282-galactic-munchkin,"Inspiration
+
+Desire to find other ways to play an enjoyable game, including on a computer
+
+What it does
+
+it emulates the board game munchkin with our own skin of cards for it and slightly modified rules
+
+How we built it
+
+using java script to build a front end and user interface over game logic/code
+
+Challenges we ran into
+
+not enough time/sleep to apply near the end of the time limit. learning java script while coding. game logic planning.
+
+Accomplishments that we're proud of
+
+we made something functional....see project. gaining experience with java script
+
+What we learned
+
+java script, pixie
+
+What's next for Galactic Munchkin
+
+get a read me and some small updates. 
+taking munchkin into the universe...not just space...
+taking munchkin from space to a store near you, or your laptop...or webpage (as long as you have a local server)
+",,https://github.com/Zunawe/galactic-munchkin.git,,"","javascript, pixi, html5, css3",Neptune,92,liamkolber,University of Colorado at Boulder,0
+RF Distributed Network - Powered by FreeWave,http://hackcu4.devpost.com/submissions/89283-rf-distributed-network-powered-by-freewave,"What it does
+
+Our project attempts to demonstrate a rough proof of concept for a distributed web-based network for communication and development in areas with no internet. The Freewave RF technology allows us to develop html/javascript web pages as if they were being hosted on the web, but instead they are hosted on a distributed network of freewave radios. This network allows for automatic 2-way communication between a server radio and a client radio.
+
+How we built it
+
+We used a barebones python based flask web server that hosted simple javascript and html web pages. We implemented a web chat and a 2-way tic tac toe game as well as a ping checker to demonstrate potential uses of this network. The chat and video app demonstrates the ability to wirelessly communicate over long distances with others in the network without any internet, and the tic tac toe game demonstrates an automatic update of information between client and server. The ping checker, represents the ability to display other types of data (sensor, etc.) in the web apps. As this technology improves, more robust and fluid UI can be made to allow for a user experience indistinguishable from the internet.
+
+Challenges we ran into
+
+This project posed many different challenges that forced us to combine and leverage each team members’ experience. The logistics of setting up the radios and ensuring they were communicating with each other as well as transferring the files for the project to the radio were handled by those on our team experienced in operating systems and hardware. Contrasting these lower level challenges, we had the problem of web-development and learning new frameworks. To tackle this, we split up the development into separate “sectors” so one person had to learn javascript/html/css displaying the web page and another was in charge of the flask baseline and javascript that performed most of the logic of the project.
+
+Accomplishments that we're proud of
+
+This project had many smaller, more proof-of-concept approaches to develop that show that the RF network is extendable to handle a large range of web applications. Our biggest accomplishments were setting up an automatically updating tic tac toe application that allows players to communicate wirelessly without the internet. This showed that the radios are capable of repeated and constant server-client requests that could handle more than just a simple game like tic tac toe.
+
+What we learned
+
+Since our team is comprised of mostly newcomers to the hackathon community and our entire team has no web development experience, we learned how to handle the simple web frameworks and development tools. During this project, we had to learn how to use flask without any previous experience as well as interfacing it with javascript, html, etc. Since we are all new to hackathons and we have big differences in skills between our team members (2 electrical engineering, 2 math/computer science), we learned how to effectively communicate to those of different disciplines as well as how to combine individual strengths to create a project in the short time provided.
+
+Future Improvements and New Features
+
+FreeWave ZumIQ provided an incredibly interesting platform. The potential applications of a RF network are wide and varied. For example, an RF network that utilizes the ZumIQ’s synchronization of frequency hopping between clusters of radios could be used to create a network whose packets are also constantly changing in frequency. The security of this network would be bolstered by the unpredictable frequency that adversaries would need to collect on. If the signal scheduling and emission firmware were made robust and powerful, we could foresee a very secure wireless, web based network that is functional in any environment. In addition, the daisy chaining of central server radios and client radios could extend the range of these networks beyond the 60 mile range of an individual radio, greatly increasing the usability of this network. As the radios’ computing power increases, these could
+ even begin to perform small computations and act as an isolated, cloud cluster.
+",,https://github.com/wangzunluo/tictactoe,,FREEWAVE IoT App Challenge,"python, flask, html, css, javascript, git, freewave-platform",Neptune,89,jamesli344,"University of Colorado at Boulder, University of Oklahoma",2,ZunluoWang,lula4266
+Arborgeddon,http://hackcu4.devpost.com/submissions/89292-arborgeddon,"Inspiration
+
+-Arborgeddon was an idea that came to me one day very spontaneously. I had been wanting to get into coding but I had no passion project to peruse, but with Arborgeddon I now had something to make.
+
+What it does
+
+Armageddon is a strategic resource management game where your objective is to adapt and multiply using different growth and genetic mutation abilities to aid in your success.
+
+How I built it
+
+Arborgeddon is (currently) an in-bash text based game. users are given a set of inputs they can choose from and are shown a very basic text based GUI from which they must form their decisions. Arborgeddon is all one singular .cpp file, with all of its dependencies contained within.
+
+Challenges I ran into
+
+The most interesting element to Arborgeddon is its genetic mutation tree. In order to create a very vast, easily changeable and expandable list of abilities for you as the player to upgrade, I had to come up with a robust function that could be easily recreated ad-nausium. It was important that this system was able to remember what state it was in, so players could proceduraly level up certain skills, while being barred from shills that ere either too high level, or that they had already purchased. This meant that each additional ""mutation"" required a tedious slew of checks to make sure that A) The player had unlocked all prerequisite mutations. B) could afford the mutation, and C) couldn't get the mutation more than once, so that ability stacking could happen. This made for an abhorrently long string of code, one that likely could've been streamlined if I had had more time.
+
+Accomplishments that I'm proud of
+
+Throughout each iterative test of the code, I ran into next to no major bugs. most errors ended up being typos, with the occasional mis-ordering of functions.
+
+What I learned
+
+I learned to what extent my ability in C++ can be stretched, and how to create organized functions that can loop in any direction needed to best suit the players needs. This includes being able to back out of menus to the previous menu, and easily move forward through menus.
+
+What's next for Arborgeddon
+
+I would like to implement a dedicated ""save game"" function, so players can come back to their game, as well as a proceduraly generated world, offering different terrains hosting pros and cons to be exploited and narrowly avoided by the player. The current enemy system works fine, but id like to add more challenge to the player by adding specialized enemies that occur with some randomness, forcing the player to take genetic upgrade routs they may not have considered. I'd also like to see a more in-depth GUI, either with a much nicer looking text interface, or a proper 2D sprite based GUI with easy to use click-buttons and sliding menus.  
+",,https://github.com/brickpanzer/Arborgeddon_SRC,https://s3.amazonaws.com/challengepost/zip_files/production/30234/zip_files/Arborgeddon_6_WorkingInC9.cpp,"",c++,North Atrium,E67,jogo6045,"",0
+Hack CU Twitter LED Map,http://hackcu4.devpost.com/submissions/89300-hack-cu-twitter-led-map,"Inspiration
+
+We are 4 friends who have majors in the same ballpark (2 electrical engineers, 2 computer science majors), so we were thinking of how we could work together. We knew that Twitter would be at Hack CU IV, so we brainstormed an idea where we could work on hardware and software using the Twitter API.
+
+What it does
+
+Our project reads in tweets using the twee.py library, where it is then evaluated based on the connotation of the language. The evaluation is then represented by an LED map of major Colorado cities. Red represents negative tweets, while green represents positive tweets. White is neutral, pink is neutral-negative, yellow is neutral-positive.
+
+How we built it
+
+We split up into 2 teams, hardware and software. The software team used JSON and the twee.py ftlibrary to acquire the data needed, and honed in on Colorado. The hardware team wired an arduino UNO to a 32x32 LED board, and wrote code translating the evaluation to LED color. 
+
+Challenges we ran into
+
+Software Challenges:
+JSON objects,
+Using libraries that they never used before,
+Putting all of the information together,
+Time delays using the time library
+
+Hardware Challenges:
+Voltage regulation on the LED board,
+Having to switch from embedded C to Arduino,
+Bit shifting,
+Syncing the software and hardware,
+Making the system efficient
+
+Accomplishments that we're proud of
+
+Software:
+Figuring out the JSON objects without using public documentation
+
+Hardware:
+Figuring out an LED matrix that did not have public documentation
+
+What we learned
+
+Software:
+JSON,
+Databases,
+Time directories,
+Public API's,
+Documentation
+
+Hardware:
+LED matrix coding,
+Bit math,
+Bit representation,
+Arduino,
+Embedded C,
+
+What's next for Hack CU Twitter LED Map
+
+Hack CU V
+The entire United States
+More colors
+Better gradientsf
+",,https://github.com/Hack-CU-twitter-LED-Map/Alan.git,https://s3.amazonaws.com/challengepost/zip_files/production/30248/zip_files/Alan-master.zip,Twitter - Best use of Public API,"c, arduino, json, github, python",Mars,73,Yungkurt,University of Colorado at Boulder,3,swiftsong,lalyon,AndrewZhu
+"Table 91, SAR project Maddie Stensrud, Kai Thomas",http://hackcu4.devpost.com/submissions/89301-table-91-sar-project-maddie-stensrud-kai-thomas,"Our project is the Sensing Autonomous Rover, or SAR. SAR uses light and sound sensors routed through an Arduino UNO to navigate and avoid obstacles. It can also detect sound changes in the environment and navigate towards them, enabling someone to effectively call it over. When not pursing sound, it uses light reflection to detect incoming obstacles and navigate to avoid them.
+
+We would love to continue developing this rover, with better parts and a stronger frame, possibly 3D printed. 
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/30241/zip_files/robot_-_Copy.zip,HackDFW/AUVSI,"arduino, cardboard-boxes, grove-kit",Neptune,91,maddieide,University of Colorado at Boulder,0
+Straight Fire,http://hackcu4.devpost.com/submissions/89313-straight-fire,"Inspiration
+
+Our inspiration came from looking at the mountains for the first time for Emin and I. We wanted to do something with nature and we talked about how forest fires are a problem in some parts of the country. We decided we wanted to create something that could help detect a fire and felt Freewave technology could help with that. We told Andrew our idea and he was in it from the start, being a Coloradan and seeing wildfires destroying entire forests.
+
+What it does
+
+The idea is to use an Arduino with a temperature sensor to send temperature data to a client transmitter, which is then broadcast to the other radio. The radio would then post the data to a website. However, we did not have the hardware to make the connection between the Arduino and the transmitter. The two boards are able to communicate to each other from a distance and send each other manufactured data (since the Arduino cannot be connected). The receiver is supposed to send data to a database, which updates a webpage that displays the temperature data collected, and refreshes every minute to grab the latest value from the database/receiver.
+
+How we built it
+
+We built the system by using Freewave technology and programmed the radios using python. We uploaded our python programs into the boards to have the client (sender) board run without being connected to the computer while the server (listener) side would listen for the information sent and send it to the computer/database. The server side remains plugged into a computer so it can display the transmitted data.
+The Arduino used a shield to plug in the sensors. We use resistance-based temperature sensors so the analog data was converted to actual temperature values.
+
+Challenges we ran into
+
+MOSQUITTO MOSQUITTO MOSQUITTO. Enough said...but also, MySQL does not run well on the radios, which prevented us from being able to update a database and website in real-time. In addition to that, we did not have a way of connecting the Arduino to the radio, which prevents us from using real data for a demo.
+
+Accomplishments that we're proud of
+
+We created an IOT system that can work at very long ranges. The radios are able to transmit data from another room, which shows that there is no wired connection between the radios. We are also proud that we were able to use new technology that we had no knowledge in.
+
+What we learned
+
+We learned how to make python executable on devices, how to transmit data across a network, and improved our knowledge of databases. Also, hackathons are really fun and free food is great!
+
+What's next for Straight Fire
+
+To be able to finish the project and have it finally have sensors attached to it and transmit data to a database that a webpage can grab.
+",,https://github.com/isalinas/TheHackingOfCU,,"FREEWAVE IoT App Challenge, Amazon Web Services - Best Use of AWS","mysql, python, vb, html, bash",Sun,46,andrewmeikle,"University of Colorado at Boulder, University of Nebraska - Lincoln",1,ibriamsalinas5
 AlexaJacobSkill,http://hackcu4.devpost.com/submissions/89321-alexajacobskill,"Alexa Jacob Skill
 
 I wanted to learn about Amazon Alexa and make an Alexa skill, so I did.
 
 This one is just a basic app. It gets my name and has a Fitness Graham Pacer test meme.
 ",,https://github.com/dude7777777/AlexaJacobSkill,,Amazon Web Services - Best Use of AWS,"javascript, amazon-web-services, lambda, echo, alexa",Left Atrium,75,dude7777777,University of Northern Colorado,0
+gif-tweeter,http://hackcu4.devpost.com/submissions/89322-gif-tweeter,"Inspiration
+
+Everyone has the urge to tweet a funny/sarcastic 'gif ' as a reply to someones tweet. This makes us visit different websites in search of funny gifs. Another challenge is to find the right 'gif '. I wanted to build an API to make this process easy and also provide some fun ""without spamming the twitter feed"".  
+
+What it does
+
+takes either ""trend"" or ""username"" as input. If none provided, a tweet from your news feed is read.  This tweet is then processed for the ""high impact words"", and a funny gif is posted as a reply to the tweet. The tweets that are already responded will not be repeated to avoid recursive spamming on to the news feed. .
+Optional 'tweet number' input  is provided to respond to more than one tweet.
+
+How I built it
+
+Built completely using python, twitter-api, giphy-api and, natural language processing libraries
+
+Challenges I ran into
+
+API exploration. Coming up with an algorithm, and providing multiple options to the user to choose from 'trend', 'user screen_name' and the 'number of tweets', for creating gifs.
+
+Accomplishments that I'm proud of
+
+Successfully implemented the project and tested it. Tweeted a few gifs on hackCU trend :P
+
+What I learned
+
+I learned to use twitter api, twitter authentication process, processing twitter response-Json data, natural language processing basics, giphy authentication, giphy api, and building a user friendly api for fun loving python developers.
+
+What's next for gif-tweeter
+
+This app can be integrated with amazon echo to tell jokes and cheer up a buddy based on the current mood. The tweet analyzer part of this project can be integrate with music apps for suggesting good songs to friends according to their current mood on twitter's DM. It can also be used for marketing purposes. And unlimited options to have fun. 
+",,https://github.com/yashie2011/gif-tweet.git,,Twitter - Best use of Public API,"python, tweetpy, giphy-client, natural-language-processing",Mercury,20,yashie2011,Colorado State University,0
+TwemeSong,http://hackcu4.devpost.com/submissions/89325-twemesong,"What it does
+
+TwemeSong gets a submitted user's last 50 tweets, runs them through a sentiment analysis to determine how positive/energetic they are, and then displays a song recommended from those values. More energetic tweets result in more fast paced songs, and more positive tweets result in more positive songs!
+
+How I built it
+
+I built TwemeSong using C# with .Net, Twitter's API, Spotify's API, and Google Cloud's Natural Language Processing API.
+
+Challenges I ran into
+
+All of the different APIs had similar yet slightly different authorization methods which were difficult to understand, resulting in them being very tedious to implement. The final challenge that I haven't solved (yet, unless I have and forgot to remove this) was connecting my AWS Elastic Beanstock to my sweet domain.
+
+What I learned
+
+Although I'm very familiar with C# this was one of my first time's using .Net (and my first time using all of the above APIs) so I learned A LOT of how authorization works, how .Net functions, and some new CSS techniques.
+",,http://twemesong-env.us-east-2.elasticbeanstalk.com/,https://s3.amazonaws.com/challengepost/zip_files/production/30252/zip_files/TwemeSong_HackCU4.zip,"Twitter - Best use of Public API, Amazon Web Services - Best Use of AWS, Best Domain Name from Domain.com","c#, .net, css",Sun,"47, row 5",rebeccaansems,Dalhousie University,0
+Sushi Selector,http://hackcu4.devpost.com/submissions/89334-sushi-selector,"Inspiration
+
+I work at a sushi restaurant in my free time and wanted to work on my PHP/MySQL skills.
+
+What it does
+
+Handles adding rolls to a database based on their ingredients and searching for those rolls based on their major ingredient. Displays rolls that match search along with their image(s).
+
+How I built it
+
+Built it from scratch on localhost (not deployed yet) using MAMP to serve my MySQL database and Sequel Pro so I could view my database.
+
+Challenges I ran into
+
+The biggest challenge I ran into was determining how to link to the photos of the rolls using a variable in the file path.  I ran out of time to figure out how to use radio buttons to enable searching for only gluten free rolls or only cooked rolls.
+
+Accomplishments that I'm proud of
+
+Having done 100% of my project on my own with no team members and using real data for something I might turn into a more professional toy for the restaurant to use.
+
+What I learned
+
+A lot about how PHP and HTML and MySQL work together.
+
+What's next for Sushi Selector
+
+working on the search function to make it searchable on other fields than just main fish.  Adding in the gluten free and cooked radio options and being able to search off of that.
+",,,,"","mysql, php, mamp",Mars,70,themightyscot,Oregon State University,0
+Project-IoT,http://hackcu4.devpost.com/submissions/89336-project-iot,"Raspberry pi monitors the temperature, humidity, and light in the house and reports it all back to AWS to be served up for consumer consumption on times series graphs on the webpage.
+
+Domain name: totallynotanest.com 
+",,https://github.com/Kyle-Helmick/Project-IoT,https://s3.amazonaws.com/challengepost/zip_files/production/30254/zip_files/Project-IoT-master.zip,"Amazon Web Services - Best Use of AWS, Best Domain Name from Domain.com","css, javascript, html, python, c++",Earth-B,15,seanharrison143,University of Colorado at Boulder,1,JohnLetey
+IRMI (Intuitive Remote Manipulation Interface),http://hackcu4.devpost.com/submissions/89340-irmi-intuitive-remote-manipulation-interface,"Inspiration
+
+With IRMI (Intuitive Remote Manipulation Interface), we aim to:
+
+
+  Remove humans from life-threatening situations
+  Give humans access to otherwise inaccessible areas 
+## What it does
+Allows users to transmit precise hand movement data to remote locations through the use of:
+  The Leap Motion
+  Long-range data transmission
+  JSON data parsing
+  A dexterous robotic hand 
+## How we built it
+Since we were unable to obtain a robotic hand, we built a simulation in Unity to model a potential use for our product. We chose a bomb defusal because we observed the following issues with current bomb defusal techniques:
+  Limited range of motion in robots
+  Non-intuitive control structure 
+We were able to improve on these limitations with IRMI by adding:
+  Precise movements
+  A natural and intuitive interface
+  Distance between diffuser and bomb
+## Challenges we ran into
+We ran into some issues with networking. Although C# offers a built in library for TCP/UDP, we had trouble serializing/deserializing the data. We were unable to get this to work, due to lack of integration of deserialization in Unity. There was also no Unix support for Unity/Leap Motion.
+## Accomplishments that we're proud of
+The unity interface and blender models function well and look good. 
+Seamless integration of Leap Motion and Unity over USB
+## What we learned
+Leap Motion custom gesture recognition
+Basic network data transfer
+## What's next for IRMI (Intuitive Remote Manipulation Interface)
+There are several future applications of IRMI:
+Military
+  Bomb defusal
+  Training simulation
+
+
+Medicine
+
+
+  Long-range surgery
+  Microscale surgery
+
+
+Space Operations
+
+
+  Space station repairs 
+  Scientific analysis
+
+
+Remote Earth Operations
+
+
+  Hazmat
+  Volcanic analysis
+
+",,,,FREEWAVE IoT App Challenge,"unity, leap-motion, python, c#, blender, json",Sun,50,StephenAgee,Colorado School of Mines,3,daichij,EastonBornemeier,kfarris
+HackCUIV,http://hackcu4.devpost.com/submissions/89346-hackcuiv,"HackCUIV
+
+This repo is for HackCO IV related development
+
+To run
+'''
+cd web-apps
+npm install
+cd app
+node test.js
+'''
+open a new terminal window
+'''
+cd web-apps
+npm run start:dev:client
+'''
+Now point your browser at localhost:8080  and enjoy.
+",,https://github.com/sbachlet/HackCUIV,,"Oppenheimer Funds/Beacon.io Business Challenge, Twitter - Best use of Public API, Best Domain Name from Domain.com","javascript, jupyter-notebook, python, html, google-bigquery",Hallway between Moon and Earth,Table 14,sbachlet,University of Colorado Denver,2,TeganStraley,Andrew0Hill
+HackCU_Freewave_Oven,http://hackcu4.devpost.com/submissions/89361-hackcu_freewave_oven,"HackCU_Freewave_Oven
+
+A simple TCPIP data transfer with a vitrually-simulated sensor input
+
+Sensor ""Sam"" ( Virtual in ""Dimitri"" ) 
+
+
+Menu
+Generate 70
+Generate 350
+
+
+Sender ""Dimitri""
+
+
+Read Temperature Sensor 
+1a. If greater than '150' 
+1a1. Send Signal to Bob ( Receiver )
+
+
+Receiver ""Bob""
+
+
+Read Temperature Value 
+1a. If high 
+1a1. print 'Fire' 
+
+",,https://github.com/jdearmas/HackCU_Freewave_Oven,https://s3.amazonaws.com/challengepost/zip_files/production/30286/zip_files/Outline.txt,FREEWAVE IoT App Challenge,"python, care, redbull, freewave, radios, aspen, vim, dvorak",Saturn,82,jdearmas,University of South Florida,3,pineapplegiant,indikoro,timeharvest
+FixItChain,http://hackcu4.devpost.com/submissions/89362-fixitchain,"Inspiration
+
+We wanted to build something using the NEO blockchain, and we also wanted to create a project that could help reduce waste in the world.
+If it was easier for people to find replacement parts, and see the repair history for devices, they would be more likely to fix their products rather than throw them away.
+
+What it does
+
+FixItChain stores part IDs and corresponding repair histories and part lists that are available. It can be interacted with through a web UI.
+
+How we built it
+
+We built this application neo-python, with a boa-compiler compiled smart contract. We also used falcon (for the API server), and bootstrap / jQuery for the front end.
+
+Challenges we ran into
+
+NEO lacks a lot of documentation. As such, we had to learn a lot from reverse engineering files like prompt.py (which allows for command-line interaction with the NEO blockchain) and looking at example tests like https://github.com/CityOfZion/neo-boa/tree/master/boa/tests/src
+
+Additionally, neo-boa only allows for an extremely limited subset of python (no list comprehensions, no type coercion), which was very frustrating to learn at first.
+
+Accomplishments that we're proud of
+
+Despite the initial struggles with NEO, we were able to get something working that we think is cool. Additionally, Sandeep learned a lot about CSS. Additionally, it was Sandeep's first hackathon and we think it went well.
+
+What we learned
+
+From reading the source code of parts of neo-python, we learned a LOT about how NEO works and how to write/deploy smart contracts on it. 
+
+What's next for FixItChain
+
+We may clean up the smart contract, learn more about NEO, and possibly deploy it to the NEO blockchain!
+",https://www.youtube.com/watch?v=Q0lzbCv5pJM,https://github.com/Jaxkr/FixItChain,,Neo dApp Challenge,"python, neo, javascript",Mars,76,Jaxkr,University of Colorado at Boulder,1,SandeepSKaushik
 tweetyQ,http://hackcu4.devpost.com/submissions/89363-tweetyq,"Inspiration
 
 We were inspired by current events to create this overlay for Twitter to help users navigate the Twitter platform in a more pleasant and informed manner. Fake news, bot accounts, malicious users and more are all things that have made social media platforms in 2018 more stressful to navigate than ever before. The truth has never been harder to find and we hope that this software can take steps to help people be more aware on Twitter.
@@ -37,4 +1081,1202 @@ What we learned
 What's next for tweetyQ
 
 We would love to be able to extend this to multiple social media platforms in the future beyond just Twitter. Detecting hate speech and directed malicious messages is something that we were working on but weren't able to fully optimize so we would like to be able to continue improving these algorithms with better classifiers. Furthermore, we would be very interested in integrating more machine learning models to greater improve the personality and functionality of the platform. This is because human communication has so many nuances, and only with specially tailored models are we able to differentiate certain types of content, malicious or non.
-",,https://github.com/wimo7083/twitter_sentiment_scrubbing,,"Twitter - Best use of Public API, Best Domain Name from Domain.com","html5, css3, javascript, python, node.js, jupyter-notebook, markdown",Mars,101,arafferty10,"University of Colorado at Boulder, St. Johns University",2,WilliamMontgomery,JeaneC
+",,https://github.com/wimo7083/twitter_sentiment_scrubbing,,"Twitter - Best use of Public API, Amazon Web Services - Best Use of AWS, Best Domain Name from Domain.com","html5, css3, javascript, python, node.js, jupyter-notebook, markdown",Mars,101,arafferty10,"University of Colorado at Boulder, University of Michigan - Ann Arbor, St. Johns University",3,ebatsell,WilliamMontgomery,JeaneC
+Signal Transform Plotter,http://hackcu4.devpost.com/submissions/89383-signal-transform-plotter,"Signal Transform Plotter (i.e. FOURIER - Fantastically Outrageously Underestimated Really Intensively Exciting Routine)
+
+This is a program to plot signals and their transforms.
+
+What is it?
+
+The idea is to provide an easy way to convert between signals and their Laplace/Fourier/Z-transforms, as well as display several properties about the signals.
+
+How to use
+
+Simply enter a signal (or its transform) into the appropriate box and hit 'Enter' or the corresponding arrow button to transform the signal into its other representation and graph both (if available). One day, you will also be able to see some of the signal's properties in the lower left corner, but that is not implemented yet. These signals are entered into Python's eval() function, so make sure they fit Python syntax.
+
+Requirements
+
+
+Python3
+SymPy
+PyQt5
+
+
+All these can be found in Anaconda's Python3 distribution.
+
+Running
+
+Run it however you prefer to run Python3 programs, e.g.
+python3 main.py
+
+Depending on your environment, you may be able to get away with:
+./main.py
+
+To Do
+
+
+Z-transform
+Plotting of discrete functions
+Pole-Zero plots for Laplace, Z transforms
+Signal properties (ROC, stability, causality)
+
+",,https://github.com/dtauxe/hackcu-ad,,"","python, sympy, pyqt5",Earth - A,9,dtauxe,Colorado State University,0
+WiiTrack,http://hackcu4.devpost.com/submissions/89385-wiitrack,"Inspiration
+
+Currently, inventory tracking is only done at centralized locations. This leaves many remote areas with limited inventory tracking capabilities. Our project is designed to solve this problem by enabling distributed inventory tracking.
+
+What it does
+
+WiiTrack uses weight and color sensors to identify objects.
+
+The status of the entire system can be monitored from a simple user interface. Supervisors can view pictures of packages and remotely resolve any issues that may arise. 
+
+How we built it
+
+The power of our design is that all of the computationally intense data analytics and image processing take place on AWS Lambda. This allows the remote inventory tracking nodes to be very lightweight. We used a Raspberry Pi, Arduino, and WiiFit for this implementation, but we could also use a low cost embedded device and produce the same effect.
+
+We use AWS DynamoDB to track the inventory. The desktop user interface allows users to query this database.
+
+Challenges we ran into
+
+We are extremely inexperienced with AWS. As such, it proved difficult to navigate the AWS portal.
+
+Accomplishments that we're proud of
+
+
+We were able to successfully utilize AWS Lambda and AWS DynamoDB. We had never used these technologies before, so it was a huge learning experience for us.
+We were able to successfully connect a Raspberry Pi, Raspberry Pi camera and Arduino to create remote image recognition station.
+We were able to utilize the WiiFit board to collect weight data on inventory items.
+
+
+What we learned
+
+We learned how to use many exciting technologies including AWS Lambda, AWS DynamoDB, and the WiiFit API.
+
+What's next for WiiTrack
+
+WiiTrack is designed to be highly extensible. Additional edge nodes can be added easily, and more complex analytics can be integrated into the AWS Lambda function. Additionally, WiiTrack can utilize different hardware for measuring characteristics of the inventory. For example, we could use infrared sensors in addition to the camera and scale that we utilize today. We can also enhance the supervisor portal for viewing packages remotely.
+",,https://github.com/ColoradoSchoolOfMines/wii-track,,"Dish Network - GPS Sticker Labels, Amazon Web Services - Best Use of AWS","wiifit, raspberry-pi, arduino, aws-lambda, amazon-dynamodb, pillow",Sun,59,sumnerevans,Colorado School of Mines,0
+StalkIt,http://hackcu4.devpost.com/submissions/89387-stalkit,"Inspiration
+
+No one likes to lose their items or delivery packages; I mean no one! For example, we may lose our wallet, phone, delivery packages, etc, which is not in our best interests. To address this problem, we have come up with an application that can track items in a convenient way.
+
+What it does
+
+The application can track any items equipped with a GPS module (or sticker) and provides live updates about its current coordinates with a customisable update interval. It provides users with an easy-to-use interface that allows them to enter the ID of the product they want to track and the application shows the path traversed by the item.
+
+How we built it
+
+We sent the GPS co-ordinates of  our laptop to the Django server. This details is stored as a json file. Everytime the item sends its latitude and longitude co-ordinates we appended the details to the json file.
+
+We developed a Django application to get the Item details like Item ID from the user. This ID is matched with the inventory which contains the tracking details of all the registered items. Once there is a match with the ID it retrieves and pushes the GPS location details of that item to the front-end. We used Google Map API to map the location details of the item and integrated into Google Maps. This provides the user the ability to track their items.
+
+Challenges we ran into
+
+1) Individual modules like Django application, Sending GPS co-ordinates and the Google Maps were working. We faced lot of challenges during the integration of these modules. 
+2) Deciding on the json format was a bit challenging. 
+3) We did not have any device/hardware component that can send its GPS co-ordinates. 
+
+Accomplishments that we're proud of
+
+1) We tried different variants of json format and finally chose the one that is suitable for our application.
+2) We wrote a piece of code which sends the current location of our laptop and hence we could simulate a real-world scenario.
+3) Using Google Map API's to show the co-ordinates on Google Maps.
+
+What we learned
+
+1) Team Work
+2) Google Map API
+3) Bootstrap, CSS and HTML5
+4)Django
+5)Javascript
+
+What's next for StalkIt
+
+This was a challenge by Dish Network. They have developed a sticker/device which can send GPS Co-ordinates of the item that its stuck on. This device with our application has many possibilities. Although we have smart wallets,which can track wallets and phones. The application of such devices is limited. Our application can do much more than that!. We can stick the GPS sticker on any package, mobile phones, laptops, even kids under 3 etc and can get the updates about their location on Google Maps. This is very convenient and helps in protecting our belongings.
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/30284/zip_files/hackcu4.zip,Dish Network - GPS Sticker Labels,"google-maps, django, html5, javascript, json, python, css",Earth,There wasn't any.,sisu7691,"",0
+FyreWatch,http://hackcu4.devpost.com/submissions/89389-fyrewatch,"Hackathon
+
+Inspiration
+
+Many people live in fire prone areas and there are also often millions of dollars of equipment in forests, and there are often miles of unwatched forest due to the limited resources given to the agencies responsible. This dashboard will potentially give those agencies a dashboard to see what is going on when a fire is detected automatically by aggregating tweets sent to a certain hashtag. Also, people subscribed to our dashboard can see posts regarding fires in their area.
+
+What it does
+
+An edge node uses a camera and openCV to calculate whether there might be a fire. After deciding that there is, it sends a post request to a node server that can handle what to do next.
+
+Once the node server gets the post, the person watching the dashboard can look at the picture that the conclusion was based on and decide whether it is actually an issue. Then they can read 
+
+How we built it
+
+Python client on edge node using openCV
+Node/React dashboard
+Twitter API
+
+Challenges we ran into
+
+Fire is hot.
+
+Accomplishments that we're proud of
+
+Teamwork! Also just having fun making things.
+
+What we learned
+
+We learned how to use the TwitterAPI and realized OpenCV uses BGR instead of RGB
+
+What's next for FyreWatch
+
+Who knows... but it will be LIT
+
+Table 33, Row 3
+",,https://github.com/jose31canizar/facetrust.git,,"Twitter - Best use of Public API, FREEWAVE IoT App Challenge","python, opencv, node.js",Sun,"Table 33, Row 3",CoDee,"",0
+Moyo,http://hackcu4.devpost.com/submissions/89390-moyo,"moyo
+
+People who suffer from narcolepsy face many difficulties, not the least of which comes from possible heart conditions as side effects from medications. Moyo is a tool designed to monitor and track the heart rate of a user, and to make note of when their heart rate falls below a healthy or normal threshold. 
+",,https://github.com/PizzaPoindexter/moyo,https://s3.amazonaws.com/challengepost/zip_files/production/30285/zip_files/moyo.zip,FREEWAVE IoT App Challenge,c++,Mars,96,jayhayward,The University of Texas at San Antonio,3,plockwood,PizzaPoindexter,mkkeller
+price_is_right,http://hackcu4.devpost.com/submissions/89391-price_is_right,"Price is Right
+
+An application game that plays off of the classic game show ""The Price is Right"" aimed at the new age of online shopping.
+Up to 4 players can play the game. A random weird item from Amazon is shown, and players guess the price.
+The player who guesses closest to the current Amazon price wins!
+",,https://github.com/jurentie/price_is_right,,"",python,North Atrium,80,marcelaf7,Colorado State University,3,jurentie,FoxXix,cjuracek
+ProjectionAR,http://hackcu4.devpost.com/submissions/89392-projectionar,"Inspiration
+
+Black mirror ""playtest"", mission impossible
+
+What it does
+
+Displays a 3d model as a ""hologram""
+
+How we built it
+
+Unity, C#, projectors, kinect, face tracking
+
+Challenges we ran into
+
+Live feed from kinect to unity
+
+Accomplishments that we're proud of
+
+face tracking
+
+What we learned
+
+C#
+
+What's next for ProjectionAR
+
+More powerful projectors to make the illusion more realistic
+",,,,"","unity, c-sharp, kinect, face-recogniton",sun,19,CorbinPeters,University of Colorado at Boulder,1,cadehaley
+Safety Stocks ,http://hackcu4.devpost.com/submissions/89396-safety-stocks,"Inspiration
+
+This project was motivated by the OppenheimerFunds challenge.  Our goal was to find a correlation between mass shootings and firearm stock share prices. We came up with this idea in response to the recent increase in mass shootings, and wanted to understand how deeply emotional issues can often have unforeseeable economic impact. This concept was a challenge for us because we needed to first define an issue, strategize an approach for quantifying the emotions associated with it, and ultimately translate the data into a product that could be useful in financial services.
+We knew that because of the emotional power of such a topic we would be able to get good data on different tones.  Along with this we thought that because it was such a important topic it would have a noticeable impact on markets.
+
+What it does
+
+The project scrapes comment data from Facebook news articles that have keywords related to gun violence and gun restrictions.  It then runs the text through the Watson tone analyzer to get an idea of how people are feeling about the specific post.  The program does this for archived posts from 2011 to today and saves the data to a csv file.
+After this we preformed statistical analysis and multiple linear regression to compare this to stock data on large gun manufacturers. 
+
+How we built it
+
+To build this we used facebook-graph, watson-tone-analyzer, and numpy.  Facebook-graph allowed us to pull data from the news sources, watson-tone-analyzer allowed us to translate this data into tone ratings, and numpy allowed us to preform statistical analysis.  We built all of this in python and have our code included below.
+
+Challenges we ran into
+
+-When pulling Facebook news articles using key words was risking the possibility that the same words could have different meanings. For example, using the word ""shooting"" could pull up content related to firearms or basketball. It was difficult to manually sift through hundreds of articles in search of the right ones. 
+-Scraping data from Facebook's free API didn't give us a dense or complete data set.  Different years had different densities of posts and comments which limited the time span accuracy of our data.   
+
+Accomplishments that we're proud of
+
+-We are proud of all of our implementation to sample large amounts of data for over multiple years.  With how large our data set was, the limited time we had, and the time it took to pull data from Facebook we had to find unique ways to get representation of old data.
+-We are proud that our project creates sensible data.  We were able to point out dates of gun violence events in our data as well as see the ""New Years Resolutions"" peak at the beginning of each year. 
+-We are also proud of the possible real world applications of our project for both private investors and public holding firms. 
+",,https://github.com/rodericd5/hack_CU,,Oppenheimer Funds/Beacon.io Business Challenge,"python, facebook-graph",Sun,"Table 46, Row 5",dakotacolorado2,"University of Colorado at Boulder, University of California - Santa Barbara",2,AliciaDTran,rodericd5
+WOKE News,http://hackcu4.devpost.com/submissions/89397-woke-news,"Inspiration
+
+Owing to my interest in journalism and politics, I have been continually disappointed in the lack of trust that has developed for the media of late. Presenting audiences with media that challenges their beliefs, but is backed by metrics that test for accuracy is one way to broaden their perspective, and hopefully reinstill their belief in reporting.
+
+What it does
+
+WOKE news continually collects, monitors and updates news on 5 news points over the course of the day. It pulls from generally trusted sources, but then runs a politifact accuracy test on them before finally consolidating the articles and placing them against each other.
+
+How I built it
+
+Swift primarily, and the politifact API.
+
+Challenges I ran into
+
+I'd never worked with swift before :'(
+",,,,"","swift, europeana",Main Auditorium,44,jayeshk358,University of California - Berkeley,0
+wyldfyres-jets,http://hackcu4.devpost.com/submissions/89398-wyldfyres-jets,"wyldfyres-jets
+
+Our goal is to potentially prevent wildfires from occuring by using sensor data to predict the likelihood of a forest fire occuring. We used public historical data and statistics to make our predictions, but the same data could be parsed in real time from sensors. We populated a MySQL database and used SQL queries to determine possible dates where wildfires would be more likely.
+",,https://github.com/bumshakabum/wyldfyres-jets,,FREEWAVE IoT App Challenge,"python, shell",Sun,43 Row 4,mgilroy,University of Colorado at Boulder,3,cole-kenny,Huy_Tran,bumshakabum
+Jill Bill Volume IV,http://hackcu4.devpost.com/submissions/89399-jill-bill-volume-iv,"Inspiration
+
+Disasters - natural or unnatural can be a terrifying experience for the people in it. Helplessness and the need to be rescued and brought out of the horrifying experience creeps in. This motivated us to develop an application to have a remote node at the disaster locations that could identify the people stuck in the disaster premise and send a live stream of the premise to be better prepared for disaster management and people rescue operation. This involves the use technology of Unmanned Vehicles and the technology provided by Freewave to contribute to disaster management use cases like the Californian forest fires incidents. 
+
+What it does
+
+To cater to providing better disaster management strategies, we use the RPi Camera and FLIR camera connected to Raspberry Pi to stream a still image for facial recognition and a Video streaming of the premises on a Web Application that runs on a Flask server. 
+
+How we built it
+
+Development Language: Python
+
+The prototype comprises of two Freewave Dev Kits, one that is directly connected to the Ethernet and the other that operates a remote node. The remote node is connected to a Raspberry Pi that has two types of cameras connected to it - The RPi Camera and the FLIR Camera from Sparkfun. To be precise, the chain is as follows:
+         Raspberry Pi1              ->  Remote Freewave   ->    Freewave Node 2           ->  Remote Flask Server running  
+
+(With RPi Camera and FLIR)           Node 1                      connected to Ethernet                        Web Application
+
+The Raspberry Pi1 sends 120 frames of IR image and 1 frame of RPi image that could be used for facial recognition over UDP to the Freewave Node 1. This Remote Node1 then communicates the frames over UDP to the Freewave central Node 2. The central node 2 then forwards these to a server running on a host machine over UDP to stream the frames on the Web Page that could later be used for planning out the rescue operations and to get data about the people in the disaster. The 120 frames sent over UDP are merged to generate a Live stream of the premise. 
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Jill Bill Volume IV
+",,https://github.com/disa6302/HackCU2018.git,https://s3.amazonaws.com/challengepost/zip_files/production/30290/zip_files/HackCU2018-Jill_Bill_Volume_IV.zip,"Dish Network - GPS Sticker Labels, FREEWAVE IoT App Challenge, HackDFW/AUVSI","freewave-technologies-programmable-platform, python, flask, raspberry-pi, joystick, rpi-camera, flir",Near Moon,1,disa6302,University of Colorado Boulder,3,abhijit5893,bhallaji,srpa3332
+Personal Website,http://hackcu4.devpost.com/submissions/89401-personal-website,"Inspiration
+
+I need a job.
+
+What it does
+
+Tell people about me and why they should hire me.
+
+How I built it
+
+html+css from scratch babyyyyy.
+
+Challenges I ran into
+
+I can't seem to make the stupid custom domain work smh go figure.
+
+Accomplishments that I'm proud of
+
+I have a website now.
+
+What I learned
+
+How to make a website.
+
+What's next for Personal Website
+
+Make it prettier :)
+",,,,"","",Venus/Sun,18 Row 1,simone392,University of Colorado at Boulder,0
+Alteryx,http://hackcu4.devpost.com/submissions/89402-alteryx,"Inspiration
+
+We saw the challenge and we were interested in competing and learning about data analysis
+
+What it does
+
+It solves a problem to find the attendance of a certain event
+
+How I built it
+
+I played around with the software framework learning how to manipulate strings and combine data fields or manipulate them. Most of this project included
+
+Challenges I ran into
+
+Learning how to use the new software, this includes adopting a new way of thinking for this software, which makes some problems hard and other problems easier. It is defined for use because there is a market for data manipulation and it can accomplish these.
+
+Accomplishments that I'm proud of
+
+Learning how to move items from rows into different columns by separating them and then recombining them. The other hard part was recognizing the winter olympics on the map, as I have never payed attention to these events in the past.
+
+What I learned
+
+How to use a power data analysis software, and my first data analysis project, I learned a lot about working with numbers and manipulating to fit my needs, or playing with them until I find a result that fits.
+
+We calculated that there are about 826,822 people attending this years Winter Olympics. This is including 2,922 athletes and 77% of the 102,000 stands being sold for the winter games as of Januardy 31st.
+",,https://github.com/JustinH345/Alteryx,,Alteryx Data Challenge,alteryx,Sun,33,JustinH345,"University of Colorado at Colorado Springs, University of California - Santa Barbara",1,dretta
+Pothole Vigilante,http://hackcu4.devpost.com/submissions/89404-pothole-vigilante,"Inspiration
+
+Pot holes suck and it's hard to fix them.
+
+What it does
+
+We put an IOT box on your car with a bunch of sensors. We tell when you go over a pothole, and when you do we register it on a map and send a tweet.
+
+How we built it
+
+We hooked up a bunch of sensors to an Intel Edison that can tell when you hit a pothole. We then used MQTT (a low bandwidth protocol) to have the Edison ping our server whenever one is hit. Our server is hosted on a Raspberry Pi, and is capable of displaying a map of the known potholes with the Google Map API, and tweets every time it sees a new pothole.
+
+Challenges we ran into
+
+Getting the accelerometer working with the Edison was difficult, and we couldn't get the Raspberry Pi working until we managed to find a monitor.
+
+Accomplishments that we're proud of
+
+The map and Twitter feed are pretty great, and getting the whole system to run on two single-board computers is even better.
+
+What we learned
+
+We figured out the MQTT protocol and how to use both the Raspberry Pi and the Intel Edison. In writing the backend we also learned a ton about Flask, SQLite, and the Google Maps and Twitter APIs.
+
+What's next for Pothole Vigilante
+
+Whenever Gotham is in danger of suspension breakage, we want it to turn on a spotlight aimed at the clouds with a picture of a giant pothole on it.
+",,https://github.com/aowsenek/HackCU4,https://s3.amazonaws.com/challengepost/zip_files/production/30291/zip_files/HackCU4-master.zip,"Dish Network - GPS Sticker Labels, Twitter - Best use of Public API","python, twitter, mosquito, tears",Earth A,12,alcu5535,"University of Colorado at Boulder, University of Colorado",3,aowsenek,joshuaanderson-2,izaakweiss
+Alteryx Challenge PriyaPriyankaKumarSudeep,http://hackcu4.devpost.com/submissions/89406-alteryx-challenge-priyapriyankakumarsudeep,"We started with converting the binary to string getting a set of JSON requests URLs
+We fetched these URLs and got returned some values
+With the extra number provided along with the URL, we returned a single letter from the JSON return, indexed by the number
+We concatenated these characters (mostly numbers and underscores) to get a list of GPS coordinates separated by underscores.
+These GPS coordinates corresponded to the all the Winter Olympics Venues starting from Mont Blanc!
+
+So we decided to estimate the number of attendees of the Winter Olympics this year!
+
+South Korea had 750,000 seats available - 20.5% were sold 
+Rest of the world had 350,000 seats available - 59% were sold
+
+Sum of these - 346,000 seats sold plus 3000 participants
+
+Total attendees - 349,000 people!!
+
+This flow was implemented in Python and Alteryx in parallel. 
+
+I have attached the python code!
+",,https://github.com/PriyankaSelvan/HackCUAlteryx,,Alteryx Data Challenge,"python, alteryx",Food Area,Not sure,priyankaselvan683,University of Colorado at Boulder,2,priyaselvan13,kusr7198
+Sentiment Analysis Financial Correlations,http://hackcu4.devpost.com/submissions/89410-sentiment-analysis-financial-correlations,"Inspiration
+
+Sentiment analysis is a valuable tool for gauging a company's perception on social media, and in modern climates this perception has massive financial ramifications for companies of all shapes and sizes. When Kylie Jenner tweeted about her disdain for the new Snapchat update, the company lost an estimated $1.2 billion in value. Knowing how your company is perceived around the web is an important tool, and Twitter drives a lot of this perception. To assist companies in managing their image online, our team built a sentiment analysis model that analyses a series of tweets and returns a percentage of positive and negative. We then chart this information against a company's financial data to see the impact. 
+
+What it does
+
+How we built it
+
+The sentiment analysis model is a deep learning model trained on the Twitter Sentiment dataset. It achieves near state of the art results and will return fairly accurate results surrounding the sentiment of a Twitter sample. The financial data is pulled from Alpha Vantage and returned into a Pandas dataframe where it is then charted for the last week. The website is built with Angular and calls the Python function asynchronously as users submit input. 
+
+Challenges we ran into
+
+ML is dependency hell.
+
+Accomplishments that we're proud of
+
+Model works and achieves near state-of-the-art results. 
+
+What we learned
+
+Graphing APIs and Financial Impact of Societal Perception. LSTMs. Add Python to a Node server. 
+
+What's next for Sentiment Analysis Financial Correlations
+
+Sleep
+",,https://github.com/dlemmond1/HackCU4,,"Oppenheimer Funds/Beacon.io Business Challenge, Twitter - Best use of Public API","tensorflow, javascript, node.js, angular.js, python, json, keras",Sun,61,dlemmond1,University of Colorado at Colorado Springs,1,CHBaker
+cheeseburger,http://hackcu4.devpost.com/submissions/89411-cheeseburger,"What is happening in our state?
+
+is our perception obsewrvation bias, or an actual trend. here we look at historical data for each county.
+
+We built a massive database of this stuff, but most is pretty recent. on our county map we have only graphed some population and housing data going back a few decades to visually show trends.
+",,https://github.com/chihweil5/hackcu,https://s3.amazonaws.com/challengepost/zip_files/production/30313/zip_files/cheeseburger.zip,"","d3.js, mariadb",North Atrium,65,joerickard,"",0
+NeoCharity,http://hackcu4.devpost.com/submissions/89412-neocharity,"NeoCharity: Improving Charity Transparency via NEO
+
+Charities receive hundreds of billions of dollars in donor money, yet donors can’t reliably earmark their donations for specific causes, and the vast majority of charities do not report full itemized purchase transactions. This tacit trust donors give charities can be formalized with a guaranteed way for donated money to be used in its intended purpose and then this money could be tracked to see how it was actually used. 
+
+This seems like a perfect task for smart contracts on the blockchain. For donors, decentralization and transparency ensure money is used as desired. For charities, automatic, secure purchase reporting reduce the tremendous burden of accounting. 
+
+Our solution leverages the NEO blockchain to create such a system:
+
+
+donors make payments to a smart contract with a charity and an earmark tag
+these payments are placed in a special account
+charities can access and use these different accounts
+all transfers are logged with amount and transactor
+donors and charities can easily query to see who has transacted with a tagged account
+
+
+This system is exciting because it can be applied to any system where earmarked, transparent transactions would be usable:
+
+
+A company department creating itemized budgets for teams
+A robotics student organization receiving money that may only be used for food or equipment. 
+A family earmarking a monthly budget, so they limit their spending per category.
+
+
+See our presentation for more detail
+",,https://docs.google.com/presentation/d/1uTzur0-ZHdC7Twp69CWRT6A6uaP8s8DBeZ4fs5kX9bw/edit,,Neo dApp Challenge,"neo, python, perseverance",Cafe Area,94,VickiNiu,Stanford University,1,nhershey
+Kisan,http://hackcu4.devpost.com/submissions/89413-kisan,"Inspiration
+
+In today's world farmers are literally looted by mediators by paying less amount to what they have taken but selling it for higher prices to consumers making profits. So, this inspired us to build an application where ultimately farmers get the fair price.  
+
+What it does
+
+This application lets farmers publish their products directly to the market place. The product is tracked throughout its supply chain life cycle, and consumers get all the information about all the places it has gone through. Price at each node is also recorded, giving potential customers unrivaled transparency. 
+Local farmers also get fair prices for their products, compared to conventional selling methods (selling to middlemen).
+
+How we built it
+
+For the front end part we used bootstrap, node.js, express.js, html, css and for the back end we used block chain technology by deploying Neo-python for storing and incrementing of tokens
+
+Challenges we ran into
+
+As we are new to block chain technology we found it hard to implement the backend and moreover connecting the backend to frontend.
+
+Accomplishments that we're proud of
+
+However, we successfully finished what we thought about.
+
+What we learned
+
+We learned a lot of new things such as express.js, Neo-python and it's a wonderful experience working on the project.
+
+What's next for Kisan
+
+We are planning to add a lot more features and technology enhancements that we overlooked this time.
+",https://youtu.be/G71L_wO276M,,https://s3.amazonaws.com/challengepost/zip_files/production/30301/zip_files/kisan.zip,Neo dApp Challenge,"python, express.js, bootstrap, neo, html5, css3, node.js",Sun,"Row-3, Table NO:34",Shesikiran,"University of Colorado Denver, University of Colorado at Boulder",2,phyninja,sunilreddyoruganti
+P5 Synth,http://hackcu4.devpost.com/submissions/89414-p5-synth,"Inspiration
+
+Interested in sound design
+
+What it does
+
+Digital musical instrument
+
+How I built it
+
+Several javascript web libraries
+
+Challenges I ran into
+
+Tried to do an impressive gui with knobs, buttons, etc. but was taking too long.
+
+Accomplishments that I'm proud of
+
+Having actual working results.
+
+What I learned
+
+A lot about the p5 libraries and general project design
+
+What's next for P5 Synth
+
+Adding more features (more oscillators, envelopes, effects, and routing options) as well as improving the layout design.
+",,https://dqrhguzep8ww2.cloudfront.net/,https://s3.amazonaws.com/challengepost/zip_files/production/30294/zip_files/Archive.zip,"","javascript, p5, p5sound, p5gui",Mercury,34,whited9339,University of Colorado at Boulder,1,joshswhite19
+alexa-accessible,http://hackcu4.devpost.com/submissions/89416-alexa-accessible,"Inspiration
+
+What it does
+
+Adds gesture capabilities to existing voice services, specifically to aid mute users in using voice services.
+
+How we built it
+
+We used to the Leap Motion Gesture Tracker to capture and identify gestures that could then be translated into alexa voice command using a text to speech system. This would enable people who would be otherwise unable to communicate with the voice services that are ubiquitous today, perhaps due to a disability.
+
+Challenges we ran into
+
+Our original idea was to expand it beyond the use case of helping mute users, by bypassing the alexa voice service when required and calling the Echo backend directly. Turns, out it isn't as straighforward as it sounds on paper, partly because of the closed nature of the existing Amazon skills.
+
+Accomplishments that we're proud of
+
+We never shied away from pivoting rapidly even in the middle of the night. After pivoting a gazzilion times, turns out we still managed to execute the original idea that we set out with.
+
+What we learned
+
+A lot about using and interfacing types of hardware ( and how bad we are at using them). We learnt about the opportunities and limits of gesture based technology. 
+
+What's next for alexa-accessible
+",,https://github.com/Karthik-Kannan/alexa-accessible,,Amazon Web Services - Best Use of AWS,"python, html, css, javascript",Earth-A,10,kknicks,University of Colorado at Boulder,0
+TrendLore,http://hackcu4.devpost.com/submissions/89417-trendlore,"Inspiration
+
+
+We wanted to have fun.
+
+
+What it does
+
+
+Suppose to show the frequency of certain word, based on a hash tag.
+
+
+How we built it
+
+
+We used the flask and twitter api for the back end, and we used the front end trio, bootstraps, Chart.js.
+
+
+Challenges we ran into
+
+
+We were having problems changing json file into a valid statical data.
+
+
+Accomplishments that we're proud of
+
+
+We didn't blow up, and kept smiles on our face, even when the product wasn't finished.
+
+
+What we learned
+
+
+Still requires a postmortem on what could've gone better.
+
+
+What's next for TrendLore
+
+
+We could try to finish this.
+
+
+The repository
+
+https://github.com/dataSmugglers/TrendLore
+",,http://trendlore.org/,,"","flask, javascript, python, html, css, bootstrap, chart.js, twitter",Earth - A,Table 8,dlee67,Metropolitan State University of Denver,1,sal2993
+Asteroids with Windows (A Goodbye To javax.swing),http://hackcu4.devpost.com/submissions/89418-asteroids-with-windows-a-goodbye-to-javax-swing,"Inspiration
+
+I've built things with javax.swing before in this nature, but I found that it's laggy and doesn't work quite well. I've decided that I may want to switch to cocoa, but as a bittersweet goodbye, I wanted to do something weird with javax.swing that went beyond my previous uses of it.
+
+What it does
+
+You play an Asteroids-like game where you destroy a window. 
+
+How I built it
+
+I used (abused?) javax.swing's irregular windows feature by using undecorated windows with irregular shapes and drawing to them.
+
+Challenges I ran into
+
+Getting the shapes of the irregular windows to actually work was surprisingly difficult. Javax.swing also lags quite a bit with more and more windows, which is understandable.
+
+Accomplishments that I'm proud of
+
+I'm just glad that I got all of this to work! Especially the illusion of the window breaking apart by using a BufferedImage of the task bar at the top of the window.
+
+What I learned
+
+I learned how to use BufferedImages to make it look like a window was falling apart.
+
+What's next for A Final Goodbye To javax.swing
+
+If there was anything next, it would be to put some pretty pictures in the breaking window. Actually, a friend also recommended having a game of asteroids in that window, which gets harder as the window breaks apart, so maybe that too?
+",,https://github.com/PlatPlat48/A_Final_Goodbye_To_Swing,https://s3.amazonaws.com/challengepost/zip_files/production/30300/zip_files/AFinalGoodbyeToSwing.jar.zip,"","java, javax.swing",Hacker Atrium (In between Mercury and Mars),64,PlatPlat48,University of Colorado at Boulder,0
+BlockTweet,http://hackcu4.devpost.com/submissions/89421-blocktweet,"Inspiration
+
+Coming into HackCU, we knew we wanted to use Google Sentiment Analysis with social media. When we were here we became excited about the challenges proposed by OppenheimerFunds and Twitter, so we decided to focus on a market sentiment analysis.
+
+What it does
+
+Every hour we collect the most popular tweets in four categories: ""bitcoin"", ""ethereum"", ""blockchain"", and ""crypto"". We package those tweets up and send them through the Google Natural Language API to get a sentiment score and magnitude for each category. Our React front-end queries the backend API of scores and plots them against hour by hour bitcoin and ethereum price data.
+
+How we built it
+
+Our team was composed of two front-end developers and two back-end developers, so we decided to build two separate applications that work together.
+
+On the back-end, we built a Rails API to serve data to the front-end. We host the backend on Heroku and using Heroku Scheduler, we make hourly calls to the Twitter API. We send this tweet data through the Google Natural Language sentiment analyzer and create normalized values based on sentiment (-1 negative to 1 positive) and magnitude (degree of certainty).
+
+Our front-end was built using React.js and uses from the ChartKick and Chart.js libraries. Our main objective was to display this data graphically so the user can easily digest the information and make comparisons between cryptocurrency prices and twitter sentiment. We queried the backend, formatted the response data to satisfy CharKick, and created our own normalizer to compare values across the board.
+
+Challenges we ran into
+
+Scraping historical Tweets: Part of the challenge from Twitter was to use their basic API package, which had limitations in it's search functionality. We wanted hourly data points going back as far as possible, but the basic plan only allowed for search within the last 7 days. In addition, the parameters only allowed for search granularity by day. To work within this limitation, we wrote a script that recursively steps back in time using the max_id parameter and saves data on the hour.
+
+We also needed a way to display data with vastly different magnitudes (Bitcoin obscures Ethereum in price and twitter volume) in a comparable way within a single chart.  Data was again normalized to provide direct comparison.  
+
+In our programs, front-end and back-end teams have not yet had the opportunity to work together, so it was a welcome challenge to figure out how to work as a cohesive team and get the front and back-ends to communicate with each other. On the front-end team, it was a challenge to conceptualize how the back-end works and create a front-end in anticipation of back-end data.
+
+Accomplishments that we're proud of
+
+We are most proud of the collaboration within the team to come up with working applications within the time limit and without ever working as a group before. We are proud of the solution we implemented to circumnavigate the limited access to time-based granularity of tweets.
+
+What we learned
+
+We learned how to build and format separate front-end and back-end applications that can communicate with one another. In our school experience, the front-end and back-end programs are very separated, so we enjoyed being able to combine our collective knowledge and experience for formulate a setting that will be more indicative of an actual work environment.
+
+What's next for Block Tweet
+
+Going public and becoming Bitcoin millionaires! Jk. We are 7 weeks from graduation and looking forward to our careers in software.
+
+BlockTweet
+
+Front End Repo
+
+Back End Repo
+",,https://github.com/Maxscores/hackcu,,"Oppenheimer Funds/Beacon.io Business Challenge, Twitter - Best use of Public API","ruby-on-rails, react",North Atrium,66,Maxscores,"",1,tylermarshal
+Forever Fast,http://hackcu4.devpost.com/submissions/89422-forever-fast,"Inspiration
+
+We wanted to make a game because our goal is to win the Nitendo Switches. We liked flying games and wanted explore procedurally generating 3-d landscape obstacles. 
+
+What it does
+
+You, the player, control a ship flying through 3-d space avoiding colliding with the walls of the cavern. It is almost like a 3-d version of the class web-based game, ""Helicopter.""
+
+How we built it
+
+We built it using models available through Three.js. From there we made algorithms to procedurally generate caverns of these models to fly through. 
+
+Challenges we ran into
+
+Procedurally generating 3-d caverns that are both hard to navigate, but also manageable to navigate took a lot of fine-tuning and with more time, we probably could have adjusted the parameters to improve playability.
+
+Accomplishments that we're proud of
+
+Having made a playable game within 24-hours. None of us have created a 3-D game before these past 24 hours so we are proud of that. We are proud of the math concepts we had to utilize to create a game within 3-d dimensional space, namely Quaternion math. 
+
+What we learned
+
+We learned Quaternion math, which is a method of mapping vector rotations in 3-D space. It allowed us to make the plane flight more realistic as it turns side to side and up and down. 
+
+What's next for Forever Fast
+
+We would like to fix some bugs we are aware of, as well as add power-ups and an online competitive scoreboard. We also just barely did not have enough time to create legitimate collision detection. We would like to have that in the future.
+",,https://github.com/Cyberdr8gon/miniature-octo-carnival.git,,"","javascript, css, html, three.js",Earth,2,jwarfield,"Cornell University, University of Colorado at Boulder",2,Cyberdr8gon,blpa1200
+PDE Solver Visualization,http://hackcu4.devpost.com/submissions/89423-pde-solver-visualization,"This project uses MPI and libCEED to solve simple PDEs on a cubic domain. The code uses conjugate gradient without a preconditioner. There are some bugs in the solver, but it outputs the results from every solver iteration.
+
+Eventually this project will be linked to Python plots to do a live visualization of the contribution from each node. The goal is to facilitate understanding of domain decomposition and finite elements in HPC.
+
+The code runs on a home-built Pine64 cluster networked to act like a supercomputer.
+
+I've also included my included my 'pretending to work and look impressive' screensaver as a bonus!
+",,https://github.com/jeremylt/HackCU2018,https://s3.amazonaws.com/challengepost/zip_files/production/30299/zip_files/HackCU2018-master.zip,"","c, libceed, mpi",Mars,68,jeremythompson,University of Colorado at Boulder,0
+WannaCrack,http://hackcu4.devpost.com/submissions/89424-wannacrack,"Inspiration
+
+With the personalization and monetization of smartphone platforms, security has become an essential facet of smartphone framework design. We explore possibility of an app that can possibly block out the user or coerce unwanted behavior.
+
+What it does
+
+The implemented framework consists of an application, that is very difficult to exit and forces the user to perform a predefined gesture with the smartphone. In this case, the gesture is throwing the phone high up in the air, or dropping it on the floor. The ""back back button"" and ""show running applications"" button are completely circumvented, whereas going to the home screen just causes our application to relaunch in less than a second. The navigation bar itself is only visible for a very short duration on launch and the notification are is blocked. Application can also be extended to be a lock screen on the phone. Was built for phone with no hardware navigation, but can also be used for other devices. Threshold value needs to be adjusted per device.
+
+How I built it
+
+The application mainly consists of two main components. The first components is the interface of the application and the other monitors the acceleration values to test if it fits a certain gesture behavior. We used android-studio to develop this application.
+
+Challenges I ran into
+
+There a genuine risk in this area and that is why it is becoming increasingly difficult to built custom lock screens on the newer android APIs. The APIs related to the required components change very frequently, and made it difficult to work with different devices and OS versions. Also, the robust characterization and classification of the input gestures was a challenge on its own.
+
+Accomplishments that I'm proud of
+
+being able effectively distribute and produce workable sub-problems that needed to accomplished in a given time limit.
+
+What I learned
+
+Front-end design, android application behavior, sensor management and gesture modelling.
+
+What's next for WannaCrack
+
+The application can be extended to become a lock screen at which point the ""home-button"" is completely blocked. 
+",,https://github.com/saitiku/lockscreen2,,"","java, android-studio",Mercury,21,saitiku,Colorado State University,0
+NEO Rentals,http://hackcu4.devpost.com/submissions/89425-neo-rentals,"Inspiration
+
+The rental process is very expensive and combersum for both the renter and the potential rentee. Background checks, and rental history inquiries can quickly become expensive while also making the process very slow. The blockchain is a perfect solution to solve this problem.
+
+What it does
+
+Renter's rental history (payments, late payments, evictions, etc) is encoded and saved on the NEO blockchain. As well as rental properties information (damages, condemnation, etc). Renters can also pay their rent/damages with NEO
+
+How I built it
+
+Web app was built in VueJS/Laravel with Neon-JS npm extension
+
+Challenges I ran into
+
+Deploying privnet on digital ocean image.  Trying to get neon-js to invoke contracts with attached NEO/GAS
+
+Accomplishments that I'm proud of
+
+Learned more about NEO smart contract ecosystem
+
+What I learned
+
+When to use an Asset. When to create your own token to run contract vs just relying on NEO
+
+What's next for NEO Rentals
+
+Finish bugs on front end and connect it all together.
+",,https://github.com/mastashake08/neo-rentals,,Neo dApp Challenge,python,Sun,31,mastashake08,University of Kentucky,1,rlmaso2
+Better America,http://hackcu4.devpost.com/submissions/89426-better-america,"Inspiration
+
+After witnessing many of the recent events in American politics and the inability of Congress to pass meaningful laws and reform, we decided it is now up to the people to draft policy. We created Better America to allow people to do just that.
+
+What it does
+
+Better America allows users to sign up with google sign in, create topics they care about, and draft bill policy with their American and international peers. After the policy and or idea has reached maturity, Senators or Representatives can be contacted to sponsor the bill. 
+
+How we built it
+
+We built Better America with a React front-end, a Koa/Node.js server/back-end, GraphQL APIs, and an Elasticsearch server as the Database.  
+
+Challenges we ran into
+
+Some challenges we ran into while working on the project included lack of sleep and dealing with automatically saving our live editor. 
+
+Accomplishments that we're proud of
+
+We are very proud of the fact that we finished what we set out to do and the platform works.
+
+What we learned
+
+We learned a lot about React, Elasticsearch, and Node.js while working on this project. 
+
+What's next for Better America
+
+In the immediate future we will be pushing our website live on AWS. In the further future we will add more collaborative editing tools for our users as to allow them to truly draft bills and policies democratically in real time. 
+",,https://github.com/dskrenta/cuhackiv,https://s3.amazonaws.com/challengepost/zip_files/production/30302/zip_files/Project.zip,"","react, node.js, koa, elasticsearch, google-sign, css3, html5, javascript, graphql, apollo",Mars,63,dskrenta,University of Colorado at Boulder,1,JourneyBryceDavid
+HackCU_RemoteDataProcessing_Zumilink,http://hackcu4.devpost.com/submissions/89428-hackcu_remotedataprocessing_zumilink,"HackCU_RemoteDataProcessing_Zumilink
+
+Team Members- Omkar Purandare, Shreyas Vasanthkumar, Virag Gada, Pavan Dhareshwar 
+
+Description-
+This project was developed as a part of HackCU 2018. The aim of the project is to demostrate the processing capablity of a remote radio to reduce the load on main server and also reduce the data to be transmitted over RF link. The data is taken in serially over RS232(it is a image in this case) and an algorithm is performed using openCV to find the number of faces. After the data is processed remotely, only important data is transmitted over RF to the server which has a internet connectivity. The server after gathering the data uploads it on to the cloud (AWS) in a formatted way with timestamp.
+
+Folder structure-
+-----HackCU_RemoteDataProcessing_Zumilink
+         |-----remote_client 
+                    |----- README.txt
+                    |----- main.cpp 
+         |
+         |-----server
+                    |----- subscribe_publish_sample.c
+                    |----- aws_iot_config.h
+                    |----- Makefile
+                    |----- readme.md
+
+Compiling code-
+Instructions to compile are inside respective the folders. 
+",,https://github.com/omipurandare/HackCU_RemoteDataProcessing_Zumilink,https://s3.amazonaws.com/challengepost/zip_files/production/30303/zip_files/HackCU_RemoteDataProcessing_Zumilink-master.zip,"Dish Network - GPS Sticker Labels, FREEWAVE IoT App Challenge","c, c++, makefile, python",Sun,27,OmkarPurandare,University of Colorado at Boulder,2,viraggada,ShreyasVasanthkumar
+Promise,http://hackcu4.devpost.com/submissions/89429-promise,"Inspiration
+
+Many new projects are being developed for the blockchain every day. When we approached our project we wanted to build something that not only provided a solution for a specific problem, but also provided a proof of concept to solve larger problems faced by blockchain technology. We decided to attempt to solve the specific problem of safe charitable donations and the general problem of trustless promises on the blockchain. We felt that donation matching was an interesting problem to solve because of the inherent problems involved with trusting corporations to match donations in a timely manner. The need for trustless promises naturally arises from this problem. This further piqued our interested because of the need for trustless promises in fields ranging from investment to consulting and other contract based employment. 
+
+What it does
+
+Our project allows people to donate through funds pledged by companies to benefit charities. We implemented this by first implementing two of our own cryptocurrencies, ""Promises"" and ""CommitCoin."" These cryptocurrencies are used to create a system of debit and credit that allows increased flexibility with cryptocurrency donations. When a user makes a donation, it creates a pledge from the company that must be fulfilled within 30 days. If the donation, made in CommitCoin, is not matched by the company within 30 days, the trustworthiness of the company goes down and the overall number of donations funneled through decreases as a result. If the donation is matched, the charity of choice will get the full Neo value and benefit from donations from individual users and larger corporations.
+
+The benefits from our product are primarily to do with the accountability of the company. Since all donations are encoded on the blockchain, it is easy to see which companies follow through on their promises and which ones remain greedy and untrustworthy. In addition, the system of ""promises"" allows the company to keep their assets liquidated up until they decide to match the donations, rather than risking missing matches or keeping a lot of money tied up in a donation fund. This benefits the companies, because they can donate large amounts of money while having the freedom to invest or move around money over the period of donation matching, and it allows donors and charities to ensure that non-profits are receiving the money they were promised. It also maintains the charities that users are donating to, so the ratio of money going to those organizations is directly related to the number of users donating money. Therefore, everyone benefits from our novel system of donation matching through smart contracts on the Neo blockchain. 
+
+The promise system is a novel one that could be expanded far beyond this proof-of-concept. This could be used for any number of systems, that would allow credit through the blockchain without having to invest money. These coins would operate purely through a trust system, much like bonds. This distributes the risk of trust across the entire market. When we were discussing our idea, we even imagined a free marketplace of people trading ""promises,"" which were backed by large companies and given trust that way. This would allow for a more secure cryptocurrency, that is less subject to the huge fluctuations in the market caused by speculation, for a more stable, long term investment. Thus, Promises are expandable beyond our idea.
+
+How we built it
+
+We wrote the smart contract in neo-python, with neo-boa to compile the code to the Neo VM. The smart contract creates a fund, and creates smaller pledges when a user donates money. These pledges are timed, so if they aren't fulfilled within 30 days, the company can be penalized, and the user can get their money back to have the opportunity to re-donate through a more trustworthy company matching service. Businesses have the ability to make transactions to fulfill pledges and match user donations to charities. Finally, charities can access the Neo and complete the promises by receiving the user money and the matched amount by the company.  This is all achieved through a smart-contract that processes different transactions by different assets to successfully achieve our goals. 
+
+All of these components are connected using a modern web app created in React and Typescript. Someone who wants to donate can see a list of charities to donate to, and then choose a company's fund to match with.
+
+Challenges we ran into
+
+The Neo codebase was difficult to work with, with very little documentation to help us understand the methods and designs behind the Neo python framework. This was a huge cause of difficulty, restricting our ability to understand the methods needed for our system to work.
+In addition, we had difficulty setting up the Azure instance to contain or example chain. It was extremely difficult to hook the whole system together, because of difficulties setting up neoscan and the private network. 
+
+Accomplishments that we're proud of
+
+Although none of us have had experience developing on a blockchain before, we were able to set up a smart contract and a private network within the time limitations. Our smart contract was adapted several times to take into account new information that we were learning about neo-python. In addition, we worked together to improve our understanding of neo-python and the systems we were using to develop on, with all of us working well in a team to create a project.  
+
+In order to achieve our working implementation of the smart contract component of our DApp, we had to carefully study many different open source components and understand how different systems worked together. Since our DApp is fairly novel, we had to be able to be able to immediately apply new concepts we learned. Sometimes this meant incredibly careful reverse engineering of code from the Neo project. 
+
+What we learned
+
+We learned that although reaching for extensive goals is admirable, it isn't always possible to understand the extents of the tools we were using and that we have to factor in the learning curve of new software. We also found that careful organization and systemic design choices go a long way in helping us learn the new software and really hammer down on the requirements of the system.
+
+What's next for Promise
+
+Next, we hope to finalize our project and bring together our separate components into a harmonious whole. Also, we want to improve our smart contract to run more efficiently now that we've learned a lot about neo. 
+",,https://github.com/hackcupromise,,Neo dApp Challenge,"python, neopython, neo, typescript, node.js",Earth B,16,ceilingcrane,University of Colorado at Boulder,2,Spaceman1701,Schmaron
+Volatility Cockpit,http://hackcu4.devpost.com/submissions/89432-volatility-cockpit,"Inspiration
+
+Seemed like pretty fun challenge to work on. 
+
+What it does
+
+Someone can input a stock, and it will generate a graph for volatility and price, P&L, as well as showing some of the Greeks.
+
+How I built it
+
+Beacon.io has a custom IDE and platform where all the code was written.
+
+Challenges I ran into
+
+Black Scholes model was returning zero. Variance calculator would fail -- and needed to try/excepted -- about halfway through the prices.
+
+Accomplishments that I'm proud of
+
+Graphs look okay
+
+What I learned
+
+A lot about option pricing.
+
+What's next for Volatility Cockpit
+
+We going to Disney Land baby.
+",,https://github.com/jrothrock/hackcu_2018,,"",python,Auditorium,39,jackrothrock,University of Colorado at Boulder,0
+GeoTwitty,http://hackcu4.devpost.com/submissions/89433-geotwitty,"GeoTwitty
+
+GeoTwitty
+    GeoTwitty is a service that allows you to totally stalk the people experiencing life around you. GeoTwitty is an application that uses the twitter api to search for and display tweets based on latitude and longitude coordinates of the user and a search query. The user enters a search into the web application and receives information on tweets from the last 7 days, related to their search, within a 10 mile radius. My partner and I would love to include an array of new features including the ability to change the search radius, as well as display the geographical location of the tweets that the search returns.
+",,http://geotweety.us-east-2.elasticbeanstalk.com/,https://s3.amazonaws.com/challengepost/zip_files/production/30304/zip_files/twitter.zip,"Twitter - Best use of Public API, Amazon Web Services - Best Use of AWS","html, javascript, css, node.js, express.js, twitter, bootstrap",Sun,Table 53 Row 6,ramalamadingdong,"University of Colorado at Boulder, University of Colorado at Colorado Springs",1,Craishot
+Trash Segregation,http://hackcu4.devpost.com/submissions/89434-trash-segregation,"Inspiration
+
+I came with different idea to build for this hackathon, Idea was to build an alexa skill which will kinda work as blind dating using Tinder APIs. But, while I was doing background homework before starting my code @ 12pm, I noticed 40-50% of people waiting for solid 2-5 mins deciding which bin out of 3 should they throw their trash cans, fruit peels, fork, glasses, bottles, etc. Also, out of rest of 50-60% crowd threw the trash in incorrect bins, which makes it even more harder for segregation later.
+Hence, I decided to move forward with some method for training the model which can suggest the correct bin on our behalf. So, I dropped my idea for blind date skill (will take it later :D ) and started reading about any research done on this part of the Machine Learning + Computer Vision problem. I found one research paper from Stanford professors discussing similar idea, but not exactly same (http://cs229.stanford.edu/proj2016/report/ThungYang-ClassificationOfTrashForRecyclabilityStatus-report.pdf). So, I thought it's good to work on something being researched right now and hence, started with this problem statement.
+
+What it does
+
+It suggests with accuracy count which bin should the item go. Improvements on this model is endless. What I tried to build today is just a PoC for the problem solution.
+
+How I built it
+
+I used OpenCV along with Tensorflow to train my model with about 400 classes of objects and referring to appropriate trash bins. I've used tf-gpu and hence taking advantage of the Cuda toolkit from Nvidia for compute.
+
+Challenges I ran into
+
+Cuda installation and compatibility with display driver versions (blew my display driver last night). Unavailability of annotated train data, although I found images of the train data, but it wasn't annotated and need to label them. I think given more time, it can be scaled and expanded properly.
+
+Accomplishments that I'm proud of
+
+Working solution to segregate with certain level of accuracy. Took advantage of Tensorflow and OpenCV. 
+
+What I learned
+
+Tensorflow, OpenCV
+
+What's next for Trash Segregation
+
+Label more train data and improve model suggestions and adding more items in datasets. Also, distribute the system, such as hosting the image capturing part may be on raspberry pie next to the trash cans and performing the compute on Google Compute or Amazon Cloud and returning results by displaying on TV next to trashbins.
+",,https://github.com/param17/trash-segmentation,https://s3.amazonaws.com/challengepost/zip_files/production/30312/zip_files/trash-segregation.zip,"","tensorflow, python, opencv, cuda, numpy, nvidia, cudnn",Sun,51,paramjotsingh,University of Colorado at Boulder,0
+Jelly Boy,http://hackcu4.devpost.com/submissions/89435-jelly-boy,"Inspiration
+
+Writing games is what we've done in the past and is a fun way to write low level code and be concerned with performance while also having fun doing it. That's why we decided to write one for this Hackathon.
+
+What it does
+
+It's a game that users can play.
+
+How we built it
+
+We used C and C++ with OpenGL to write this game. No pre-built engines or frameworks were used.
+
+Challenges we ran into
+
+Designing a system takes precision and care, and obviously that care and precision is very hard to achieve in a mere 24 hours. The game was, however, successfully finished and it runs well.
+
+Accomplishments that we're proud of
+
+We're pretty happy with how the game mechanics turned out and how it led to some interesting puzzes; it's very rare to get a clean mechanic on the first try, but we seemed to get lucky!
+
+What we learned
+
+We learned a lot about project structuring, GitHub, OpenGL, game design, and physics!
+
+What's next for Jelly Boy
+
+We've been considering cleaning up the code and making a short game out of Jelly Boy, in which case we'd most likely sell packages of the executable and source code for a small price for those interested in game programming and seeing other approaches to it (for educational purposes). 
+",,https://github.com/ryanfleury/hackcu_iv,https://s3.amazonaws.com/challengepost/zip_files/production/30306/zip_files/JellyBoy_win32.zip,"","c, opengl, c++, glfw",Sun,1,d3l1x,University of Colorado Denver,1,dookadoo
+Project Sanctuary,http://hackcu4.devpost.com/submissions/89436-project-sanctuary,"Inspiration:
+
+creepy nightmares
+
+What it does:
+
+You're stuck in a maze with almost no light and tons of (hidden) traps. Try to find your way to the bunker.
+
+How we built it:
+
+Frontend and GamePlay using Unity3D, Backend for User signup and highscore leaderboard using node.js with express. Deployed on heroku, mongodb database hosted on mlab.com
+
+Challenges we ran into:
+
+Unity version issues, Post/Get issues
+
+Accomplishments that we're proud of:
+
+
+teamwork
+all those ideas developed over the time. From a simple MVP like ""man in a maze"" tons of extras like the flashlight and traps were added to the game in that short amount of time.
+lot's of fun
+
+
+What we learned:
+
+a lot!
+Unity3d, Basic HTTP communication, NoSQL data processing, Unity game objects, Unity C# and lots of stuff more
+
+What's next for Project Sanctuary:
+
+implement all those strech goals listed on trello like Multiplayer support saving the maze levels on the backend. We left room for the strech goals for future versions. You gone die a lot ;)
+",,https://github.com/tuxflo/hackCU_Backend,,"","unity, node.js, mongodb, javascript, express.js, passport, heroku, mlab.com",North Atrium,78,tuxflo,"",0
+Alteryx Data Challenge,http://hackcu4.devpost.com/submissions/89437-alteryx-data-challenge,"Our team heavily utilized Alteryx and its plethora of analytical tools to solve the series of challenges we were faced with. After opening the provided file (HackCU2018_AlteryzChallenger.yxdb) in Alteryx, we noticed that it contained a single string consisting of 1s and 0s. The first component of the challenge was to convert this string to ASCII. We did this by tokenizing it into chunks of 8 bits, running BinToInt on each chunk, and then CharFromInt on each chunk again. In addition to this, we noticed that colons were not recognized as characters, so when an unidentified character appeared, we replaced it with a colon.
+
+When analyzing the data we saw that it output a series of URLs pointing to JSON files with a JSON selector and number appended to each URL. We tokenized this to split it up into the 247 different URLs and added two additional columns for the attribute and number. From there, we realized that the number referenced the character at that index in its associated selector. We were able to use the Filter tool to easily extract only the JSON values that matched the selector appended to the URL, and then the Formula tool to extract only that character from each value.
+
+After concatenating the characters, we had a string consisting of digits, underscores, periods, and dashes. Due to some irregularities in the string, we suspected that it may have not been the intended result. The Alteryx booth confirmed our suspicions and provided us with an updated string. This string was far more regular, and we believed that it could somehow be translated into coordinates. The first two values were coordinates that pointed to Chamonix, Switzerland. We were under the impression that this referred to the Winter Olympics that were hosted in Chamonix in 1924. However, the next coordinates on the text string brought us to a Native American reservation in Utah, so we abandoned the idea that the the text string was comprised of Winter Olympic host locations. 
+
+Our team spent hours trying to figure out the significance of the string file, but could not find a pattern. After multiple conversations with the Alteryx booth, it was discovered that an API was updated and the string file was again incorrect. After receiving the correct text string, we quickly realized that our original Winter Olympics theory was correct. The correct string file contained a series of coordinates with an underscore separating the latitude and longitude, and the comma being a delimiter for different points. We also ran into an issue where some data points could not be read, but that was because the latitude and longitude were swapped. 
+This resulted in a series of 24 points, which Alteryx conveniently let us view on a map. When analyzing the points, we found that the points each represented the location of one of the 23 Winter Olympics and the 2022 Winter Olympics that will be held in Beijing. We then carefully considered the challenge question: “What’s the attendance of a specific event?” Since we can easily get the number of athletes in attendance for the 23 previous Winter Olympics, we decided to utilize Alteryx to try to create a regression and predict the attendance of the 2022 Winter Olympics in Beijing. 
+
+First, we used the Charting tool to create a scatter plot of a dataset collected manually by Rahul from Wikipedia (of the number of athletes at each Winter Olympics). The data seemed to follow a linear path until a certain point, at which it changed to a different linear path. We decided to apply a linear regression to the latter portion of the data mentioned above. 
+
+Unfortunately, the version of Alteryx Predictive Tools we had available was not compatible with the version of Alteryx we were using. We were eventually able to download the correct version of the Predictive Tools and run the Linear Regression tool, which resulted in a predictive equation of y = 51.2x - 100347.9, where y is the number of athletes and x is the year. By plugging 2022 into our equation, we predict that approximately 3,179 athletes will be in attendance at the 2022 Beijing Winter Olympics.
+",,https://www.dropbox.com/sh/6ykg2pinbinh6hl/AADWrK80X7AM0fw5d-UgknU_a?dl=0,https://s3.amazonaws.com/challengepost/zip_files/production/30308/zip_files/Alteryx_Data_Challenge.zip,Alteryx Data Challenge,alteryx,North Atrium,79,jbuchman,University of Colorado at Boulder,3,TylerSchad,rahoosh64,adampchehadi
+Raspberry Pi Humidity and Temperature Monitor,http://hackcu4.devpost.com/submissions/89439-raspberry-pi-humidity-and-temperature-monitor,"The project is to grab data from the environment and store it in a file for future analysis as well as provide current temperature and humidity data available through a simple website.
+",,https://github.com/maubrey45/HackCu4_2-24-2018,,"","html, python",Sun,22,majo6454,University of Colorado at Boulder,0
+AgriWave: Transforming the Agricultural and Data World,http://hackcu4.devpost.com/submissions/89442-agriwave-transforming-the-agricultural-and-data-world,"Inspiration
+
+AgriWave: We're here to deliver a product that connects the agricultural and data digital world using core technologies in modeling and data analytics to enable a variety of consumers to improve productivity, quality, safety, and sustainability. 
+
+What it does
+
+AgriWave is a software to transform a broad range of industries such as agriculture and logistics to understand data thoroughly for an economic, efficient, and effective agricultural analyses.
+
+We utilize FreeWave technologies in developing countries for the agricultural industries. Freewave can be used in developing countries to gather data on the big three crops: soybeans, corn, and wheat. We focus on irrigation water, electrical energy, dissolved salts, and soil reaction in growing these crops. 
+
+Irrigation is a vital component of agricultural production, particularly in developing countries. With food production increasing in response to the demands of an expanding population and rising prosperity, irrigated agriculture continues to consume and be the largest user of water in all regions of the world. Agriculture accounts for 93% of water consumption worldwide. The agriculture sector is often criticized for high wastage and inefficient use of water at the point of consumption encouraged by subsidized low charges for water use or low energy tariffs for pumping. We need to understand our water usage for economic, environmental, and ethical purposes.
+
+Agriculture is an energy-intensive industry. Agriculture requires energy for important input in production, using energy directly as fuel or electricity to operate machinery and equipment, heat or cool buildings, for lighting on the farm, and indirectly in the fertilizers and chemicals produced off the farm. As farm production becomes more mechanized, the agricultural industry requires timenly energy supplies at particular stages of the production cycle to achieve optimum yields. We need to understand our electrical energy usage for maximum economic and environmental benefits.
+
+Water used for irrigation can vary greatly in quality depending upon type and quantity of dissolved salts. These salts originate from dissolution or weathering of the rocks and soil and carried with the water to wherever it is used. Salt content increasing causes severe toxicity, restricting crop yield. We need to understand and evaluate water quality related to salinity, water infiltration rate, and toxicity for greatest economic gain.
+
+Plants can tolerate a wide pH range in solution culture, but they cannot tolerate a wide range of acidity in the soil. Soil acidity is volatile and often changes, in turn changing the solubility of a number of metal ions. Plant growth is reliant on these varying concentrations of metals in solution rather than the acidity itself. The aim in managing soil pH is not to achieve a particular pH value, but to adjust the acidity to the point where there are no toxic metals in solution and the availability of nutrients is at its maximum. We need to understand the soil reaction and pH level for maximum economic gain.
+
+The weight of crops are important not only to see the growth but also to detect unwanted objects. Being able to sense the weight of a part of crop field and seeing a spike in weight is a sign of potential trespassing and vandalism, an all too common issue in the agricultural industry. We need to see the weight of crops not only for economic gain but for vandalism purposes as well to ensure security and safety of the agricultural industry.
+
+How I built it
+
+With a lot of help from caffeine, we used Laravel's PHP framework to build a full stack web application that can analyze and display hypothetical data from developing country farmland potentially using FreeWave radios. We used n3 charts to create a consumer friendly data analysis page where one can see varying farm data to keep track and understand what exactly is going on.
+
+Challenges I ran into
+
+For half of our team, this was our first Hackathon and we had no idea what to expect. We spent the first few hours going through many different ideas and getting overwhelmed with everything. Laravel, the main component of our project, was also completely new to most of us. 
+
+Accomplishments that I'm proud of
+
+We are super excited to be able to apply our learned academic skills in addition to those we just learned on the spot today for real life applications in the world's largest industry. 
+
+What I learned
+
+In general, the whole concept of a Hackathon was new to us, and we learned how the entire process works. Throughout our project creation process, we started from step one where we went through several ideas and learned how to rule out projects and create outlines quickly due to the time restriction. We also learned how to apply our knowledge to a real, global world problems to create positive impact in our communities. 
+
+What's next for AgriWave: Transforming the Agricultural and Data World
+
+We want to be able to gather actual agricultural data from FreeWave
+",https://www.youtube.com/watch?v=fdjNLwJSaEs,https://github.com/gbains8172/making-waves-in-agriculture,,"FREEWAVE IoT App Challenge, HackDFW/AUVSI","angular.js, html, laravel, javascript, css, react, mysql, caffeine",EarthA,6,ArianaKim,University of Southern California,2,GavinBains,JonathanYiu
+Neo-OnionDNS,http://hackcu4.devpost.com/submissions/89443-neo-oniondns,"Inspiration
+
+Phishing attacks today has been a real problem in Tor networks with the end nodes being compromised, may be due to meltdown or spectre attacks. Our project tries to validate the end nodes of the tor network through a dApp by adding the onion address of the end node correlated with the DNS onto the neo blockchain through a smart contract.
+
+What it does do.
+
+
+
+Onion exit nodes have been un-secure since its inception. Though the exits are been randomly selected, there are directed attacks by which the hacker can control the exit node by owning a large number of tor nodes. There has been rigorous research on this topic, our solution is one among the many to mitigate this problem with the help of neo contracts.
+
+How we decided built it
+
+Instead of allowing the tor network to decide the endpoint, the tor browser queries the blockchain for the DNS of the requested server and gets the correlated onion address of the exit node(which may be a tor service running on the DNS endpoint) ensuring that the exit nodes are secure and thus enabling privacy along with security. 
+
+How we built it
+
+The sequence that we worked on are as follows:
+
+
+Worked towards setting up the neo-blockchain on our test network: Set up two neo peers on docker and ran both nodes on the aws server. 
+Worked towards setting up smart-contracts for the distributed independent verification of .onion ""hidden server"" addresses, and pairing of address to a human-readable URL format.
+
+
+Pending:
+
+
+Implementing blockchain query 
+-ToR integration
+-validation and verification
+
+
+Challenges we ran into
+
+
+Being completely new to blockchain dApps, we had to understand the working of neo and set it up on a linux machine. 
+Committing the smart contracts. Because we were not able to acquire access to starting gas price for use on the Neo's test network.
+
+
+Accomplishments that we're proud of
+
+-The Proof of concept. Our Neo-based dApp would have provided great benefit to users of both ToR hidden services and users of ToR needing secure verifiable access to clearnet websites without the threat imposed by malicious exit nodes.
+-Setting up the neo blockchain. This was our first attempt at working with blockchain-based dApps.
+-Creating a smart contract.
+
+What we learned
+
+-We learned the functionality and methods of interacting with a blockchain and blockchain-based dApps. 
+-We learned about vulnerabilities inherent in the ToR network in its current implementation as well as how we can mitigate security concerns present in the inherent onion network.
+
+What's next for Neo-OnionDNS
+
+
+Completing the Proof of concept and implementing the dApp.
+Extending the tor service by adding the above contribution upstream. 
+
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/30311/zip_files/blank.,"Amazon Web Services - Best Use of AWS, Neo dApp Challenge","neo-blockchain, neo, blockchain, tor, c++",Mercury,23,varunbhat,Colorado State University,1,cinedan
+CU Sign,http://hackcu4.devpost.com/submissions/89446-cu-sign,"Inspiration
+
+Language is the bond that brings communities together.  Having had experience with speech impediments within our group, we understand the many ways being left without a language can isolate an individual.  In our project we hope to bridge the language gap between the mute and the general population.  With CU Sign one who can only speak through ASL will be able to easily communicate with those who have never signed before.
+
+What it does
+
+CU Sign uses real-time image processing through OpenCV as well as decision forests created with TensorFlow in order to classify ASL letters made by the user. Users open the application and sign to their computer's webcam. When they are done with their message, CU Sign archives their message in the form of a word document, and plays it through their computer's speakers. This allows the user to communicate with people around them who can't understand sign language, both verbally and through text.
+
+How we built it
+
+We built the application in three parallel stages:
+1) Word and Image Processing: We used OpenCV and Pillow to both stream and capture images from the computer's webcam. In this system we print precursory results and define the functions space on the computer’s video stream.  At the same time we preprocess the stream: cropping, recoloring and formatting the images so they can be fed directly to our decision forest.  We also used system dependant voice to text libraries — e-speak for Linux and Mac, and win32 for Windows — to speak the final message back to the user regardless of their prefered os. 
+
+2) GUI: Used PyQt5 to build a user interface that allows the user to start and stop recording their messages, and save/play their message transcript. The packages used to generate this simple GUI were QtCore, QtGui, QtWidgets, and OpenCV.
+
+3) Decision Forest: We trained then used a series of decision trees to match the signs shown in the webcam to a repository of over 8000 images showing the alphabet in American Sign Language. A decision tree navigates a range of outputs for the given input (image) by creating pathways for the given values. The forest is a weighted average of decision trees based on accuracy of the trees to help overcome the challenge of overfitting.  This entire forest system was designed using TensorFlow.
+
+Challenges we ran into
+
+
+Neural Network v. Decision Tree: our initial approach to recognizing ASL was to implement a neural net.  As we learned, these systems are designed for continuous functions, not the discrete system defined by ASL. Because of this, our neural net was unable to properly identify any of the signs, so we chose to transition to the use of a Decision Forest to define our network.
+Overfitting: CU Sign needs to be built around an accurate ASL interpreter. We quickly created a Decision Tree which would work perfectly for our 8700 image data set.  Unfortunately, this was an overfit system, when we tried matching to data that was external to the data set, such as our webcam videos, we would have issues getting the correct data. We have changed to a Random Forest Classifier system with randomized initial conditions in an attempt to resolve this issue.
+Text to Speech: many of the text to speech functions native to python were never fully converted to Python 3 from 2. This means while there were plenty of libraries online, almost all of them had obsolete function calls, or improper syntax. This created additional difficulty when we attempted to generalize the project, as the solutions we found in Linux, are not available in Windows, adding another level of complexity to the system.
+Computational Power: Machine Learning in the natural language domain such as ASL requires large amounts of computational power and powerful GPUs. The original plan was to use AWS to aid the training of the language models, but as the AWS account was not accessible to first time users, we had to resort to training our model on our meager ultrabooks. The restriction on the training greatly reduced our accuracy.
+
+
+Accomplishments that we're proud of
+
+At the beginning of this Hackathon, most of our group had very little experience with computer programming, especially when it comes to Python as three quarters of the group had never used it extensively before. We quickly ramped up from barely being able to create functions to implementing an in-depth project.  We are proud of the general growth of the group. Beyond that, we are proud of the solution itself.  We have created a solution to communication barriers that are prevalent in our community, could have a real impact if developed further.
+
+What we learned
+
+We learned how to create this project from the very beginning, from basic function calls, to the installation of Python and its many libraries on both Linux and Windows systems we have made real progress in learning the language.
+
+Beyond general Python, we have learned how to use OpenCV to create and manipulate images, and have gained experience with some of the core foundational concepts of machine learning, and how to create complex systems using TensorFlow. From graphical interfaces, to research on the fundamentals of curve fitting, we have experienced a real range of programming growth in this project.
+
+What's next for CU Sign
+
+CU Sign can be improved by expanding its language library.  There are many things that one might want to communicate which simply cannot be transferred by the alphabet alone, adding common words and punctuation marks to the system would allow it to have a larger impact.
+
+The system could also be more generalized with regard to the work setting.  A majority of the photos used in the dataset have a plain white background, which causes issues when our webcam is in a different environment. Further training in this regard would allow users to interact with our system more freely.
+
+There is still more that needs to be done when it comes to the machine learning process itself.  We still see the effects of overfitting in our system, and we also need to further generalize to allow for symbols that require the use of motion.
+",,https://github.com/SuyogSoti/hand-recognition,,Best Domain Name from Domain.com,"python, scikit-learn, opencv, tensorflow",Sun Room,26,alwa9024,University of Colorado at Boulder,3,suso4455,avan4780,algo2092
+Echo Location Communication Devices,http://hackcu4.devpost.com/submissions/89447-echo-location-communication-devices,"Inspiration
+
+The desire to speak with dolphins and bats all day & night.
+
+What it does
+
+Ecolocations communications lets you speak to dolphins & bats.
+
+How I built it
+
+Domain.com
+
+Challenges I ran into
+
+The domain.com DNS wouldn't point to our code (so the website is built on our amazon website, but unfortunately our echolocationcommunications url doesn't auto re-direct to the amazon website yet.
+
+Accomplishments that I'm proud of
+
+The conversations I've had with bats and dolphins with echo communications location devices.
+
+What I learned
+
+Bats & Dolphins are prettttty cool.
+
+What's next for Echo Location Communication Devices
+
+DNS connections!
+",,https://s3.us-east-2.amazonaws.com/echolocationcommunicationdevices/index.html,,Best Domain Name from Domain.com,"domain.com, html",Sun,45,codyenboden,"University of Colorado at Boulder, Unversity of Colorado Denver",2,BraedenMiguel,Margaretle98
+Spltr,http://hackcu4.devpost.com/submissions/89448-spltr,"We got lost in the sAWS.
+",,,,"","amazon-web-services, javascript, ocr, computer-vison, deep-learning",Sun,48,lume2651,University of Colorado at Boulder,0
+Care Package,http://hackcu4.devpost.com/submissions/89449-care-package,"Inspiration
+
+We wanted to help eliminate fraud and fees associated with donating to charities. With Care Package your donations are always transparent and handled in a trustless manner.
+
+What it does
+
+Care Package allow individuals to donate very small amounts of Nano ($.5-$1) without incurring any fees. Neo then allows all the transactions to be tracked from initial donation to delivery with confirmation by tracking number. Neo stores all the data in a innumerable fashion and provides trusted verification of donation addresses through a digital identity. This two things combine allow much greater transparency compared to centralized crowd funding.
+
+How I built it
+
+Care Package works as follows:
+
+
+A community or organization in need can request any item from Amazon.
+The item's details (price, picture title and link) are automatically added to their post for anyone to view.
+Users then can donate any amount they choose to help fund the item.
+Once funding goal is reached, item is purchased automatically and shipped out!
+
+
+Challenges I ran into
+
+Neo lacks thorough documentation so it took a lot of exploring on our own. Overall the time constraint of 24 hours made it a pretty fun challenge!
+
+Accomplishments that I'm proud of
+
+We have a working front end, working backend, smart contract and a data flow from user to backend that is completely transparent at each step. We were able to finish and test the Neo smart contract and make RPC calls to it.
+
+What I learned
+
+Thinking in terms of bytes and raw inputs is really helpful when working with Neo. Combining it with other cryptocurrencies also added a fun layer of challenge. 
+
+What's next for Care Package
+
+Next we can finish the automated flow of data to the smart contract and import the stability. Also, adding additional cryptocurrency and packing the smart contract for use separately. 
+
+It can also be noted that the idea is implemented in the smart contract and Neo can be applied much more broadly. With the use of verified address, time outs and storage of innumerable data trustless crowdfunding becomes a real possibility. 
+",,https://github.com/silverstar194/NeoDrop,,Neo dApp Challenge,"django, ember.js, neo, nano, brainblocks",Saturn,85,silverstar194,University of Wisconsin - Madison,0
+Alteryx Challenge,http://hackcu4.devpost.com/submissions/89450-alteryx-challenge,"Inspiration
+
+We looked at the challenges, and we were like lets do this one.
+
+What it does
+
+It figures out the binary given by Alteryx and translates it into different stages and then come to an end where the final result is... 
+
+How we built it
+
+We decided to use python to decode all the data, which is our confort point, and helped ourselves with Alteryx when we were stuck, getting out of our confort zone. The ovarall scope is we took the binary and translated it to decimals (by 8 bits) which then we translated into ASCII Values. To our surprise that gave us a lot of links to JSONs, a value from them and an index, so we used Pandas, a plugin for python,to help us make a table organizing all the data. We then plugged in all the Json coordinates and their indexes, (skipping all out of bounds because of errors in the challenge itself) which gave us a big number of coordinates. We put them on a list in maps, that gave us all the previous winter olympics locations and 2022's.
+
+Conclusion
+
+We found out that the event in question was the 2022 Winter Olympics in Beijing, as for the attendance we predict that the attendance will be 1.1 Million. We came to this prediction by looking at the total attendance of the previous event and the similar conditions of Beijing, while taking into account China's investment in the event.
+",,https://github.com/tylerquast/HackCU-2018,,"","python, alteryx, json",Sun,49,alexmartgon,Colorado School of Mines,2,btlin,tylerquast
+HackCUIVFrontend,http://hackcu4.devpost.com/submissions/89452-hackcuivfrontend,"HackCUIVFrontend
+
+We have two repositories with our code. This only allowed uploading one.
+
+Our app allows users to tweet and control a multiplayer socket based game inside an Angular web app. Please ask for more details!
+",,https://hack-cu-iv.firebaseapp.com,,"","javascript, html, shell, batchfile, css",102,102,mrgoodrich,California Polytechnic State University-San Luis Obispo,0
+BeatBounties,http://hackcu4.devpost.com/submissions/89453-beatbounties,"Inspiration
+
+What it does
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for BeatBounties
+
+To be edited
+",,,,"","web3, solidity",neptune,78,CaseyKey,Colorado State University,0
+Spot-A-DJ,http://hackcu4.devpost.com/submissions/89454-spot-a-dj,"Inspiration
+
+In HackCU there was a room with some fire music going on, and I wanted to raise the volume so as to get more coding-hype. The thing is that there were over 100 hackers in the room and satisfying my hunger may bother other hackers. So I thought about creating a simple platform that lets a user share their ""actions"" on Spotify, as in changing the song that is being played or adjusting some settings, for example.
+
+What it does
+
+The final goal is to create a virtual room where one participant gets the role of a DJ and the others are listeners. There is no actual music broadcast, but just Spotify track info being transferred (via Spotify's web-app and Selenium).
+For now, it's only a single computer interaction, and it's ""partially"" finished.
+
+How I built it
+
+In less than 2 hours, with Selenium and Python and lots of trial and error and inspecting code on Chrome.
+
+Challenges I ran into
+
+Being a hacker and a volunteer at the same time is quite a difficult task, so I didn't quite decide on hacking until the very end. 
+
+Accomplishments that I'm proud of
+
+Being able to think so fast in so much little time.
+",,,,"","python, selenium",MLH Hardware booth,1,AlaaMouch,UPC,0
