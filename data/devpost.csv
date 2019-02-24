@@ -52,23 +52,23 @@ The way creators currently come together involves investing time and interaction
 
 What it does
 
-Provides a way for creators to explore potential projects in the marketplace and display a portfolio. Users can sign up using typeform.
+Provides a way for creators to explore potential projects in the marketplace and display a portfolio. Users can sign up using Typeform.
 
 How we built it
 
-HTML/CSS, Javascript, typeform (signup), firebase as the database for user data and host for the web app, node packages, express, angular
+HTML/CSS, Javascript, Typeform (signup), Firebase as the database for user data and host for the web app, Node.js packages, Express, AngularJS
 
 Challenges we ran into
 
-We were unfamiliar with using typeform and firebase so everything was a learning experience. Also, agreeing on an idea was difficult and time consuming.
+We were unfamiliar with using Typeform and Firebase so everything was a learning experience. Also, agreeing on an idea was difficult and time consuming.
 
 Accomplishments that we're proud of
 
-Building something and working with tools we've never used before. We're proud that we were able to pass data between typeform on the website and firebase. We really pushed ourselves by learning new things instead of sticking to what we already know.
+Building something and working with tools we've never used before. We're proud that we were able to pass data between Typeform on the website and Firebase. We really pushed ourselves by learning new things instead of sticking to what we already know.
 
 What we learned
 
-Firebase, typeform, HTML/CSS/Javascript hacks, angular
+Firebase, Typeform, HTML/CSS/Javascript hacks, AngularJS
 
 What's next for CreateHUB
 
@@ -516,13 +516,39 @@ What's next for LocationTracer
 
 We are looking forward to implement geofencing in it so that we can have a device with the kids and get to know if they crossed our neighborhood. We also have a designing the UI in a more enhanced manner.
 ",,https://github.com/hariharakumar7/locationtracer,,"Dish Device Tracker, Best Beginner Hack","java, android, xml, database",1,Main auditorium,22,Colorado State University,"","",HariHaraKumar,"Colorado State University, Sri Venkateswara university",3,lizacool612,Subramaniam,rohitg17
-cyber-security-escape-room,https://hackcuv.devpost.com/submissions/113794-cyber-security-escape-room,"cyber-security-escape-room
+cyber-security-escape-room,https://hackcuv.devpost.com/submissions/113794-cyber-security-escape-room,"Inspiration
 
-Game made with the purpose of educating middle school students about cyber-security in a fun and approachable way. It allows the player to explore the different cyber-security concepts as they solve puzzles to exit the room. 
+We wanted to make a fun and engaging game that would help middle and high school students learn and practice with topics related to cyber-security. 
+
+What it does
+
+It allows the player to explore the different cyber-security concepts as they solve puzzles to exit the room. 
 
 It takes place in a room with different intractable stations. Each station is a computer, safe, or something similar and must be navigated using a command line built into the game. The player practices using some linux commands and solves puzzles related to crytographic concepts. The player must use all the clues to figure out the final password and escape the room. 
 
-cyber_game.py has the main game loop. 
+How we built it
+
+We used pygame to make the game.
+We researched cybersecurity concepts and translated them into puzzles to engage the students playing our game
+
+Challenges we ran into
+
+Making a terminal in the game that accepts broad input
+Lack of knowledge in cyber security topics
+
+Accomplishments that we're proud of
+
+Fleshing out an idea in 24 hours with a brand new team in a topic we were not too comfortable in
+
+What we learned
+
+How to convert educational topics into fun puzzles and other parts of our game
+How to make a terminal
+How to work with pygame
+
+What's next for cyber-security-escape-room
+
+We see our game as a draft for a platform that can be used to educate all skill levels in cyber-security. There is also a lot of room for customization and for creating an online level creation and sharing app.    
 ",,https://github.com/JazKarit/cyber-security-escape-room,,"Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack","python, pygame",1,Main auditorium,24,"CU Boulder; IOE, Pulchowk, Nepal","","",jaskritsingh,"University of Colorado at Boulder, Colorado State University",3,bhattaraisakshat07,NguyenDoHuy,SuphawitDuangphumek
 Eddie,https://hackcuv.devpost.com/submissions/113802-eddie,"Inspiration
 
@@ -644,25 +670,23 @@ AdventureGame,https://hackcuv.devpost.com/submissions/113830-adventuregame,"hack
 ",,https://github.com/aislinnjeske/hackcu,,Best Beginner Hack,java,1,Main auditorium,42,Colorado State University,"","",ThomasKeefe,Colorado State University,2,ashlynrlee,dudeax
 RapidPark,https://hackcuv.devpost.com/submissions/113831-rapidpark,"Inspiration
 
-Parking at the Colorado School of Mines is always a tricky task-- our parking lots are on average 91% full during the week according to Mines' parking services. With so many cars and so little spots on campus, students often have to search for over 15 minutes to find a spot to park before class. We decided that it was time to put an end to this parking madness by taking a technological step in the right direction. Our solution-- RapidPark!
+Parking at the Colorado School of Mines is always a tricky task, so we decided to build a system to prevent the need to drive around looking for a parking place. 
 
 What it does
 
-RapidPark provides both students and parking services with the technology necessary to lessen stress around parking on school campuses. For the student, RapidPark is a web-based application that acts as an easy reference for parking spot availability information. For parking services, it provides a system of license plate recognition and authorization to streamline ticketing and lot analysis. 
-
-On the hardware front, RapidPark is a system of cameras stationed at entrances to parking lots that detects cars entering and leaving the parking lot. When a car is detected, it will update the current lot capacity on our heat-mapped google maps web application. The system updates in real-time, and uses fast computer-vision classification APIs to take the images of the cars and detects aspects of them, such as their license plates. 
+RapidPark is a system of cameras stationed at entrances to parking lots that detects cars entering and leaving the parking lot. When a car is detected, it will update the current lot capacity on the heat-mapped google maps web application. The system updates in real-time, and uses fast computer-vision classification apis to take the images of the cars and detects aspects of them, such as license plates
 
 How we built it
 
-We built RapidPark around an Angular webapp utilizing Python Flask on the backend. Any ""detection system"" that is capable of HTTP requests has the ability to update the parking lot availability. We used Python OpenCV for motion detection and frame parsing to detect direction and key frame grabs during the motion. We tested this system on a raspberry Pi 3, and subsequently created an entire detector for ~$50.
+We built RapidPark around an Angular webapp utilizing Python Flask on the backend. Any ""detection system"" that is capable of HTTP requests has the ability to update the parking lot availability. We used Python OpenCV for motion detection and frame parsing to detect direction and key frame grabs during the motion. We tested this system on a raspberry Pi 3, and subsequently created an entire detector for ~$50
 
 Challenges we ran into
 
-Many of the challenges that we ran into centered around the use of APIs. We were thrilled to see how many APIs were available to us using the RapidAPI interface. Some APIs were harder to get started with than others, however. We wanted to use Google Cloud storage for our application-- however due to our unfamiliarity with API authentication, we couldn't to get Google Cloud strorage up and running couldn't implement it in the end. 
+Google Cloud storage has so many authentication steps -- it really was a mess to get set up and we couldn't implement it in the end. 
 
 Accomplishments that we're proud of
 
-RapidPark is extremely fast and extremely intuitive. It also serves as a solution to a very real problem-- parking is consistently identified as one of the biggest problems on the Mines campus and we are confident it is similarly stressful on other campuses as well. RapidPark serves a very useful, inexpensive, and easily implemented tool to solve this parking issue. RapidPark was also very fun to develop, especially the more we got into it!
+RapidPark is extremely fast and extremely intuitive. It serves an very useful application and was more fun to develop the more we got into it!
 
 What we learned
 
@@ -670,8 +694,8 @@ Flask, Javascript, and rapidAPI!
 
 What's next for rapidPark
 
-We would love to further implement the administrative side of RapidPark for real-time parking violation detection. Currently the system has the ability to identify license plates, we aim to streamline the authentication of these license plates for use with parking services. 
-",https://youtu.be/0Sac6gwPPak,,,"Dish Device Tracker, MLH: Best use of Google Cloud Platform, RapidAPI Best OctoAPI Hack, Best Hardware Hack","python, opencv, node.js, angular.js, google-maps, rapidapi, uploadcare, chart.js, flask, javascript",1,Main auditorium,30,Colorado School of Mines,"",Google Cloud Platform,EastonBornemeier,Colorado School of Mines,2,kfarris,ZKasica
+Implement the administrative side for real-time parking violation detection.
+",https://youtu.be/0Sac6gwPPak,https://github.com/ZKasica/HackCU-Parking,,"Dish Device Tracker, MLH: Best use of Google Cloud Platform, RapidAPI Best OctoAPI Hack, Best Hardware Hack","python, opencv, node.js, angular.js, google-maps, rapidapi, uploadcare, chart.js, flask, javascript",1,Main auditorium,30,Colorado School of Mines,"",Google Cloud Platform,EastonBornemeier,Colorado School of Mines,2,kfarris,ZKasica
 Bike Hero,https://hackcuv.devpost.com/submissions/113834-bike-hero,"Inspiration
 
 Submission for Specialized's challenge. 
@@ -1089,7 +1113,14 @@ An implementation that uses an API hosted on snapsats.space to avoid issues with
 An ios app
 Integrate concept directly into the Snapchat app 
 
-",,http://snapsats.space,,MLH: Best Use of Snap Kit,"python, java",1,Main room,14,United States Air Force Academy,"",Domain.com,Error401-Unauthorized,United States Air Force Academy,0
+
+Note for potential employers
+
+
+Every member of this group has NO binding agreement to the United States Government, job opportunities are not only welcome, but encouraged! 
+ALL members of the team currently posses SECRET clearances
+
+",,http://snapsats.space,,MLH: Best Use of Snap Kit,"python, java, android-studio",1,Main room,14,United States Air Force Academy,"",Domain.com,Error401-Unauthorized,United States Air Force Academy,0
 PeasantSaber,https://hackcuv.devpost.com/submissions/113896-peasantsaber,"Inspiration
 
 stuff
@@ -1123,7 +1154,7 @@ This project exists because of the awful traffic seen on I-70 during the weekend
 ",,https://github.com/TonyNagygyor/TrafficBGone_HACKCU,,"MLH: Best Domain Registered with Domain.com, MLH: Best use of Google Cloud Platform","python, html, smarty",0,Main auditorium,28,Colorado School of Mines,"",Google Cloud Platform,rstarritt,Colorado School of Mines,3,liamwarfield,TonyNagygyor,kalwaissi
 Poop With Me,https://hackcuv.devpost.com/submissions/113913-poop-with-me,"Inspiration
 
-Locating nearest restaurants is now simpler than ever, but what about amenities that actually require urgency? Our goal was to map and list out all locations of bathrooms, and allow users to rate/review them.
+Locating nearby restaurants is now simpler than ever, but what about amenities that actually require urgency? Our goal was to map and list out all locations of bathrooms, and allow users to rate/review them.
 
 What it does
 
@@ -1135,7 +1166,7 @@ Poop With Me is a native Android app built with Java and Android Studio. We took
 
 Challenges I ran into
 
-API for easily finding nearest bathroom did not work, very rusty Java / Android skills.
+API for easily finding nearest bathroom was deprecated, rusty Java / Android skills.
 
 Accomplishments that I'm proud of
 
@@ -1148,7 +1179,7 @@ It's very helpfully to continuously build on working prototypes! Java is a tough
 What's next for Poop With Me
 
 Scaling locating bathrooms to other amenities (ie. wheelchair accessibility), gaining access to datasets outside of Boulder.
-",,https://github.com/calgagi/poop.withme/,,"","android, android-studio, java, google-maps, firebase",0,Main auditorium,NA,"Oregon State University, University of British Columbia","","",charmaineklee,"University of British Columbia, Oregon State University",2,aidangrimshaw,calgagi
+",,https://github.com/calgagi/poop.withme/,,MLH: Best use of Google Cloud Platform,"android, android-studio, java, google-maps, firebase",0,Main auditorium,34,"Oregon State University, University of British Columbia","",Google Cloud Platform,charmaineklee,"University of British Columbia, Oregon State University",2,aidangrimshaw,calgagi
 Hack The Classroom!,https://hackcuv.devpost.com/submissions/113914-hack-the-classroom,"Inspiration
 
 An interactive game systems where students get points for getting the 'flag' by solving puzzles and minigames
@@ -1362,7 +1393,8 @@ All the individual systems communicate over the cloud
 
 Challenges we ran into
 
-Making the gesture control and leap motion work
+Making the gesture control and leap motion work. Making Leap motion compatible with Python.
+Parsing serial data dumped by the python script to be used by photon cloud
 
 Accomplishments that we're proud of
 
@@ -1924,7 +1956,7 @@ How to use APIs in python and how to interpret that data
 What's next for Will you die? A weather experience
 
 At some point I would like to add a user interface of some type
-",,https://github.com/ParkerMorr/HackCU/tree/master,,"",python,0,Main auditorium,There is no number...,University of Colorado,"","",PorkyPenguin,University of Colorado at Boulder,0
+",,https://github.com/ParkerMorr/HackCU/tree/master,,Best Beginner Hack,python,1,Main auditorium,46,University of Colorado,"","",PorkyPenguin,University of Colorado at Boulder,0
 SideKick,https://hackcuv.devpost.com/submissions/113942-sidekick,"Inspiration
 
 We were looking into what incentives attract students to events, and the more research we did, the more we knew that students are facing with an issue regarding time management and free food or fun activities don't bother them much. So, we came up with SideKick, an intuitive scheduler.
@@ -2025,7 +2057,7 @@ computers were a mistake
 What's next for PROJEKT JUICE 2088 VR: 358MECH/fate
 
 After our Oscar's snub, we found ourselves lost and without cause.  Through intensive soul-searching and group therapy, we now have direction.  So today, we are excited to announce the youth novelization of the PROJEKT JUICE Canon.  Written through a collaboration between Stephenie Meyer and Adam Levine, we are hoping to bring this sci-fi fantasy romance thriller to a younger demographic.
-",,,,"","unity, pain, the-friends-we-made-along-the-way, garage-band-check-out-my-soundcloud",0,Vail,49,CU Boulder,Alienware Laptop,"",Schmaron,University of Colorado at Boulder,0
+",,,,"","unity, pain, the-friends-we-made-along-the-way, garage-band-check-out-my-soundcloud",0,Vail,49,CU Boulder,Alienware Laptop,"",Schmaron,University of Colorado at Boulder,1,connorhudson
 Automated Emergency Detection & Notification,https://hackcuv.devpost.com/submissions/113945-automated-emergency-detection-notification,"Inspiration
 
 To create a fast, easy and reliable emergency helpline for people in need
@@ -2110,7 +2142,9 @@ The game would consist of a casebook in which there would be multiple cases that
 Goal for Hackathon:
 
 Our goal in this 24 hour hackathon was to create a simple prototype of the game that would showcase one case in a casebook. The cybersecurity concept this case was focused on was encryption and decryption. Various famous ciphers are hidden throughout the game that the player has to solve. Because our game is aimed toward middle-grade children there is a reference manual at the bottom of the screen that the player can reference to find a description of the cipher and the key they must use to break the code.
+
 The narrative of the game is that a middle school student has had their cell phone and their fellow students phone's confiscated and they want it back. Instead of waiting for the principal to return their cell phone the student has decided to take matters into his own hand and find out where the principal has hidden the cell phone. All the teachers at the school used to be members of the CIA and they all have a nasty habit of encrypting everything in his life using various ciphers. The first scene is the student breaking into the principal’s office to look for his phone. The student instead finds a sticky note attached to the computer (for a former CIA guy the principal doesn’t follow good practices) that is obviously the password. The player then must solve the cipher and enter the password to the computer to gain access.
+
 Once the student gets access to the computer they find an encrypted file on their desktop that contains the cell phone location. Again, the player must then use a different decryption method to decipher what the encrypted file says. The file leads the student to the football field where the gym teacher has left a note that is clearly in Morse Code. The student must use the reference book to translate the message which they then find is still encrypted. So the player needs to decrypt the translated message again. The message is the code to a safe that the student knows is in the gym teacher’s office. If the code is inputted correctly then the student gets back their cellphone and has successfully completed the case.
 
 What’s Next for Cyber Sleuths:
@@ -2134,6 +2168,7 @@ Challenges We Faced:
 We originally wanted to use PyQt because we thought that we would be able to use QtCreator with the designer to help us build the interface. Then we could spend most of our time linking the scenes.
 No one on the team knew anything about PyQt and getting started with doing simple actions such as adding a button to the screen proved to be more time consuming than we expected.
 PyQt5 doesn’t have a lot of documentation therefore making it difficult for us to figure out how to connect all the UI elements.
+We used HTML to display the graphics for the reference manual. This proved to be another challenge we had to overcome because no one on the team had actually used HTML before.
 ",,https://gitlab.com/safetypanda/enigmalearning,,"Design, Build or Break Cyber Games for K-12 Education","python, pyqt5",1,Winter Park,8,Colorado State University,"","",JamesGillman,"Colorado State University, Georgia Institute of Technology - Main Campus",3,MiguelAnGuerrero,TDWL-PDA,lukejohn975
 Encrypt-to-Home,https://hackcuv.devpost.com/submissions/113951-encrypt-to-home,"Inspiration
 
@@ -2282,24 +2317,29 @@ Domain submission ,https://hackcuv.devpost.com/submissions/113956-domain-submiss
 
 The memes.
 ",,https://defnotrickrolled.com/,,MLH: Best Domain Registered with Domain.com,"domain, website-builder",1,Main entrance room,near 48 by splunk,CU boulder,"","",mlay0797,University of Colorado at Boulder,1,drakerutherford
-Mentor,https://hackcuv.devpost.com/submissions/113958-mentor,"Description
+Mentor,https://hackcuv.devpost.com/submissions/113958-mentor,"Motivation
 
-Many computer science students seek to continue developing their skillset, but lack the proper resources to do so. Mentor seeks to fill this gap by providing a companion tool which builds off of fundamental topics and eases
-developers into using new languages and unfamiliar environments. 
+Many computer science students seek to continue developing their skillset, but lack the proper resources to do so. Mentor seeks to fill this gap by providing a companion tool which builds off of fundamental topics and eases developers into using new languages and unfamiliar environments. 
 
 As of 2018, over 80% of introductory computer science courses are taught using Python. Google's language Go, however, is not taught much in academia. We decided to leverage this fact in our development and provided new programmers with the ability to write Python code and view corresponding Go syntax. This speeds up the process of learning a new language. 
 
-Integration to use Mentor is seamless. A daemon running on your local machine will watch as you write your code and constantly keep the iPad companion app up-to-date. Our Atom plugin also provides visual feedback as you code. To activate mentor, simply wrap more familiar Python code in our special sequence of characters: ""////"". The iPad companion app will then show Go suggestions and provide direct access to Go's documentation, allowing developers to learn on the fly.
+Description
 
-How we built it
+Integration to use Mentor is seamless. A daemon running on your local machine will watch as you write your code and constantly keep the iPad companion app up-to-date. Our Atom plugin also provides visual feedback as you code. To activate mentor, simply wrap more familiar Python code in our special sequence of characters: ""////"". The iPad companion app will then show Go suggestions, using our custom translation algorithm. Mentor also provides direct access to Go's documentation, allowing developers to learn on the fly. By tapping a suggestion on the iPad, Mentor will automatically save the changes to the file! This results in a both agile and educational way to program.
 
-Challenges we ran into
+Challenges we ran into and How we built it
 
-Accomplishments that we're proud of
+There were three main problems we had to tackle in developing Mentor:
 
-What we learned
+
+Daemons - Build file
+Translating Python to Go
+Persistance
+
 
 What's next for Mentor
+
+We hope to soon add support for multiple languages. We deliberately made the translation algorithm very generalized 
 ",,https://github.com/TheMkrage/Mentor,,MLH: Best use of Google Cloud Platform,"swift, python, firebase, gcp",0,N129,54,"Harvey Mudd College, UCLA","",Google Cloud Platform,TheMkrage,"Harvey Mudd College, University of California - Los Angeles",2,IshaanGandhi,yoyashing
 Titanium Joe,https://hackcuv.devpost.com/submissions/113959-titanium-joe,"Inspiration
 
@@ -2634,33 +2674,58 @@ What's next for Smart Runner
 
 Next updates for the Smart Runner include interfacing Altitude sensor from mobile phone to the app and Google maps. Also, make a 3D view of the total run or hike for a cooler app interface. Adding pictures and videos linked to different locations on the run or hike will add an immersive experience to it and make a sweet memory with the run/hike.
 ",,https://github.com/NikhilDivekar7/Hack_CU_2019,,"Dish Device Tracker, MLH: Best use of Google Cloud Platform, Best Beginner Hack","mit-app-inventor, python, html, google-maps, google-map-plotter, ubuntu, android, firebase",1,Loveland,TBD,University of Colorado Boulder,"",Google Cloud Platform,NikhilDivekar,University of Colorado at Boulder,2,AnayGondhalekar,MohitRane8
-Binary Boy!,https://hackcuv.devpost.com/submissions/113975-binary-boy,"Inspiration
+Binary Boy!,https://hackcuv.devpost.com/submissions/113975-binary-boy,"Summary:
 
-Each other
+Binary boy’s computer has been infected by a hacker! In order to save his data the user must help Binary Boy to stop the attack and find the hacker who has infected him. Along the way Binary boy must make use of multiple information security and cryptographic tools and techniques to take back his computer and reveal the hacker. 
 
-What it does
+Theme/Genre
 
-Teaches kids about cyber security.
+Binary boy is a story based game that follows a series of mini games each teaching an unique cybersecurity topic. The game follows an overarching plot that outlines how a cyber attack may take place. This game takes place on Binary Boys computer, and each level takes the user to a new part of the computer. Thwarting the attack introduced in each game leads the user to more clues on how to stop the hacker.
 
-How we built it
+Audience
 
-Using Game Maker Studio 2.
+The target audience of the game is elementary and middle school students. The game’s objective it to familiarize the player with cyber security terms and techniques without going into too many details. However, the difficulty of each challenge and the dialog can easily be scaled to a high school level.
 
-Challenges we ran into
+Game Flow Summary
 
-Only had free trial version of game maker.
+The user begins inside his home computer when he notices he is under attack. Binary boy’s first task is to take down the adware viruses using his binary blaster. After completing this, he continues on an adventure, learning about cryptography and cyber security, and . Subsequent levels continue to cover various security attacks and protective measures. 
 
-Accomplishments that we're proud of
+Educational Design
 
-We made an entire game!
+Learning Objectives
+
+The goal of the game is to introduce the user to a variety of cyber security terms and techniques. While there is no code involved, each mini games provides a unique perspective into a computer’s security structure and simulates how each attack might take place. Throughout the game the player is introduced to adware, unsecure connections, DDoS attacks, phishing, SQL injection, and ransomware.
+
+Puzzle/Challenge Structure
+
+The game is segregated into mini-levels, each levels content and gameplay difficulty progresses as the games continues. 
+
+Play Flow
+
+Each mini level contains a unique type of game play, include first person shooter, drag and drop, speed typing and strategy. The user is guided through each level until and prompted with instruction upon the start of a new level. 
+
+Storyline
+
+Setting
+
+The game takes place inside of Binary Boy’s computer on the world wide web! The character is able to navigate all throughout his computer and can even travel to neighboring servers by surfing the web. The user will face challenges in the file system, motherboard, and at the router level. 
+
+Characters
+
+The game follows the adventures of Binary Boy. This is the play who the user controls through the game. Along the way the user will face a narrator and various enemies but no other primary characters. 
+
+Visuals
+
+Binary Boy was developed using GameMaker Studio (Game Maker Language). The player’s avatar is created using sprite sheets and other 2D graphics.  
+
+Challenges
+We only had free trial versions of GameMaker, which made development difficult. It was also hard to finish all of the content on time, as there are a lot of levels.
 
 What we learned
+2 of us had never used GameMaker before, so we spent a lot of time learning the software and IDE. Additionally, we learned how to plan out individual levels of a story game and relate them to educating young students.
 
-How to use gamemaker.
-
-What's next for Binary Boy!
-
-See the ""future works"" section of our design document ;)
+Future Extension
+There are many additions that can be made to this game prototype. For example space was left for a level simulating breaking through a user authentication protocol into the hackers desktop. There would also be efforts made to streamline the user interface and to add audio to the game. For the DDoS level extra functionality can be added too that will slow down Binary Boy as more packages damage either him or the server. Finally, there are levels with user input in the game that could be extended to teach about buffer overflow and sql injections.
 ",,https://github.com/savannahpaul/cyberGame,,"Design, Build or Break Cyber Games for K-12 Education",gamemaker,0,Main,31,Colorado School of Mines,"","",savannahpaul456,Colorado School of Mines,2,jawarcholik,jgranley
 Bittr,https://hackcuv.devpost.com/submissions/113976-bittr,"Inspiration
 
@@ -2670,42 +2735,44 @@ How we built it
 
 Challenges we ran into
 
+Twilio iOS API documentation  
+
 Accomplishments that we're proud of
 
 What we learned
 
 What's next for Bittr
-",,,,Coolest Hack with Twilio,"ios, swift",0,Breck,14,Birmingham City Universtiy,"","",abdulajet,University College London,3,sprusr,harshpal,mbell
+",,https://github.com/mbellgb/bittr,,Coolest Hack with Twilio,"ios, swift, docker, node.js",0,Right side of the main auditorium,14,Birmingham City Universtiy,"","",abdulajet,University College London,3,sprusr,harshpal,mbell
 Social Engineering Wargames Site,https://hackcuv.devpost.com/submissions/113978-social-engineering-wargames-site,"Team name: Social Re-engineers
 
 Inspiration
 
-A lack of social engineering based wargames.
+A lack of social engineering based wargames or wargame sites.
 
 Summary
 
-A website hosting multiple self-contained hacking wargame style challenges or challenge sets. Each designed to teach various concepts and methods used in social engineering and to raise awareness in the recognition of when social engineering is being used. (Currently a work in progress but planning no development  long term outside of hackathon).
+A website hosting multiple self-contained hacking wargame style challenges or challenge sets. Each designed to teach various concepts and methods used in social engineering and to raise awareness in the recognition of when social engineering is being used. (Currently a work in progress but planning on developing long term outside of this hackathon).
 
 Educational Design
 
 Learning Objectives
 
 
-Learn various concepts/methods in social engineering
-Learn ways people can leverage info on targets
-Learn how interconnected personal information can be
-Learn the potential consequences of releasing seemingly innocuous info to the public
-Better prepare players to approach interactions (especially online interactions) with others with caution and critical thinking
+Learn various concepts/methods in social engineering.
+Learn ways people can leverage info on targets.
+Learn how interconnected personal information can be.
+Learn the potential consequences of releasing seemingly innocuous info to the public.
+Better prepare players to approach interactions (especially online interactions) with others with caution and critical thinking.
 
 
 Puzzle/Challenge Structure
 
 
-The website will consist of multiple challenges/missions for the player to go through
+The website will consist of multiple challenges/missions for the player to go through under different collections of games grouped based on the concepts core concepts they aim to teach, and organized in ascending order by difficulty
 Current games: recon & dialogue and social engineering capture the flag
 
 
-Recon & Dialogue - The player will go through a simulation of gaining access to the online bank account of a character we created various accounts for named Alexander Coleman. Will consist of 4 parts:
+Recon & Dialogue - The player will go through a simulation of gaining access to the online bank account of a fictional character named Alexander Coleman. Will consist of 4 parts:
 
 
 Finding a username from one of the social media sites of the mark. 
@@ -2714,6 +2781,23 @@ Actually interacting with person. This will be done through dialogue trees.
 Combing all of the info gained from steps 1-3 and logging into the mark's bank account through a password reset answering a security question.
 
 Social Engineering CTF - The player must call someone, strike up a conversation, and get the person to answer questions from a provided list. Will have multiple lists at different challenge levels.
+
+
+
+Play Flow
+
+
+Players will select a category of game, and then select a game based on difficulty, being able to start at or change to whatever level they feel comfortable with, ideally working their way up the difficulty ladder.
+
+
+Storyline
+
+
+Each game will have it's own context, with some having storylines and others simply being fun tasks:
+
+
+Recon & Dialogue (work in progress): You are up and coming in the online grifting scene and are tasked with obtaining the banking info of a person named Alexander Coleman. We created accounts for him on Twitter, Facebook, and Instagram for use with this game.
+Social Engineering CTF: Currently no story.
 
 
 ",,https://k-12-social-engineering.github.io/k12-Social-Engineering.github.io/,,"Design, Build or Break Cyber Games for K-12 Education","html5, javascript",1,Main Auditorium,42,Colorado School of Mines,"","",m0unt4ine3r,Colorado School of Mines,0
@@ -2754,43 +2838,33 @@ m0rE, R@nd0MSesS!1!
 ",,https://github.com/ncarn2/kindaRandom,,"Coolest Hack with Twilio, Best Beginner Hack","python, pygame, vim, youtube, twilio, github, api, google, idle, linux, windows-10, beginner, ui, bestui, random, webscrape, beautiful-soup, urlib, flask, ffmpeg",1,Main Auditorium,29,Colorado School of Mines (*3),"","",MajorDerp4,Colorado School of Mines,2,arthurmayer,kmizuno874
 PyVideoMusicifier,https://hackcuv.devpost.com/submissions/113980-pyvideomusicifier,"PyVideoMusicifier
 
-
-
 Procedurally Generated Music Videos
 
-===================================
-
-PyVideoMusicifier is an application that converts arbitrary input video into a
- music video based on the accompanying song.
+PyVideoMusicifier is an application that converts arbitrary input video
+into a music video based on the accompanying song.
 
 How Does It Work?
 
-=================
-
-There are two main processing techniques used in PyVideoMusicifier, fourier
- analysis and beat detection.
+There are two main processing techniques used in PyVideoMusicifier,
+fourier analysis and beat detection.
 
 Fourier Analysis
 
-================
-
 Fourier analysis allows us to look at the spectral content of the video.
- From this spectral content we can figure out what the maximum magnitude of all
- the peaks are. From this magnitude we can adjust the brightness of the video to
- correspond.
+From this spectral content we can figure out what the maximum magnitude
+of all the peaks are. From this magnitude we can adjust the brightness
+of the video to correspond.
 
-The Fourier transform is also directly visualized in the video. After sampling
- the transform, the samples are overlayed on the vignette. This allows certain
- musical effects to be seen as well as heard.
+The Fourier transform is also directly visualized in the video. After
+sampling the transform, the samples are overlayed on the vignette. This
+allows certain musical effects to be seen as well as heard.
 
 Beat Detection
 
-==============
-
 Beat detection allows us to figure out at what timestamps beats occur in
-he target audio file. From this list of timestamps we can grow and shrink
-the vignette effect that is overlaying the video.
-",,https://gitlab.com/ColoradoSchoolOfMines/pyvideomusicifier,,"","",0,Main Atrium,32,Colorado School of Mines,"","",robozman,"",0
+the target audio file. From this list of timestamps we can grow and
+shrink the vignette effect that is overlaying the video.
+",,https://gitlab.com/ColoradoSchoolOfMines/pyvideomusicifier,,"","",0,Main Atrium,32,Colorado School of Mines,"","",robozman,Colorado School of Mines,1,Warfields
 JeNeSaisQuoi,https://hackcuv.devpost.com/submissions/113981-jenesaisquoi,"JeNeSaisQuoi
 
 Repository for HackCU Project Team JeNeSaisQuoi
@@ -2843,7 +2917,7 @@ Book_Grab,https://hackcuv.devpost.com/submissions/113985-book_grab,"Book_Grab
 
 Grab those old school textbooks collecting dust on a shelf and post them online. When you post your books people will be able to bid on them or buy them outright (including the shipping label). Save money and earn credit to buy other students textbooks for those classes that have required textbooks.
 ",,https://github.com/rdbork/Book_Grab,,Best Beginner Hack,"python, css, html, javascript, bootstrap, flask",1,Next to S128,2,University of Colorado Boulder,"","",rabo1997,University of Colorado at Boulder,0
-Lauren's Pong Game,https://hackcuv.devpost.com/submissions/113986-lauren-s-pong-game,"Inspiration
+Classic Pong Game,https://hackcuv.devpost.com/submissions/113986-classic-pong-game,"Inspiration
 
 As beginners, we wanted to gain more exposure to making games on Unity.
 
@@ -2967,7 +3041,7 @@ What's next for Twitter Crawler
 
 Develop a better UI application
 ",,http://inteligenti.mybluemix.net/ui,,Best use of Twitter API,"javascript, python, node-red",0,VAIL,51,watson institute,"","",LucasFaria,"",0
-Secure the Cyber Land,https://hackcuv.devpost.com/submissions/113991-secure-the-cyber-land,"Inspiration
+Secure Cyber Land,https://hackcuv.devpost.com/submissions/113991-secure-cyber-land,"Inspiration
 
 To Teach Kids about Cyber Security
 
@@ -2993,3 +3067,38 @@ General Cyber Security Knowledge
 
 What's next for Secure the Cyber Land
 ",,,,"Design, Build or Break Cyber Games for K-12 Education",gdd,0,Main Room at Blockchain table,48 blockchain table,University of Colorado at Boulder,"","",laneolsen21,"",0
+SPO,https://hackcuv.devpost.com/submissions/113992-spo,"Inspiration and Design
+
+The Specialized Foundation is heavily invested in increasing accessibility to cycling to aid youth in personal development and education. While they specifically research the effect of cycling with kids who have ADHD, they believe that riding a bike can positively impact anyone's brain. 
+
+Thus, it was our goal to create a platform that would encourage kids to ride their bike as a way to develop healthy habits and have fun. SPO specifically creates a cycling relationship between a parent and their child, in which the parent can set bounds on where the child rides, keep track of their location and motivate them to play in the outdoors.
+
+The child portal in the app provides limited information (proximity and direction) about where local ""waypoints"" are - bike-centric places that a kid finds their way to as a way to complete a challenge. Either individually or with a group, kids can use the app and plan their own routes to waypoints and earn badges when they arrive at the location. 
+
+Parents have the ability to set a home location in which their child's travel radius is centered around. They also have the ability to modify the size of the travel radius. The travel radius works as a fixed location parameter in which the parent is alerted if the child leaves the circle as a safety measure. 
+
+Challenges we ran into
+
+We wanted this app to be available across all platforms, so we used Flutter, which utilizes Dart, as a way to develop our app. However, none of our team members were experienced with any kind of app development, and only one had played with Flutter before. 
+
+The learning curve for Dart and Flutter was extremely steep and were the cause of the majority of challenges. The Android studio and SDK proved difficult to install, and one teammate wasn't able to utilize the Android Debug Bridge for a couple of hours. We also had to convert map coordinates to bearings in order to get the direction and distance from our given waypoints. This proved challenging in finding the correct equations for the conversion. We also discovered a documentation error in one of the Flutter libraries that prevented us from using the location library, so we rewrote the function onLocationChanged with the correct parameters. 
+
+Future Implications
+
+As riders ourselves, we understand that learning new skills and excelling at them is one of the most fun parts of riding bikes. We would love to encourage kids to learn new tricks like riding with no hands, learning to wheelie, or riding pump tracks. In the future, we would incorporate accelerometers, gyroscopes, and pressure sensors and preset positional changes that indicate if the rider is doing a specific trick. Riders could earn points for doing certain tricks for a certain amount of time. 
+",,https://github.com/AvraSaslow/SPO,,"Kids + Bikes = happier, more attentive students in the classroom","flutter, dart, android-studio, adobe-xd",0,Right side of the auditorium,20,CU,"","",AvraSaslow,University of Colorado at Boulder,3,ramalamadingdong,xfillmore,lahe2512
+The Eliminator Game,https://hackcuv.devpost.com/submissions/113993-the-eliminator-game,"The Eliminator Game:
+
+The Eliminator is a C++ text-based game aims to teach K-12 students about Cyber Risks and the importance of copyrights. The Player will own the copyright of episodes of TV show. If the player lost, he will be eliminated from the game.
+
+Where the Idea came from :
+
+Since a lot of K-12 students enjoy watching show series. We built The Eliminator games interestingly by incorporate those show series, in which the player will choose whether to buy the copyright of the show and whether to sell it now during his/her moves. The goal of this project is to teach K-12 students the importance of copyrights.
+
+How To Run The Game: 
+You can run the game using the terminal or any C++ IDE. If you are using and IDE, you will need to uncomment the include .cpp file on the start of the main.cpp code. 
+",,https://github.com/LayanWM/The-Eliminator.git,,"Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack",c++,1,Main auditorium,47,University of Colorado Boulder,"","",layanmakhtoum,University of Colorado at Boulder,1,mujtabaalhubayl
+Fridge-monitor,https://hackcuv.devpost.com/submissions/113994-fridge-monitor,"FridgeMonitor
+
+When people buy food, and put food into fridge, they may forget how long they have bought those food. Our project is to remind them when they bought the food and in how many days, the food will expire. 
+",,https://github.com/Superczx/Fridge-monitor,,"Best Beginner Hack, Best Hardware Hack, Best usage of Typeform APIs, Splunk Challenge","java, hibernate, database",1,Loveland N129,Middle of Room,University of Colorado Boulder,"","",Superczx,University of Colorado at Boulder,0
