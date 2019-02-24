@@ -400,15 +400,19 @@ We used Google Cloud to host the web server and manage the CTF sub-pages and a D
 ",,http://www.ctfhero.com/,,"MLH: Best Domain Registered with Domain.com, Design, Build or Break Cyber Games for K-12 Education, MLH: Best use of Google Cloud Platform","html, javascript, css, google-cloud, domain.com, redis, node.js, python, ctfd",1,Copper Mountain (S124),9,University of Colorado Boulder,"",Google Cloud Platform,SamFeig,University of Colorado at Boulder,1,mawiwillme
 Enigma,https://hackcuv.devpost.com/submissions/113751-enigma,"Inspiration
 
-We designed and developed a Mystery Game for K-12 Cybersecurity Education.
+We designed and developed a Mystery Game for K-12 Cybersecurity Education. We were inspired by CTF competitions.
 
 What it does
 
-It's a mystery game that tests the K-12 students' knowledge of cybersecurity. At each step, there are puzzles to be solved before they can go forward in the story.
+It's a mystery game that tests the K-12 students' knowledge of cybersecurity. At each step, there are puzzles to be solved before they can go forward in the story. The puzzles include cryptography (encryption and decryption), asymmetry key cryptography (public key, private key), hashing, packet sniffing, reverse engineering, and social engineering, and analyzing the source code. 
+
+Storyline
+
+Hunter family have been disappeared for 3 years. Nobody knows where they are. Whoever has looked for them has disappeared too, because they couldn’t solve the enigma. 3 years after their disappearance, detective Schmidt from Nebraska agreed to work on the case voluntarily, not just because nobody had been able to solve the enigma, but because of the scary accounts told by other detectives. He finds clues in the house to find the lost rooms, until he gets to...
 
 How we built it
 
-Mahshab created the storyline. Mahshab and Ghazaleh created the graphics in Photoshop and Adobe Illustrator. Ghazaleh, Sepideh and Maziyar worked on the Front End. Sepideh and Maziyar worked on the Backend and Cybersecurity questions.
+Mahshab created the storyline. Mahshab and Ghazaleh created the graphics in Photoshop and Adobe Illustrator, from scratch. Ghazaleh, Sepideh and Maziyar worked on the Front End. Sepideh and Maziyar worked on the Backend and Cybersecurity questions.
 
 Challenges we ran into
 
@@ -416,7 +420,7 @@ Dealing with flask; Animating page elements using Javascript; Connecting the sto
 
 Accomplishments that we're proud of
 
-Good story, good graphics, making it all work!
+Good story, good graphics, making it all work! 
 
 What we learned
 
@@ -426,7 +430,7 @@ We learned animating the page elements with JavaScript. We were challenged by an
 What's next for Enigma
 
 Implementing the rest of story (which is so interesting, but 24 hours was too short for its implementation).
-",,https://github.com/goodarzysepideh/enigma,,"Design, Build or Break Cyber Games for K-12 Education","flask, html5, css3, javascript, jquery, photoshop, adobe-illustrator, python, wireshark",1,Main auditorium,38,"University of Colorado Boulder, Front Range Community College","","",ghka9436,"University of Colorado at Boulder, Front Range Community College",3,SepidehGoodarzy,maziyarnazari,mahshabtajik
+",,https://github.com/goodarzysepideh/enigma,,"Design, Build or Break Cyber Games for K-12 Education","flask, html5, css3, javascript, jquery, photoshop, adobe-illustrator, python, wireshark, gdb, objdump",1,Main auditorium,38,"University of Colorado Boulder, Front Range Community College","","",ghka9436,"University of Colorado at Boulder, Front Range Community College",3,SepidehGoodarzy,maziyarnazari,mahshabtajik
 Firewall Fighter,https://hackcuv.devpost.com/submissions/113758-firewall-fighter,"Inspiration
 
 The idea of teaching kids about cybersecurity at an early age got us thinking about when we first learned about anything related to cybersecurity. Among our earliest memories included learning about firewalls, but the way we were taught about it was both uninteresting and inaccurate in hindsight. The teacher would simply put an inaccurate diagram on the board and inform us that it ""blocked most of the traffic from our computers."" We felt that this model did not properly represent the amount of parsing and work a firewall must perform, and there must be a better way to teach students about this concept.
@@ -670,31 +674,33 @@ AdventureGame,https://hackcuv.devpost.com/submissions/113830-adventuregame,"hack
 ",,https://github.com/aislinnjeske/hackcu,,Best Beginner Hack,java,1,Main auditorium,42,Colorado State University,"","",ThomasKeefe,Colorado State University,2,ashlynrlee,dudeax
 RapidPark,https://hackcuv.devpost.com/submissions/113831-rapidpark,"Inspiration
 
-Parking at the Colorado School of Mines is always a tricky task, so we decided to build a system to prevent the need to drive around looking for a parking place. 
+Parking at the Colorado School of Mines is always a tricky task-- our parking lots are on average 91% full during the week according to Mines' parking services. With so many cars and so little spots on campus, students often have to search for over 15 minutes to find a spot to park before class. We decided that it was time to put an end to this parking madness by taking a technological step in the right direction. Our solution-- RapidPark!
 
 What it does
 
-RapidPark is a system of cameras stationed at entrances to parking lots that detects cars entering and leaving the parking lot. When a car is detected, it will update the current lot capacity on the heat-mapped google maps web application. The system updates in real-time, and uses fast computer-vision classification apis to take the images of the cars and detects aspects of them, such as license plates
+RapidPark provides both students and parking services with the technology necessary to lessen stress around parking on school campuses. For the student, RapidPark is a web-based application that acts as an easy reference for parking spot availability information. For parking services, it provides a system of license plate recognition and authorization to streamline ticketing and lot analysis.
+
+On the hardware front, RapidPark is a system of cameras stationed at entrances to parking lots that detects cars entering and leaving the parking lot. When a car is detected, it will update the current lot capacity on our heat-mapped google maps web application. The system updates in real-time, and uses fast computer-vision classification APIs to take the images of the cars and detects aspects of them, such as their license plates.
 
 How we built it
 
-We built RapidPark around an Angular webapp utilizing Python Flask on the backend. Any ""detection system"" that is capable of HTTP requests has the ability to update the parking lot availability. We used Python OpenCV for motion detection and frame parsing to detect direction and key frame grabs during the motion. We tested this system on a raspberry Pi 3, and subsequently created an entire detector for ~$50
+We built RapidPark around an Angular webapp utilizing Python Flask on the backend. Any ""detection system"" that is capable of HTTP requests has the ability to update the parking lot availability. We used Python OpenCV for motion detection and frame parsing to detect direction and key frame grabs during the motion. We tested this system on a raspberry Pi 3, and subsequently created an entire detector for ~$50.
 
 Challenges we ran into
 
-Google Cloud storage has so many authentication steps -- it really was a mess to get set up and we couldn't implement it in the end. 
+Many of the challenges that we ran into centered around the use of APIs. We were thrilled to see how many APIs were available to us using the RapidAPI interface. Some APIs were harder to get started with than others, however. We wanted to use Google Cloud storage for our application-- however due to our unfamiliarity with API authentication, we couldn't to get Google Cloud strorage up and running couldn't implement it in the end.
 
 Accomplishments that we're proud of
 
-RapidPark is extremely fast and extremely intuitive. It serves an very useful application and was more fun to develop the more we got into it!
+RapidPark is extremely fast and extremely intuitive. It also serves as a solution to a very real problem-- parking is consistently identified as one of the biggest problems on the Mines campus and we are confident it is similarly stressful on other campuses as well. RapidPark serves a very useful, inexpensive, and easily implemented tool to solve this parking issue. RapidPark was also very fun to develop, especially the more we got into it!
 
 What we learned
 
-Flask, Javascript, and rapidAPI!
+Flask, Javascript, and rapidAPI! Before this project we were all novices in the use of APIs. Now, we feel much more confident in using them! Additionally, this application was a great mesh of frontend and backend development. Thus, we learned a lot about full stack development!
 
 What's next for rapidPark
 
-Implement the administrative side for real-time parking violation detection.
+We would love to further implement the administrative side of RapidPark for real-time parking violation detection. Currently the system has the ability to identify license plates, we aim to streamline the authentication of these license plates for use with parking services.
 ",https://youtu.be/0Sac6gwPPak,https://github.com/ZKasica/HackCU-Parking,,"Dish Device Tracker, MLH: Best use of Google Cloud Platform, RapidAPI Best OctoAPI Hack, Best Hardware Hack","python, opencv, node.js, angular.js, google-maps, rapidapi, uploadcare, chart.js, flask, javascript",1,Main auditorium,30,Colorado School of Mines,"",Google Cloud Platform,EastonBornemeier,Colorado School of Mines,2,kfarris,ZKasica
 Bike Hero,https://hackcuv.devpost.com/submissions/113834-bike-hero,"Inspiration
 
@@ -721,12 +727,10 @@ Accomplishments that we're proud of
 
 Gorgeous user interface, that links with Snapchat to create a data-rich sticker.
 
-What we learned
-
 What's next for Bike Hero
 
 We're going to Disney Land.
-",,,,"MLH: Best Use of Snap Kit, Twisted hackers, Kids + Bikes = happier, more attentive students in the classroom, Coolest Hack with Twilio, MLH: Best use of Google Cloud Platform","html5, css3, mapbox, swift, snap-kit, twilio, github, javascript, postgresql, google-cloud, xcode",0,Hacker Space,17,CU Boulder,"",Snap,SandeepSKaushik,University of Colorado at Boulder,3,Jaxkr,culsense,42ultra
+",,https://github.com/Jaxkr/HackCU5-BikeHero,,"MLH: Best Use of Snap Kit, Twisted hackers, Kids + Bikes = happier, more attentive students in the classroom, Coolest Hack with Twilio, MLH: Best use of Google Cloud Platform","html5, css3, mapbox, swift, snap-kit, twilio, github, javascript, postgresql, google-cloud, xcode",0,Hacker Space,17,CU Boulder,"",Snap,SandeepSKaushik,University of Colorado at Boulder,3,Jaxkr,culsense,42ultra
 Get The Fuck App,https://hackcuv.devpost.com/submissions/113862-get-the-fuck-app,"GetTheFuckApp
 
 Inspiration
@@ -3034,15 +3038,15 @@ The Artificial Intelligence engine categorizes thousands of data and shows the i
 
 Challenges I ran into
 
-Twitter API accuracy
+Twitter API accuracy, data source size, analyzing emoticons.
 
 Accomplishments that I'm proud of
 
-Be able to reach out people who are yelling for help in social media
+Be able to reach out people who are yelling for help in social media and try to engage them.
 
 What I learned
 
-Data is the new oil
+Data is the new oil!!
 
 What's next for Twitter Crawler
 
@@ -3095,15 +3099,26 @@ Future Implications
 As riders ourselves, we understand that learning new skills and excelling at them is one of the most fun parts of riding bikes. We would love to encourage kids to learn new tricks like riding with no hands, learning to wheelie, or riding pump tracks. In the future, we would incorporate accelerometers, gyroscopes, and pressure sensors and preset positional changes that indicate if the rider is doing a specific trick. Riders could earn points for doing certain tricks for a certain amount of time. 
 ",,https://github.com/AvraSaslow/SPO,,"Kids + Bikes = happier, more attentive students in the classroom","flutter, dart, android-studio, adobe-xd",0,Right side of the auditorium,20,CU,"","",AvraSaslow,University of Colorado at Boulder,3,ramalamadingdong,xfillmore,lahe2512
 The Eliminator Game,https://hackcuv.devpost.com/submissions/113993-the-eliminator-game,"The Eliminator Game:
+The Eliminator is a C++ text-based game aims to teach K-12 students about cyber risks and the importance of copyrights. The Player will own the copyright of episodes of TV show. If the player lost, he will be eliminated from the game. during the game the player will have to solve a puzzle in order to perform some actions. The puzzle is set of questions related to cyber risks that  K-12 students might face.
 
-The Eliminator is a C++ text-based game aims to teach K-12 students about Cyber Risks and the importance of copyrights. The Player will own the copyright of episodes of TV show. If the player lost, he will be eliminated from the game.
+Where the idea came from :
+Since a lot of K-12 students enjoy watching show series. We built The Eliminator games interestingly by incorporate those TV shows, in which the player choose whether to buy the copyright of the show and whether to sell it during his/her moves. 
 
-Where the Idea came from :
+How to run the game: 
+You can run the game using the terminal or any C++ IDE. If you are using and IDE, you will need to incomment the include .cpp file on the start of the main.cpp code. 
 
-Since a lot of K-12 students enjoy watching show series. We built The Eliminator games interestingly by incorporate those show series, in which the player will choose whether to buy the copyright of the show and whether to sell it now during his/her moves. The goal of this project is to teach K-12 students the importance of copyrights.
+How to play the game:
+1-the player will start with $2000.
+2- `the player should roll the dice and the dice has six sides (1-6).
+3- He/she will move depending on what the dice rolled.
+4- if the player passes by go he/she will earn $200. 
+5- if an action card appeared the player will either lose or win money 
+6- The player has the option to buy an episode if he/she is on that episode spot.
+7- The player has the option to sell the copyright of the episode back to the bank. 
+8- If the player wants to rent an episode from another player, he/she has to pay a fee(the fee depends on how many cards from the same set the owner has). 
 
-How To Run The Game: 
-You can run the game using the terminal or any C++ IDE. If you are using and IDE, you will need to uncomment the include .cpp file on the start of the main.cpp code. 
+How to win:
+the player who left to last in the game wins.
 ",,https://github.com/LayanWM/The-Eliminator.git,,"Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack",c++,1,Main auditorium,47,University of Colorado Boulder,"","",layanmakhtoum,University of Colorado at Boulder,1,mujtabaalhubayl
 Fridge-monitor,https://hackcuv.devpost.com/submissions/113994-fridge-monitor,"FridgeMonitor
 
@@ -3123,3 +3138,8 @@ What I learned = api usage at http get
 
 What's next for meme-map - integration with twitter, like system, and user submission box
 ",,http://aurangzeb.net:8080/hack2242019,,"","javascript, html5",1,main,1,University of Colorado - Boulder,"","",auma91,University of Colorado at Boulder,0
+TravelTimmy,https://hackcuv.devpost.com/submissions/113996-traveltimmy,"Where did I leave the boarding pass again? Did I book my flight yet? ##
+
+TravelTimmy takes the strain out of travelling for business. Ask Timmy to get you a quote for the flight to your next destination. Rest assured that you get access to the cheapest flights, thanks to the Skyscanner API. 
+Like the flight? Book it instantly via their platform and lean back - Timmy takes care of your ticket as well and has it ready when you need it. All of that from the comfort of your favourite communication tool Twist.
+",,https://github.com/damiafuentes/travelTimmy2.git,,Twisted hackers,twist,1,Main auditorium,36,uccs,"","",ericvelazquez,University of Colorado at Colorado Springs,2,brunoibez,lluisumbert
