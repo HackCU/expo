@@ -2125,7 +2125,7 @@ What's next for Decrypted The Game
 
 We'd like to refine the textures, add more levels with more quests about different topics within the cybersecurity realm. Animation for characters is definitely on of the first things we will tackle however. Maybe even a user customization screen for their character.
 ",https://youtu.be/Szyxp7RunZo,http://decryptedgame.com,,"MLH: Best Domain Registered with Domain.com, Design, Build or Break Cyber Games for K-12 Education","unity, c#, photoshop, pycharm, adobe-brackets",0,Lobby,11,"University of Colorado Denver, University of Colorado Colorado Springs","",Domain.com,wallacecs007,"University of Colorado Denver, University of Colorado at Colorado Springs",1,ElijahSalberg
-Cipher Slueth: Case of the Missing Cellphones,https://hackcuv.devpost.com/submissions/113950-cipher-slueth-case-of-the-missing-cellphones,"Cipher Sleuth: Case of the Missing Cell Phones
+Cipher Slueth: The Case of the Missing Cellphones,https://hackcuv.devpost.com/submissions/113950-cipher-slueth-the-case-of-the-missing-cellphones,"Cipher Sleuth: Case of the Missing Cell Phones
 
 Target Age Group: Grades 4-7 (ages 8-12)
 
@@ -2169,7 +2169,7 @@ We originally wanted to use PyQt because we thought that we would be able to use
 No one on the team knew anything about PyQt and getting started with doing simple actions such as adding a button to the screen proved to be more time consuming than we expected.
 PyQt5 doesn’t have a lot of documentation therefore making it difficult for us to figure out how to connect all the UI elements.
 We used HTML to display the graphics for the reference manual. This proved to be another challenge we had to overcome because no one on the team had actually used HTML before.
-",,https://gitlab.com/safetypanda/enigmalearning,,"Design, Build or Break Cyber Games for K-12 Education","python, pyqt5",1,Winter Park,8,Colorado State University,"","",JamesGillman,"Colorado State University, Georgia Institute of Technology - Main Campus",3,MiguelAnGuerrero,TDWL-PDA,lukejohn975
+",,https://gitlab.com/safetypanda/enigmalearning,,"Design, Build or Break Cyber Games for K-12 Education","python, pyqt5, html, sketchbook",1,Winter Park,8,Colorado State University,"","",JamesGillman,"Colorado State University, Georgia Institute of Technology - Main Campus",3,MiguelAnGuerrero,TDWL-PDA,lukejohn975
 Encrypt-to-Home,https://hackcuv.devpost.com/submissions/113951-encrypt-to-home,"Inspiration
 
 We knew that, psychologically, children are best languages best at a very young age. This includes pattern recognition, which is a large part of decryption. We implemented facilitation style-teaching, which is an effective teaching style that emphasizes ideas of exploration and analysis to develop critical thinking. These attributes help with cyber security and understanding the ideas of encryption. Ideas in our game also reinforces educational ideas, such as mathematics and logical thinking, which are key skills in cyber security and encryption.  This inspired us to design a young children's game aimed to introduce children to the idea of encryption and decryption on the surface level! 
@@ -2719,12 +2719,15 @@ Visuals
 Binary Boy was developed using GameMaker Studio (Game Maker Language). The player’s avatar is created using sprite sheets and other 2D graphics.  
 
 Challenges
+
 We only had free trial versions of GameMaker, which made development difficult. It was also hard to finish all of the content on time, as there are a lot of levels.
 
 What we learned
+
 2 of us had never used GameMaker before, so we spent a lot of time learning the software and IDE. Additionally, we learned how to plan out individual levels of a story game and relate them to educating young students.
 
 Future Extension
+
 There are many additions that can be made to this game prototype. For example space was left for a level simulating breaking through a user authentication protocol into the hackers desktop. There would also be efforts made to streamline the user interface and to add audio to the game. For the DDoS level extra functionality can be added too that will slow down Binary Boy as more packages damage either him or the server. Finally, there are levels with user input in the game that could be extended to teach about buffer overflow and sql injections.
 ",,https://github.com/savannahpaul/cyberGame,,"Design, Build or Break Cyber Games for K-12 Education",gamemaker,0,Main,31,Colorado School of Mines,"","",savannahpaul456,Colorado School of Mines,2,jawarcholik,jgranley
 Bittr,https://hackcuv.devpost.com/submissions/113976-bittr,"Inspiration
@@ -2747,7 +2750,7 @@ Social Engineering Wargames Site,https://hackcuv.devpost.com/submissions/113978-
 
 Inspiration
 
-A lack of social engineering based wargames or wargame sites.
+Sites like hackthissite, overthewire, and smashthestack and a lack of social engineering based wargames or wargame sites.
 
 Summary
 
@@ -2768,8 +2771,8 @@ Better prepare players to approach interactions (especially online interactions)
 Puzzle/Challenge Structure
 
 
-The website will consist of multiple challenges/missions for the player to go through under different collections of games grouped based on the concepts core concepts they aim to teach, and organized in ascending order by difficulty
-Current games: recon & dialogue and social engineering capture the flag
+The website will consist of multiple challenges/missions for the player to go through under different collections of games grouped based on the core concepts they aim to teach, and organized in ascending order by difficulty.
+Current games: recon & dialogue and social engineering capture the flag.
 
 
 Recon & Dialogue - The player will go through a simulation of gaining access to the online bank account of a fictional character named Alexander Coleman. Will consist of 4 parts:
@@ -2946,8 +2949,12 @@ What's next for Lauren's Pong Game
 
 Distribute for others to enjoy as well! Competition enables people to socialize, and having community with one-another can help build more meaningful friendships.
 ",,,,Best Beginner Hack,"unity, visual-studio",1,Eldora,4,United States Air Force Academy,"","",blondieblue242,United States Air Force Academy,2,ggills150,y4b0isius
-HackCU2019,https://hackcuv.devpost.com/submissions/113987-hackcu2019,"HackCU2019
-",,https://github.com/jotk/HackCU2019,,Big Data Analytics: Non-Obvious Web Traffic,jupyter-notebook,0,asdf,adsf,asdf,"","",cyeung,Neumont College of Computer Science,0
+OppenheimerFunds Big Data challenge 2019 @HackCU,https://hackcuv.devpost.com/submissions/113987-oppenheimerfunds-big-data-challenge-2019-hackcu,"OppenheimerFunds Big Data challenge 2019 @HackCU
+
+This is a project where 3 of us, have to apply Cluster Analysis to mine the potential data hiding inside a dataset that contains 36 million records.
+
+Jon and Baljot spent ninety percents of the time to analyze and apply the methodology to mine and organize the hidden data, Chun spent thirty percents of the time helping Jon and Baljot, and spent the rest of time to building the frontend website for presentation.
+",,https://github.com/jotk/HackCU2019,,Big Data Analytics: Non-Obvious Web Traffic,"jupyter-notebook, pandas, numpy, matplotlib, html5, css3, java, sass, bootstrap",0,South 125,2,"University of Colorado Boulder, Neumont College of Computer Science","","",cyeung,Neumont College of Computer Science,0
 Juxtaposition,https://hackcuv.devpost.com/submissions/113988-juxtaposition,"Inspiration
 
 Chaotic dynamics, static noise, etc...
@@ -3071,7 +3078,7 @@ SPO,https://hackcuv.devpost.com/submissions/113992-spo,"Inspiration and Design
 
 The Specialized Foundation is heavily invested in increasing accessibility to cycling to aid youth in personal development and education. While they specifically research the effect of cycling with kids who have ADHD, they believe that riding a bike can positively impact anyone's brain. 
 
-Thus, it was our goal to create a platform that would encourage kids to ride their bike as a way to develop healthy habits and have fun. SPO specifically creates a cycling relationship between a parent and their child, in which the parent can set bounds on where the child rides, keep track of their location and motivate them to play in the outdoors.
+Thus, it was our goal to create a platform that would encourage kids to ride their bike as a way to develop healthy habits and have fun. SPO specifically creates a cycling relationship between a parent and their child, in which the parent can set bounds on where the child rides, keep track of their location and motivate them to play outdoors.
 
 The child portal in the app provides limited information (proximity and direction) about where local ""waypoints"" are - bike-centric places that a kid finds their way to as a way to complete a challenge. Either individually or with a group, kids can use the app and plan their own routes to waypoints and earn badges when they arrive at the location. 
 
@@ -3101,4 +3108,18 @@ You can run the game using the terminal or any C++ IDE. If you are using and IDE
 Fridge-monitor,https://hackcuv.devpost.com/submissions/113994-fridge-monitor,"FridgeMonitor
 
 When people buy food, and put food into fridge, they may forget how long they have bought those food. Our project is to remind them when they bought the food and in how many days, the food will expire. 
-",,https://github.com/Superczx/Fridge-monitor,,"Best Beginner Hack, Best Hardware Hack, Best usage of Typeform APIs, Splunk Challenge","java, hibernate, database",1,Loveland N129,Middle of Room,University of Colorado Boulder,"","",Superczx,University of Colorado at Boulder,0
+",,https://github.com/Superczx/Fridge-monitor,,"Best Beginner Hack, Best Hardware Hack, Best usage of Typeform APIs, Splunk Challenge","java, hibernate, database",1,Loveland N129,Middle of Room,University of Colorado Boulder,"","",Superczx,University of Colorado at Boulder,1,yuru4772
+meme-map,https://hackcuv.devpost.com/submissions/113995-meme-map,"Inspiration= a stories like feature for memes
+
+What it does = ideally open popular memes in your area
+
+How I built it - JS anf html, gmaps api, and python
+
+Challenges I ran into - js script gmaps api syntzx was the biggest issue
+
+Accomplishments that I'm proud of - basically learned js = and api usage for the first time today
+
+What I learned = api usage at http get
+
+What's next for meme-map - integration with twitter, like system, and user submission box
+",,http://aurangzeb.net:8080/hack2242019,,"","javascript, html5",1,main,1,University of Colorado - Boulder,"","",auma91,University of Colorado at Boulder,0
