@@ -40,7 +40,7 @@ Additional experience in HTML/CSS, Javascript, NodeJS, and React
 What's Next For PartyLink
 
 Has potential to include APIs for some features. We originally wanted to include a map pin pointing all on/off campus student parties and also to add Snapchat Bitmoji integration but time was limited. There is also lots of room to expand communications with users of the application and their Universities.
-",,https://github.com/Mohit-Doshi/Hack-CU-V,,"Best usage of Typeform APIs, MLH: Best Use of Snap Kit, Coolest Hack with Twilio, Best Beginner Hack, MLH: Best Domain Registered with Domain.com","node.js, mongodb, javascript, ngrok, api, typeform-api, react",1,Main auditorium,34,"Colorado State University, Arizona State University, University of Colorado at Boulder","",Domain.com,Kareemator,"Colorado State University, Arizona State University, University of Colorado at Boulder",3,MohitDoshi,imjncarlson,djblackbelt
+",,https://github.com/Mohit-Doshi/Hack-CU-V,,"Best usage of Typeform APIs, MLH: Best Use of Snap Kit, MLH: Best Domain Registered with Domain.com, Coolest Hack with Twilio, Best Beginner Hack","node.js, mongodb, javascript, ngrok, api, typeform-api, react",1,Main auditorium,34,"Colorado State University, Arizona State University, University of Colorado at Boulder","",Domain.com,Kareemator,"Colorado State University, Arizona State University, University of Colorado at Boulder",3,MohitDoshi,imjncarlson,djblackbelt
 CreateHUB,https://hackcuv.devpost.com/submissions/113508-createhub,"GitHub: https://github.com/vitr2218/HackCUProject
 
 Inspiration
@@ -209,7 +209,9 @@ What's next for Keppies Space Simulator
 
 Spaceships and life on planets.
 ",,https://github.com/tdepke2/KeppiesSpaceSim,,Best Beginner Hack,"c++, sfml",1,Vail,1,"","","",tdepke,Colorado School of Mines,0
-MIXBOY Advance,https://hackcuv.devpost.com/submissions/113533-mixboy-advance,"Inspiration
+MIXBOY Advance,https://hackcuv.devpost.com/submissions/113533-mixboy-advance,"To get the clearest idea of what this is, skip the reading and just watch this demo: https://www.youtube.com/watch?v=WmD76k6nBVs&feature=youtu.be
+
+Inspiration
 
 Perhaps the most iconic instrument in contemporary music – especially hip-hop – is the sampler/sequencer (here's one of my favorite videos about how some beautiful music came from it https://youtu.be/SENzTt3ftiU). In short; it's an instrument that takes any sample of audio – speech, music, drums – chops it into 16 to 32 discrete sounds, and then lets you play those sounds as though they were notes on a keyboard. It also lets you sequence/save what you play; when you record, it determines where in a 32-bar sequence an individual note you played should go, and then it plays back that sequence later on.
 
@@ -234,7 +236,7 @@ It's hard to build a sequencer! We built one. We turned a several hundred/thousa
 What's next for MIXBOY Advance
 
 Turning it into a full-fledged multi-track sequencer instead of just one sample one track. Figuring out better ways to process the audio. Putting it in front of kids to see what kinds of creative stuff they can come up with.
-",,http://mixboy.surge.sh,,"","react, midi.js, webmidi, love, kirby",1,Main auditorium,idk yet,CU Boulder,"","",krrishd,"University of Colorado, Boulder, University of Colorado at Boulder",1,MichaelMerola
+",https://www.youtube.com/watch?v=WmD76k6nBVs&feature=youtu.be,http://mixboy.surge.sh,,"","react, midi.js, webmidi, love, kirby",1,Main auditorium,idk yet,CU Boulder,"","",krrishd,"University of Colorado, Boulder, University of Colorado at Boulder",1,MichaelMerola
 autoBleep,https://hackcuv.devpost.com/submissions/113577-autobleep,"autoBleep
 
 A neural net enabled video project to read lips and anticipate bad words
@@ -301,10 +303,6 @@ Challenges we ran into
 
 Perhaps the biggest challenge we ran into was with our original idea. We originally planned to have a Raspberry Pi function as an antenna, decreasing the size and increasing the simplicity of our design. However, we learned much later that the WiFi adapters we planned on using would not support this kind of functionality and that we would have to scrap the idea for our own computers with much more supported internet cards.
 
-Accomplishments that we're proud of
-
-Accuracy
-
 What we learned
 
 We learned that USB WiFi adapters are no substitute for the internal WiFi cards already enclosed within our other computers.
@@ -312,7 +310,7 @@ We learned that USB WiFi adapters are no substitute for the internal WiFi cards 
 What's next for MLocation
 
 We plan on using WiFi adapters that are supported with Raspberry Pis as well as implement other methods of determining a location (such as angle of arrival, time of arrival, and channel state information) in the future in order to fulfill our original vision.
-",,,,"Big Data Analytics: Non-Obvious Web Traffic, Best Hardware Hack, MLH: Best use of Google Cloud Platform, Dish Device Tracker","python, gcp, easel.js, rssi",1,Main auditorium,33,Colorado School of Mines,"",Google Cloud Platform,BenPerkins336,Colorado School of Mines,3,sumnerevans,nickjar99,jnunez101
+",,,,"Dish Device Tracker, MLH: Best use of Google Cloud Platform, Best Hardware Hack, Big Data Analytics: Non-Obvious Web Traffic","python, gcp, easel.js, rssi",1,Main auditorium,33,Colorado School of Mines,"",Google Cloud Platform,BenPerkins336,Colorado School of Mines,3,sumnerevans,nickjar99,jnunez101
 Food Lord,https://hackcuv.devpost.com/submissions/113619-food-lord,"Inspiration
 
 Have you ever thought about what are you really eating? Maybe no. Are you too lazy for counting calories and for monitoring if you exceed the limit? Maybe yes. Here is where Food Lord borns. An application that allows you to take a picture and automagically know what are you gonna eat!
@@ -362,7 +360,7 @@ We learned a lot using the RapidAPI and discovering the huge amount of APIs that
 What's next for Food Lord
 
 There are a lot of enhancements and next steps that Food Lord could have. But, for example, could be interesting to share the meals and their estimations with the user dietist so he/she could help the user to be even healthier.
-",,https://github.com/atsuky/foodlord,,"RapidAPI Best OctoAPI Hack, MLH: Best use of Google Cloud Platform, MLH: Best Domain Registered with Domain.com","python, react, rapidapi, openapi, flask, grommet, postgresql",0,Next to screen with the schedule,18,Universitat Politècnica de Catalunya,"",Google Cloud Platform,AlbertSuarez,"Universitat Politecnica de Catalunya, UPC",3,felixarpa,charliecb,andreugallofre
+",,https://github.com/atsuky/foodlord,,"MLH: Best Domain Registered with Domain.com, MLH: Best use of Google Cloud Platform, RapidAPI Best OctoAPI Hack","python, react, rapidapi, openapi, flask, grommet, postgresql",0,Next to screen with the schedule,18,Universitat Politècnica de Catalunya,"",Google Cloud Platform,AlbertSuarez,"Universitat Politecnica de Catalunya, UPC",3,felixarpa,charliecb,andreugallofre
 Twis(e)T,https://hackcuv.devpost.com/submissions/113634-twis-e-t,"Description
 
 Twist can give us many information on how much time we spend in each of the tasks, that is the objective of this project to get data on the amount of time we spent discussing each aspect of a thread or of the overall thread. 
@@ -389,7 +387,7 @@ Accomplishments that I'm proud of
 What I learned
 
 What's next for HackUwU
-",,https://hackuwu.com,,"Best usage of Typeform APIs, MLH: Best use of Google Cloud Platform, Best Beginner Hack, MLH: Best Domain Registered with Domain.com",jekyll,1,main auditorium,1,CU Boulder,"","",Dhwani,University of Colorado at Boulder,0
+",,https://hackuwu.com,,"Best usage of Typeform APIs, MLH: Best Domain Registered with Domain.com, MLH: Best use of Google Cloud Platform, Best Beginner Hack",jekyll,1,main auditorium,1,CU Boulder,"","",Dhwani,University of Colorado at Boulder,0
 CTFHero,https://hackcuv.devpost.com/submissions/113725-ctfhero,"CTFHero.com
 
 Project for HackCU V by Sam Feig, Jay Hayward, and Mark Wilmes
@@ -399,7 +397,7 @@ We wanted to make a tool to help people learn about Cybersecurity Capture the Fl
 So go check it out! See what the hype is about and why cybersecurity is the next big thing!
 
 We used Google Cloud to host the web server and manage the CTF sub-pages and a Domain.com domain to host the site. A Redis database houses the past challenges and the plan is to extend it to pull directly from ctftime.org for writeups from future competitions. We all improved our web development skills and learned more about Node.js and how it integrates inside a website. The plan is also to use the ""Compete"" section to run future CTFs for the CU Cybersecurity Club. 
-",,http://www.ctfhero.com/,,"MLH: Best use of Google Cloud Platform, Design, Build or Break Cyber Games for K-12 Education, MLH: Best Domain Registered with Domain.com","html, javascript, css, google-cloud, domain.com, redis, node.js, python, ctfd",1,Copper Mountain (S124),9,University of Colorado Boulder,"",Google Cloud Platform,SamFeig,University of Colorado at Boulder,1,mawiwillme
+",,http://www.ctfhero.com/,,"MLH: Best Domain Registered with Domain.com, Design, Build or Break Cyber Games for K-12 Education, MLH: Best use of Google Cloud Platform","html, javascript, css, google-cloud, domain.com, redis, node.js, python, ctfd",1,Copper Mountain (S124),9,University of Colorado Boulder,"",Google Cloud Platform,SamFeig,University of Colorado at Boulder,1,mawiwillme
 Enigma,https://hackcuv.devpost.com/submissions/113751-enigma,"Inspiration
 
 We designed and developed a Mystery Game for K-12 Cybersecurity Education.
@@ -456,7 +454,7 @@ We taught ourselves how to use three new things (leap motion, Unity, c#).
 What's next for Firewall Fighter
 
 Our game could have a bit more explanation of the cyber-security principles.
-",https://youtu.be/uPgnwJoaCoo,https://github.com/Moppit/HackCU.V.,,"Best Hardware Hack, Design, Build or Break Cyber Games for K-12 Education","leap-motion, c#, unity",1,Main auditorium,36,CU Boulder,Leap Motion,"",LEL-15,University of Colorado at Boulder,1,Moppit
+",https://youtu.be/uPgnwJoaCoo,https://github.com/Moppit/HackCU.V.,,"Design, Build or Break Cyber Games for K-12 Education, Best Hardware Hack","leap-motion, c#, unity",1,Main auditorium,36,CU Boulder,Leap Motion,"",LEL-15,University of Colorado at Boulder,1,Moppit
 DebateMonkey,https://hackcuv.devpost.com/submissions/113779-debatemonkey,"Inspiration
 
 I participated in debate in high school and still go back and judge tournaments and coach the students. I realized that the process of managing the tournament, most notably scheduling rounds, notifying competitors and maintaining results, was done in a very inefficient manner, mostly by hand. An online service does exist to provide this service, tabroom.com, but it does not have an extensive feature set, and its service is unreliable. Thats why we decided to make debate monkey, a tool to provide these service rapidly and reliably.
@@ -517,7 +515,7 @@ We learnt the implementation of BroadcastReceiver in Android and also considerin
 What's next for LocationTracer
 
 We are looking forward to implement geofencing in it so that we can have a device with the kids and get to know if they crossed our neighborhood. We also have a designing the UI in a more enhanced manner.
-",,https://github.com/hariharakumar7/locationtracer,,"Best Beginner Hack, Dish Device Tracker","java, android, xml, database",1,Main auditorium,22,Colorado State University,"","",HariHaraKumar,"Colorado State University, Sri Venkateswara university",3,lizacool612,Subramaniam,rohitg17
+",,https://github.com/hariharakumar7/locationtracer,,"Dish Device Tracker, Best Beginner Hack","java, android, xml, database",1,Main auditorium,22,Colorado State University,"","",HariHaraKumar,"Colorado State University, Sri Venkateswara university",3,lizacool612,Subramaniam,rohitg17
 cyber-security-escape-room,https://hackcuv.devpost.com/submissions/113794-cyber-security-escape-room,"cyber-security-escape-room
 
 Game made with the purpose of educating middle school students about cyber-security in a fun and approachable way. It allows the player to explore the different cyber-security concepts as they solve puzzles to exit the room. 
@@ -553,7 +551,7 @@ I learned how to use the Twilio phone call API and how to tunnel the react-nativ
 What's next for Eddie
 
 Clean up the code, implement multi-user support on the server, and then App Store release.
-",https://www.youtube.com/watch?v=ye3_rN_dTaU,,,"MLH: Best use of Google Cloud Platform, Coolest Hack with Twilio","node.js, twilio, react, react-native, google-cloud",1,Main auditorium,34,University of Colorado Boulder,"",Google Cloud Platform,wtfaremyinitials,University of Colorado at Boulder,0
+",https://www.youtube.com/watch?v=ye3_rN_dTaU,,,"Coolest Hack with Twilio, MLH: Best use of Google Cloud Platform","node.js, twilio, react, react-native, google-cloud",1,Main auditorium,34,University of Colorado Boulder,"",Google Cloud Platform,wtfaremyinitials,University of Colorado at Boulder,0
 Prisoner-s-Dilemma,https://hackcuv.devpost.com/submissions/113822-prisoner-s-dilemma,"Inspiration
 
 I read about people using prisoner's dilemma like computer simulations which reproduce themselves based on the outcome of these situations. This experiments help simulate the evolution of altruistic and selfish survival strategies. I wanted to test this myself to see what the result was. 
@@ -612,7 +610,7 @@ We learned about developing Python GUI applications and some machine learning mo
 What's next for Phishing detection game
 
 We are thinking to develop a stunning User Interface for that and also embed a browser in it so that the player can view the webpage right in the game console.
-",,https://github.com/hariharakumar7/phishing-detection-game,,"Best Smart contract usage, Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack, MLH: Best Domain Registered with Domain.com","python, html, css, javascript, machine-learning",1,Main auditorium,22,Colorado State University,"","",rohitg17,"Sri Venkateswara university, Colorado State University",3,lizacool612,HariHaraKumar,Subramaniam
+",,https://github.com/hariharakumar7/phishing-detection-game,,"MLH: Best Domain Registered with Domain.com, Best Smart contract usage, Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack","python, html, css, javascript, machine-learning",1,Main auditorium,22,Colorado State University,"","",rohitg17,"Sri Venkateswara university, Colorado State University",3,lizacool612,HariHaraKumar,Subramaniam
 Bike Ride Tracker,https://hackcuv.devpost.com/submissions/113829-bike-ride-tracker,"Inspiration
 
 Allow kids to bike around and explore parks and other fun landmarks near them and earn points doing so.
@@ -646,23 +644,25 @@ AdventureGame,https://hackcuv.devpost.com/submissions/113830-adventuregame,"hack
 ",,https://github.com/aislinnjeske/hackcu,,Best Beginner Hack,java,1,Main auditorium,42,Colorado State University,"","",ThomasKeefe,Colorado State University,2,ashlynrlee,dudeax
 RapidPark,https://hackcuv.devpost.com/submissions/113831-rapidpark,"Inspiration
 
-Parking at the Colorado School of Mines is always a tricky task, so we decided to build a system to prevent the need to drive around looking for a parking place. 
+Parking at the Colorado School of Mines is always a tricky task-- our parking lots are on average 91% full during the week according to Mines' parking services. With so many cars and so little spots on campus, students often have to search for over 15 minutes to find a spot to park before class. We decided that it was time to put an end to this parking madness by taking a technological step in the right direction. Our solution-- RapidPark!
 
 What it does
 
-RapidPark is a system of cameras stationed at entrances to parking lots that detects cars entering and leaving the parking lot. When a car is detected, it will update the current lot capacity on the heat-mapped google maps web application. The system updates in real-time, and uses fast computer-vision classification apis to take the images of the cars and detects aspects of them, such as license plates
+RapidPark provides both students and parking services with the technology necessary to lessen stress around parking on school campuses. For the student, RapidPark is a web-based application that acts as an easy reference for parking spot availability information. For parking services, it provides a system of license plate recognition and authorization to streamline ticketing and lot analysis. 
+
+On the hardware front, RapidPark is a system of cameras stationed at entrances to parking lots that detects cars entering and leaving the parking lot. When a car is detected, it will update the current lot capacity on our heat-mapped google maps web application. The system updates in real-time, and uses fast computer-vision classification APIs to take the images of the cars and detects aspects of them, such as their license plates. 
 
 How we built it
 
-We built RapidPark around an Angular webapp utilizing Python Flask on the backend. Any ""detection system"" that is capable of HTTP requests has the ability to update the parking lot availability. We used Python OpenCV for motion detection and frame parsing to detect direction and key frame grabs during the motion. We tested this system on a raspberry Pi 3, and subsequently created an entire detector for ~$50
+We built RapidPark around an Angular webapp utilizing Python Flask on the backend. Any ""detection system"" that is capable of HTTP requests has the ability to update the parking lot availability. We used Python OpenCV for motion detection and frame parsing to detect direction and key frame grabs during the motion. We tested this system on a raspberry Pi 3, and subsequently created an entire detector for ~$50.
 
 Challenges we ran into
 
-Google Cloud storage has so many authentication steps -- it really was a mess to get set up and we couldn't implement it in the end. 
+Many of the challenges that we ran into centered around the use of APIs. We were thrilled to see how many APIs were available to us using the RapidAPI interface. Some APIs were harder to get started with than others, however. We wanted to use Google Cloud storage for our application-- however due to our unfamiliarity with API authentication, we couldn't to get Google Cloud strorage up and running couldn't implement it in the end. 
 
 Accomplishments that we're proud of
 
-RapidPark is extremely fast and extremely intuitive. It serves an very useful application and was more fun to develop the more we got into it!
+RapidPark is extremely fast and extremely intuitive. It also serves as a solution to a very real problem-- parking is consistently identified as one of the biggest problems on the Mines campus and we are confident it is similarly stressful on other campuses as well. RapidPark serves a very useful, inexpensive, and easily implemented tool to solve this parking issue. RapidPark was also very fun to develop, especially the more we got into it!
 
 What we learned
 
@@ -670,8 +670,8 @@ Flask, Javascript, and rapidAPI!
 
 What's next for rapidPark
 
-Implement the administrative side for real-time parking violation detection.
-",https://youtu.be/0Sac6gwPPak,,,"RapidAPI Best OctoAPI Hack, Best Hardware Hack, MLH: Best use of Google Cloud Platform, Dish Device Tracker","python, opencv, node.js, angular.js, google-maps, rapidapi, uploadcare, chart.js, flask, javascript",1,Main auditorium,30,Colorado School of Mines,"",Google Cloud Platform,EastonBornemeier,Colorado School of Mines,2,kfarris,ZKasica
+We would love to further implement the administrative side of RapidPark for real-time parking violation detection. Currently the system has the ability to identify license plates, we aim to streamline the authentication of these license plates for use with parking services. 
+",https://youtu.be/0Sac6gwPPak,,,"Dish Device Tracker, MLH: Best use of Google Cloud Platform, RapidAPI Best OctoAPI Hack, Best Hardware Hack","python, opencv, node.js, angular.js, google-maps, rapidapi, uploadcare, chart.js, flask, javascript",1,Main auditorium,30,Colorado School of Mines,"",Google Cloud Platform,EastonBornemeier,Colorado School of Mines,2,kfarris,ZKasica
 Bike Hero,https://hackcuv.devpost.com/submissions/113834-bike-hero,"Inspiration
 
 Submission for Specialized's challenge. 
@@ -702,7 +702,7 @@ What we learned
 What's next for Bike Hero
 
 We're going to Disney Land.
-",,,,"MLH: Best Use of Snap Kit, Kids + Bikes = happier, more attentive students in the classroom, Twisted hackers, MLH: Best use of Google Cloud Platform, Coolest Hack with Twilio","html5, css3, mapbox, swift, snap-kit, twilio, github, javascript, postgresql, google-cloud, xcode",0,Hacker Space,17,CU Boulder,"",Snap,SandeepSKaushik,University of Colorado at Boulder,3,Jaxkr,culsense,42ultra
+",,,,"MLH: Best Use of Snap Kit, Twisted hackers, Kids + Bikes = happier, more attentive students in the classroom, Coolest Hack with Twilio, MLH: Best use of Google Cloud Platform","html5, css3, mapbox, swift, snap-kit, twilio, github, javascript, postgresql, google-cloud, xcode",0,Hacker Space,17,CU Boulder,"",Snap,SandeepSKaushik,University of Colorado at Boulder,3,Jaxkr,culsense,42ultra
 Get The Fuck App,https://hackcuv.devpost.com/submissions/113862-get-the-fuck-app,"GetTheFuckApp
 
 Inspiration
@@ -732,7 +732,7 @@ How to integrate Spotify
 What's next for Get The Fuck App
 
 Making the app more usable, maybe release on Google Play Store
-",,https://github.com/ani300/GetTheFuckApp,,MLH: Best Domain Registered with Domain.com,java,0,Main Lobby,18,"Texas A&M University, MIT, UC Irvine, CU Boulder","","",aviros,"Cornell University, Texas A&M University, University of Colorado at Boulder",3,osfu6738,joseales,ximo_g_
+",,https://github.com/ani300/GetTheFuckApp,,MLH: Best Domain Registered with Domain.com,java,0,North Atrium,18,"Texas A&M University, MIT, UC Irvine, CU Boulder","","",aviros,"Cornell University, Texas A&M University, University of Colorado at Boulder",3,osfu6738,joseales,ximo_g_
 NEkeyMark2,https://hackcuv.devpost.com/submissions/113864-nekeymark2,"Our inspiration came from typing papers late into the night and waking up the next morning with ache-y wrists. And that's when it hit us. There has to be a better way. Standard keyboards can be great for fast and accurate typing, but  we are not all blessed with ten working fingers and two working wrists. 
 
 That is why we have created NEkey (pronounced ""any key"").
@@ -783,7 +783,7 @@ We used Python as a back end, taking advantage of Tweepy and the Twitter API. Fr
 
 Challenges we ran into
 
-Figuring out how to use the Twitter API at first was confusing at first. We spent a lot of time looking at references to see what we could do with it. Also, We ran into problems with connecting the front end HTML files and the back end Python code. We eventually settled on use Flask which is a Python based code that allows a seamless integration between Python code and HTML basics. We had to make some compromises due to time and lack of experience, including not doing embedded tweets, but we believe it turned out pretty well.
+Figuring out how to use the Twitter API at first was confusing at first. We spent a lot of time looking at references to see what we could do with it. Also, We ran into problems with connecting the front end HTML files and the back end Python code. We eventually settled on using Flask which is a Python based code that allows a seamless integration between Python code and HTML basics. We had to make some compromises due to time and lack of experience, including not doing embedded tweets, but we believe it turned out pretty well.
 
 Accomplishments that we're proud of
 
@@ -796,37 +796,39 @@ Using the Twitter API, front end back end connection, and how fun hackathons are
 What's next for Twitter User Stats
 
 We will probably work on minor improvements from here, possibly running outside of flask so that others can use the service by using an online server instead of a local one. Also, if we can figure out embedded tweets that would be great.
-",,https://github.com/Drsain/HackCU52019,,"Best use of Twitter API, Best Beginner Hack","python, twitter, javascript, html, flask",1,Main auditorium,unknown,University of Colorado,"","",jacobfelknor,University of Colorado at Boulder,1,connorhorn26
+",,https://github.com/Drsain/HackCU52019,,"Best use of Twitter API, Best Beginner Hack","python, twitter, javascript, html, flask",1,Main auditorium,33,University of Colorado,"","",jacobfelknor,University of Colorado at Boulder,1,connorhorn26
 Surf - Predictive Browsing Plugin,https://hackcuv.devpost.com/submissions/113885-surf-predictive-browsing-plugin,"#26
 
 Inspiration
 
-When thinking about how to use big data for good, we came up with the concept for Surf in order to help users understand their browsing habits and even make some common tasks quicker and easier.
+When thinking about how to use big data for good, we came up with the concept for Surf in order to help users understand their browsing habits and patterns as well as make some common tasks quicker and easier.
 
 What it does
 
-Surf is a Chrome extension that intelligently suggests sites a user may want to visit based on browsing activity, such as browsing history, mouse movements, and user habits. At the top right of each site, users will see an unobtrusive list of suggestions for that site. By mousing over this bar at the top right, users will see an expanded list from which they can select their next destination
+Surf is a Chrome extension that intelligently suggests sites a user may want to visit based on browsing activity, such as browsing history, mouse movements, and user habits. At the top right of each site, users will see an unobtrusive list of suggestions for that site that displays actions that they would normally take. By mousing over this bar at the top right, users will see an expanded list from which they can select their next destination. Finally, users have access to an analytics page, which includes a visualization of their usage patterns.
 
-Surf also has a companion Android app that allows users to look at their browsing habits as well as access their most used links.
+Surf also has a companion Android app that allows users to look at their browsing habits as well as access their most used links. The app receives the user data live from the server and displays the current link and a set of suggested pages so that a user can quickly pickup their browsing on their phone. The app also helps provide a better visualization of what a user's web browsing patterns look like at any given link.
 
 How we built it
 
-The extension collects various metadata and uses a PageRank-style algorithm to determine a list of suggestions for each website a user visits, and this list changes dynamically as users continue to browse. It syncs this data to a Firebase database, which the companion app reads from.
+The extension collects various metadata such as browser history and mouse activity and uses a PageRank-style algorithm to determine a list of suggestions for each website a user visits, and this list changes dynamically as users continue to browse. It syncs this data to a Firebase database, which the companion app reads from. The companion app then translates the data stored onto the server into multiple different components such as webpage title and favicon to present the user with readable data. This data then goes through an adapter we created that compiles this data into cards that are displayed on the screen.
 
 Challenges we ran into
 
 
+We had to build an algorithm in order to calculate suggestions
 Generating/collecting test data to assist in modifying the algorithm was time-consuming
-Hooking up the extension and app to Firebase complicated things considerably
+Adding this data to a server took more time than initially planned
+Hooking up the extension and app to Firebase complicated things considerably 
 
 
 Accomplishments that we're proud of
 
-The extension is sleek and genuinely useful, and the android app provides interesting insights into user browsing habits.
+The extension is sleek and genuinely useful, and the Android app provides interesting insights into user browsing habits. The app also reads live from a server, and therefore can be used to expand a user's experience.
 
 What we learned
 
-Building and testing something that's meant to handle lots of data is difficult to do quickly, and adding users and databases complicates things even more.
+Building and testing something that's meant to handle lots of data is difficult to do quickly, and adding users and databases complicates things even more. Integrating components of the project written in different programming languages also required a significant amount of extra parsing to connect them.
 
 What's next for Surf - Predictive Browsing Plugin
 
@@ -834,7 +836,7 @@ What's next for Surf - Predictive Browsing Plugin
 Enhance algorithm by training a machine learning classifier (we need to collect more real data)
 iOS companion app, Firefox/Safari/etc. extensions
 More sophisticated user handling/login system
-End-to-end encryption of user data, so we can't spy on users
+End-to-end encryption of user data
 
 
 Github
@@ -844,7 +846,7 @@ Extension
 App
 Website
 
-",,https://surf-plugin.com,,"Splunk Challenge, Big Data Analytics: Non-Obvious Web Traffic, MLH: Best Domain Registered with Domain.com","android, android-studio, chrome, firebase, javascript",0,Main auditorium,26,"Georgia Tech, UChicago","",Domain.com,parkjs814470,"Fort Hays State University, Georgia Institute of Technology - Main Campus, University of Chicago",3,kevinpark1217,FuadYoussef,juderosen
+",,https://surf-plugin.com,,"Splunk Challenge, MLH: Best Domain Registered with Domain.com, Big Data Analytics: Non-Obvious Web Traffic","android, android-studio, chrome, firebase, javascript",0,Main auditorium,26,"Georgia Tech, UChicago","",Domain.com,parkjs814470,"Fort Hays State University, Georgia Institute of Technology - Main Campus, University of Chicago",3,kevinpark1217,FuadYoussef,juderosen
 randomDomainName-Do Not Let Your Mom See This,https://hackcuv.devpost.com/submissions/113887-randomdomainname-do-not-let-your-mom-see-this,"Inspiration
 
 When you are out on the internet, there are stuff that you don't necessarily want your parents, especially your mom to see...
@@ -1103,7 +1105,7 @@ Accomplishments that I'm proud of
 What I learned
 
 What's next for PeasantSaber
-",,https://github.com/acethespy/peasantsaber,,"","python, opencv",0,"Conference S127, also called Winter Park",Right side of the room when entering,UC Berkeley,"","",acetehspah,"",0
+",,https://github.com/acethespy/peasantsaber,,"","python, opencv",0,Winter Park (Conference S127),8,UC Berkeley,"","",acetehspah,"",0
 WillBikeForGame,https://hackcuv.devpost.com/submissions/113899-willbikeforgame,"Inspiration
 
 Reasons rarely went marinated in my head. When I wanted to play video game, I couldn't think anything else but that.
@@ -1118,22 +1120,22 @@ TrafficBGone,https://hackcuv.devpost.com/submissions/113903-trafficbgone,"Traffi
 A Program to Encourage Alternate Travel Times
 
 This project exists because of the awful traffic seen on I-70 during the weekends. We noticed that people tend to leave all at the same time, causing massive backups on the highway. We believe that if we can get people to spread themselves out, we can reduce traffic, and potentially emissions due to less idling in traffic jams. To encourage people to use this service, we have implemented a reward system to encourage people to use the service.
-",,https://github.com/TonyNagygyor/TrafficBGone_HACKCU,,"MLH: Best use of Google Cloud Platform, MLH: Best Domain Registered with Domain.com","python, html, smarty",0,Main auditorium,28,Colorado School of Mines,"",Google Cloud Platform,rstarritt,Colorado School of Mines,3,liamwarfield,TonyNagygyor,kalwaissi
+",,https://github.com/TonyNagygyor/TrafficBGone_HACKCU,,"MLH: Best Domain Registered with Domain.com, MLH: Best use of Google Cloud Platform","python, html, smarty",0,Main auditorium,28,Colorado School of Mines,"",Google Cloud Platform,rstarritt,Colorado School of Mines,3,liamwarfield,TonyNagygyor,kalwaissi
 Poop With Me,https://hackcuv.devpost.com/submissions/113913-poop-with-me,"Inspiration
 
 Locating nearest restaurants is now simpler than ever, but what about amenities that actually require urgency? Our goal was to map and list out all locations of bathrooms, and allow users to rate/review them.
 
 What it does
 
-The app pulls up a map with markers across all nearest bathrooms along with their address and ratings. Upon clicking on each bathroom, users can choose to launch Google maps to find their way to there, or choose to review the location after they are done.
+The app pulls up a map with markers across all nearest bathrooms along with their address and ratings. Upon clicking on each bathroom, users can choose to launch Google maps to find their way to there, or choose to review the location after they are done-- doing so will update that location's average rating.
 
 How I built it
 
-Poop With Me is a native Android app built with Java and Android Studio. Our app calls the Google Maps API and uses Firebase as a backend to store all user-inputted data.
+Poop With Me is a native Android app built with Java and Android Studio. We took the City of Boulder, Colorado's Public Restroom Facilities csv, wrote a script to convert it to JSON and imported it into Firebase. Our app calls the Google Maps API and calls Firebase to store and get all user-inputted data.
 
 Challenges I ran into
 
-API for easily finding nearest bathroom (https://amenimaps.com/) did not work, very rusty Java / Android skills.
+API for easily finding nearest bathroom did not work, very rusty Java / Android skills.
 
 Accomplishments that I'm proud of
 
@@ -1162,7 +1164,7 @@ Accomplishments that we're proud of
 What we learned
 
 What's next for Hack The Classroom!
-",,http://hacktheclassroom.com,,"MLH: Best use of Google Cloud Platform, Design, Build or Break Cyber Games for K-12 Education, MLH: Best Domain Registered with Domain.com","python, sanic, flask, firebase, javascript, canvas.js, domain.com, pygame, requests, html5, css3",1,Main Room!,1337,CU Boulder,"",Domain.com,SpencerHanson3141,University of Colorado at Boulder,0
+",,http://hacktheclassroom.com,,"MLH: Best Domain Registered with Domain.com, Design, Build or Break Cyber Games for K-12 Education, MLH: Best use of Google Cloud Platform","python, sanic, flask, firebase, javascript, canvas.js, domain.com, pygame, requests, html5, css3",1,Main Room!,1337,CU Boulder,"",Domain.com,SpencerHanson3141,University of Colorado at Boulder,0
 task stack,https://hackcuv.devpost.com/submissions/113915-task-stack,"Inspiration
 
 We dislike typical calendar views, and wanted a viewer that shows the most 
@@ -1194,7 +1196,7 @@ CSS Transitions
 What's next for task stack
 
 More features
-",,,,"Big Data Analytics: Non-Obvious Web Traffic, Best Beginner Hack","django, python, css, html, javascript, google-calendar",1,auditorium,43,CU Boulder,"","",cope6961,University of Colorado at Boulder,1,HarrisonBolin
+",,,,"Best Beginner Hack, Big Data Analytics: Non-Obvious Web Traffic","django, python, css, html, javascript, google-calendar",1,auditorium,43,CU Boulder,"","",cope6961,University of Colorado at Boulder,1,HarrisonBolin
 Attention Monitor - Distracted Driving Solution,https://hackcuv.devpost.com/submissions/113916-attention-monitor-distracted-driving-solution,"Inspiration
 
 A member of our team researched a report on motor vehicle safety from the CDC (Center for Disease Control and Prevention) for a project while in grade school. The report highlighted disturbing facts about distracted driving such as every day approximately 9 people are killed and more than 1,000 people are injured in crashes that involved a distracted driver. In 2015 alone, 391,000 people were injured in motor vehicle crashes, and 3,477 people were killed in crashes involving a distracted driver. ""Distracted driving is driving while doing another activity that takes your attention away from driving. Distracted driving can increase the chance of a motor vehicle crash"" (cdc.gov). Our team became very cognizant of the growing number of incidents and preventable accidents due to distracted driving, and decided to develop an attention monitoring system that could be utilized in several different use cases to monitor and encourage more deliberate engagement while driving a vehicle or operating equipment.
@@ -1222,16 +1224,114 @@ Our team learned that coming across annoying challenges and bugs are typical to 
 What's next for Attention Monitor
 
 Our team wants to improve the image recognition system to recognize an individual's head and eyes in more challenging lighting conditions. We want to work on more custom implementations of the solution such as the Parent/Child driving scenario.
-",,https://github.com/APChehadi/HackCU-2019-Attention-Monitor,,"RapidAPI Best OctoAPI Hack, MLH: Best use of Google Cloud Platform, Coolest Hack with Twilio, Dish Device Tracker, MLH: Best Domain Registered with Domain.com","python, opencv, json, twilio, google-distance-matrix, google-geocoding, haarcascade, sql, django",0,North Atrium,47,CU Boulder,"",Google Cloud Platform,PaperXLV,University of Colorado at Boulder,3,adampchehadi,tlincke125,Vikram-T
+",,https://github.com/APChehadi/HackCU-2019-Attention-Monitor,,"MLH: Best Domain Registered with Domain.com, Dish Device Tracker, Coolest Hack with Twilio, MLH: Best use of Google Cloud Platform, RapidAPI Best OctoAPI Hack","python, opencv, json, twilio, google-distance-matrix, google-geocoding, haarcascade, sql, django",0,North Atrium,47,CU Boulder,"",Google Cloud Platform,PaperXLV,University of Colorado at Boulder,3,adampchehadi,tlincke125,Vikram-T
 Inspiration,https://hackcuv.devpost.com/submissions/113917-inspiration,"inspiration
 
 Inspiration is a project designed to help facilitate creativity in musicians and help them to create their own music. This is accomplished by creating a random chord progression generation program that attunes itself according to the users likes and dislikes via machine learning. All music is based of off chord progressions and half the battle of creating new music is to find new interpretations of old songs. This program does exactly that. By using different mutex algorithms and functions, we can create these new and unique chord progressions for each individual user. No two users are treated the same and will receive different songs according to their preferences.
-",,http://musicalprompt.com,,"Splunk Challenge, MLH: Best Domain Registered with Domain.com","javascript, python, jupyter-notebook, html, css, scikit-learn, flask",0,Winter Park,31416,"ITESM, CU Boulder, USTHB","",Domain.com,alanbato,"ITESM, University of Colorado at Boulder",2,saidziani,thma4535
+",,http://musicalprompt.com,,"Splunk Challenge, MLH: Best Domain Registered with Domain.com","javascript, python, jupyter-notebook, html, css, scikit-learn, flask",0,Winter Park,8,"ITESM, CU Boulder, USTHB","",Domain.com,alanbato,"ITESM, University of Colorado at Boulder",2,saidziani,thma4535
 The Creeper,https://hackcuv.devpost.com/submissions/113919-the-creeper,"The Creeper
 
 A choose your own adventure game intended to teach high schoolers different cybersecurity topics.
 
-You arrive at a mysterious, large mansion. Before you enter the house, you open up a letter which reveals an invitation. Inside, it details that you have been invited to a very special release party of the newest invention by a big tech company. You enter and find many distinguished guests from varying fields of research, backgrounds, and celebrities. When the new technology is finally revealed in the main foyer, you realize that there is a problem. The evil genius has created a device that has trapped you and the other party goers in the house. The Creeper will slowly escape the game and infect your real-life computer... That is, unless you’re able to stop it. Utilizing the help of the industry experts at the party, you must explore the mansion, defend against the attacks, and launch counter attacks against the computer in order to stop the device.
+Summary
+
+You arrive at a mysterious, large mansion. Before you enter the house, you open up a letter which reveals an invitation. Inside, it details that you have been invited to a very special release party of the newest invention by a big tech company. You enter and find many distinguished guests from varying fields of research, backgrounds, and celebrities. When the new technology is finally revealed in the main foyer, you realize that there is a problem. The tech entrepreneur has created a device that has trapped you and the other party goers in the house. The Creeper will slowly escape the game and infect your real-life computer... That is, unless you’re able to stop it. Utilizing the help of the industry experts at the party, you must explore the mansion, defend against the attacks, and launch counter attacks against the computer in order to stop the device.
+
+Theme/Genre
+
+Educational Text-Based Meta-Adventure RPG
+
+Elevator Pitch
+
+Inspire interest and curiosity in cybersecurity by introducing general concepts such as cryptography, scripting, and safety in an educational format that stays engaging. The game mechanics aim to simulate the learning environments that are necessary for cybersecurity through the simple text-based environment and introduce intuition.
+
+Audience
+
+Middle to Early High School
+
+Game Flow Summary
+
+This is a single-player RPG in which the player interacts by inputting commands, like the popular game zork. The player will need to solve challenges to open doors and stop the AI in the final server room. The player does so by talking with people and interacting with items. There is an element of interactive fiction in which the student can explore at their own pace, but they still explore the lore of The Creeper story and learn about cybersecurity.
+
+Educational Design
+
+Learning Objectives
+
+
+Social Engineering
+Cryptography
+Cybersecurity Concepts and Thought Processes
+Scripting
+Hacking
+
+
+Puzzle/Challenge Structure
+
+The puzzle mechanics vary from each level, but they are each based on interacting with characters and objects in an environment. Players learn about the challenge and required objectives to complete the challenge from clues in the environment and interacting with characters, then use them to progress.
+
+Play Flow
+
+The game is linearly structured and the player must open the door to get to the next level. However, this can be done in many ways and orders by talking to different characters or using different objects. Players that already know about cybersecurity may not need to talk to others and can pass the level given their own knowledge. However, levels get harder and the player most likely will have to explore sometime.
+
+Storyline
+
+Setting
+
+Located in a tech entrepreneur's house in the near future.
+
+Characters
+
+
+You
+Partygoers (security experts, children, etc)
+Evil AI
+
+
+Visuals
+
+Text-Based Game w/ minimal visuals. The user will input commands and will be able to see a log of conversation/interaction history. We also have pixelated images that accompany different commands/interactions and a map. In the future, we would like to make a minimap as well as an inventory.
+
+Game Play Mechanics
+
+The gameplay mechanics inspire curiosity by allowing players to explore on their own. This also enforces vital cybersecurity mindset in which one needs to be prevent vulnerability while still being informed and probing a situation. The text-based interaction simulates a social engineering environment as well as a scripting environment.
+
+Controls
+
+Type what you want to do in the text box!
+
+Levels
+
+Phase 1: Cryptography
+Intro to the game and introducing mechanics
+Level 1 (implemented): Use social engineering to retrieve a key needed to unlock a door protected by a caesar cypher.
+Level 2: (planned): U
+Level 3: (planned)
+Phase 2: Scripting
+Gain access to a computer not controlled by 
+Level 1 (planned): Use network commands to prevent AI from advancing
+Level 2: (planned): ssh into a remote computer to retrieve house blueprints
+Phase 3: Hacking
+SQL Injection, Buffer Overflow to destroy certain parts of AI.
+Phase 4: Safety
+The AI has started to prey on the partygoers using phishing emails and scams. Differentiate between fake websites and emails.
+Final Phase
+The AI has gained access to your own computer (outside of the game). Use your learned knowledge to destroy the AI in the final boss level.
+
+Technical Requirements
+
+The user interacts with the game through natural language commands, implemented using Word2Vec. 
+
+Scoring Method
+
+There is not a scoring method. This is instead to introduce students who have never been exposed to cybersecurity so they can experience the field and gain a curiosity for it. Students can take how long they want and even explore more if they want to!
+
+Our Implementation
+
+Our implementation consists of a base demo for the first level. It is an extremely early alpha with loads of bugs. In our demo first level, the player needs to find the key to a Caesar Cypher through social engineering some of the people at the party. There is always more to be explored, as students can learn more about the CIA Triad as well as Cyber Risk by talking to some of the people there. Our set of actions is limited and the natural language pipeline (Word2Vec cosine similarity) we are using is not perfect, but it works better than expected. 
+
+Future Work
+
+We only have the first demo alpha game. We need to implement other levels and could improve on the parser.
 ",,https://github.com/jackspicer1229/HackCUV,,"Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack","python, pico-8",1,Main Auditorium,25,"University of Colorado, Boulder","","",sousheel,"University of Colorado at Boulder, Univeristy of Colorado Boulder",1,jackspicer1229
 Virtual Xylophone with Gesture Control over the cloud,https://hackcuv.devpost.com/submissions/113920-virtual-xylophone-with-gesture-control-over-the-cloud,"Inspiration
 
@@ -1239,12 +1339,12 @@ We were inspired by the need to play any instrument over the internet with good 
 
 What it does
 
-It uses touch sensors to detected the notes and sends the data of which note has been touched. This data is being used to reproduce the sound on the speaker using python script.
+It uses touch sensors to detected the notes and sends the data of which note has been touched. This data is being used to reproduce the sound on a remote speaker using python script and cloud.
 Also, a gesture control system is integrated which gives control of whether the song is to be recorded, when to stop recording and when it has to be replayed.
 
 How we built it
 
-We used three photon boards and a leap motion sensor.
+We used three photon boards ,8 touch sensors and a leap motion sensor.
 
 Virtual Xylophone system:
 This employs a photon board and it detects the note touches and sends this data to the end user. This data is transferred over the internet which enables any number of end users to listen to the music. Any number of users can listen by subscribing to the channel
@@ -1262,7 +1362,11 @@ All the individual systems communicate over the cloud
 
 Challenges we ran into
 
+Making the gesture control and leap motion work
+
 Accomplishments that we're proud of
+
+Making three photon boards communicate over the cloud
 
 What we learned
 
@@ -1271,7 +1375,7 @@ We learned how to integrate a gesture control system. Also we learned how the da
 What's next for Virtual Xylophone with Gesture Control
 
 We can further improve it to other instrument being capable of making it into virtual
-",https://www.youtube.com/watch?v=akkQxQ2NVq0,https://github.com/steveantony5/Virtual-Xylophone-with-Gesture-Control-Over-the-Cloud,,"Best Hardware Hack, Best Beginner Hack","python, gesture-control, c, wifi-cloud, three-photon-boards",1,Classroom opposite to LoveLand room,Classroom,University of Colorado Boulder,Leap Motion,"",steveantony5,University of Colorado at Boulder,2,sanjuprakashk,srinath-95
+",https://www.youtube.com/watch?v=akkQxQ2NVq0,https://github.com/steveantony5/Virtual-Xylophone-with-Gesture-Control-Over-the-Cloud,,"Best Hardware Hack, Best Beginner Hack","python, gesture-control, c, wifi-cloud, three-photon-boards",1,N128,Classroom,University of Colorado Boulder,Leap Motion,"",steveantony5,University of Colorado at Boulder,2,sanjuprakashk,srinath-95
 BlockStory,https://hackcuv.devpost.com/submissions/113921-blockstory,"Inspiration
 
 We wanted to try something completely new, and decided on trying to build a decentralized application. With this, we wanted to build a platform where users collaborate to make something special, all the while keeping the contributions secure and from verified sources, and to avoid spamming and profanity. 
@@ -1385,7 +1489,7 @@ What's next for Mocking Bird
 2) Adding visual aspect to the summarization part.
 
 3) Enable voice commands for topic searching.
-",,https://github.com/MoritzHayden/HackCUV_TweetAnalysis,,"RapidAPI Best OctoAPI Hack, Coolest Hack with Twilio, Best use of Twitter API","python, java, tweepy, text-sentiment-analysis-method, twilio, rapidapi",0,North atrium,48,University of Wyoming,"","",DamirPulatov,University of Wyoming,2,KrishnaSaiChemudupati,MoritzHayden
+",,https://github.com/MoritzHayden/HackCUV_TweetAnalysis,,"Best use of Twitter API, Coolest Hack with Twilio, RapidAPI Best OctoAPI Hack","python, java, tweepy, text-sentiment-analysis-method, twilio, rapidapi",0,North atrium,48,University of Wyoming,"","",DamirPulatov,University of Wyoming,2,KrishnaSaiChemudupati,MoritzHayden
 Cyber Snake,https://hackcuv.devpost.com/submissions/113925-cyber-snake,"1. Game Title
 
 Cyber Snake
@@ -1406,8 +1510,8 @@ Cyber Snake is a brilliant endless arcade game in which you take control of a sn
 Cryptography: A word is said to the user. If the word to encrypt is , the user must hit those word objects that its letters are in the right in the alphabet. Like  for . So, any “d” is transformed to an “e” and any ""a"" is transformed to “b”:
 
 ABCDEFG
-|.      |.
-BCDEFGH
+|.......|........
+BCDEFGH          
 
 In order to be easy at the beginning we could use two letter that are very close together in the alphabet. As difficult is the lever, the difficulty can increase by adding more letters, more displacement and larger words.
 
@@ -1545,7 +1649,7 @@ Water sensor in case of the unfortunate event of dropping your package in the oc
 
 
 We care deeply about your package, and you should too. There's no better way to ensure your package is insured and lives up to the high shipping costs you pay.
-",,https://github.com/ZackJorquera/HackCUV2019,,"MLH: Best IoT Hack using a Qualcomm Device, RapidAPI Best OctoAPI Hack, Best Hardware Hack, Coolest Hack with Twilio, Best Beginner Hack, Dish Device Tracker, MLH: Best Domain Registered with Domain.com","c++, python, javascript, html, css",1,"Table 11, big TV area",11,CU Boulder,Dragonboard 410c,Qualcomm,jorqueraian,University of Colorado at Boulder,3,ZackJorquera,riathakkar,Borab3
+",,https://github.com/ZackJorquera/HackCUV2019,,"MLH: Best Domain Registered with Domain.com, MLH: Best IoT Hack using a Qualcomm Device, Dish Device Tracker, Coolest Hack with Twilio, RapidAPI Best OctoAPI Hack, Best Hardware Hack, Best Beginner Hack","c++, python, javascript, html, css",1,"Table 11, big TV area",11,CU Boulder,Dragonboard 410c,Qualcomm,jorqueraian,University of Colorado at Boulder,3,ZackJorquera,riathakkar,Borab3
 HitMemeUp,https://hackcuv.devpost.com/submissions/113927-hitmemeup,"Inspiration
 
 We wanted a handy way to get memes (like giphys on slack) and we decided the most convenient way to do this would be to send query to a server over text and receive images/gifs back.
@@ -1573,7 +1677,7 @@ We learned how to use Twilio and how powerful it can be. We also learned how to 
 What's next for HitMemeUp
 
 We would like to expand it so we can send memes to other people and also pull memes from other sources.
-",,https://github.com/imanoreotwe/HitMemeUp,,"RapidAPI Best OctoAPI Hack, Coolest Hack with Twilio","flask, imgur, twilio",1,Main Auditorium,42,Colorado State University,"","",imanoreotwe,Colorado State University,2,myou11,wstnmssr
+",,https://github.com/imanoreotwe/HitMemeUp,,"Coolest Hack with Twilio, RapidAPI Best OctoAPI Hack","flask, imgur, twilio",1,Main Auditorium,42,Colorado State University,"","",imanoreotwe,Colorado State University,2,myou11,wstnmssr
 BillHub,https://hackcuv.devpost.com/submissions/113930-billhub,"Inspiration
 
 I wanted to stay more up to date with current US legislation and bill proposals.
@@ -1601,7 +1705,7 @@ How to utilize SendGrid and how to better interpret API documentation.
 What's next for BillHub
 
 Making a mobile application using a hybrid framework like Ionic 4 or React Native. Integrating Twilio for real-time text updates on legislation.
-",,https://github.com/Dillonpyle/hackCUV,,"RapidAPI Best OctoAPI Hack, Coolest Hack with Twilio","javascript, css, html, react, express.js, mongodb, sendgrid, rapidapi, node.js",0,Winter Park,8,General Assembly,"","",TylerN7,"",1,Dillonpyle
+",,https://github.com/Dillonpyle/hackCUV,,"Coolest Hack with Twilio, RapidAPI Best OctoAPI Hack","javascript, css, html, react, express.js, mongodb, sendgrid, rapidapi, node.js",0,Winter Park,8,General Assembly,"","",TylerN7,"",1,Dillonpyle
 "Song: ""No Whales""",https://hackcuv.devpost.com/submissions/113931-song-no-whales,"I don't expect to win anything with this, I just had a great time
 
 my Spotify is: https://spoti.fi/2GZUWZA
@@ -1667,26 +1771,59 @@ We would love to add more functionality. It would love to be able to have a logi
 ",,https://github.com/crgoldstein/TransparentHouseContract,,"Best Smart contract usage, Best Beginner Hack","soildity, blockchain, remix, dapp, ether, crypto",1,Main Auditorium,41,Colorado State University,"","",crgoldstein,Colorado State University,0
 youtube-comment-analysis ,https://hackcuv.devpost.com/submissions/113936-youtube-comment-analysis,"Inspiration
 
-We wanted to provide content creators with a tool that gives them a more in-depth understanding of their communities reception of their videos. A simple like and dislike bar doesn't accurately model the views sentiment of a video, and going through thousands of comment manually is incredibly inefficient.    
+We wanted to provide content creators with a tool that gives them a more in-depth understanding of their communities reception of their videos. A simple like and dislike bar doesn't accurately model the views sentiment of a video, and going through thousands of comment manually is incredibly inefficient. In addition, a like/dislike bar only is heavily weighted towards the initial reactions to a video, and looking at the comments in a structured way can give you an idea of how people are reacting to it much later.
 
 What it does
 
-We are able to return a score on the scale of -1 to 1 that represents the sentiment of the comment section. The program also generates a percent toxicity value that models the percent of negative comments, and a word cloud or frequent words and phrases in the comments.
+The program is a single page application where a user gives a Youtube URL and number of comments. The backend uses the Youtube API to pull the most recent comments (about 200), parses them and determines semantics using NLTK, and then gives data back to the user that would be useful. We return a overall sentiment analysis, a measure of toxicity (which is the % of comments are negative), a word cloud of the most popular words, and finally the most positive and negative comments on the video. These tend to be highly exaggerated, and therefore humorous comments, and we had many hours of fun just looking at videos.
 
 How we built it
 
-We used the Python textBlob natural language processing library for the sentiment analysis. We used the Youtube API for pulling comment threads on videos The backed of the website is managed with django and flask container. The front end is a HTML webpage.
+We used the Python textBlob natural language processing library for the sentiment analysis. We used the Youtube API for pulling comment threads on videos The backed of the website is managed with flask. The front end is a HTML web page powered by bootstrap and jinga templating.
 
 Challenges we ran into
 
-Learning how to uses the YouTube API was difficult. Css
+
+Learning how to use the YouTube API was difficult, because the example code they gave was broken
+Figuring out what a content creator was interested in
+No one on our team was particularly strong with front end development, so we struggled getting the css working in a way that looked good
+Flask was very finnicky and at one point segfaulted
+Getting the front end to connect with the backend was tough
+Getting the word cloud to display properly was incredibly annoying 
+
 
 Accomplishments that we're proud of
 
+
+We are proud of getting all of our analytical tools to work and display data, particularity the word cloud.
+That we managed to make any product at all
+That we found a package that would help us get the Youtube comments to work
+We managed to make our own form of toxicity
+The top comments are hilariously bad
+emojis are for some reason supported and show up in the word cloud
+Baby by Justin Bieber got a redemption arc
+John Oliver has one angry comment section
+
+
 What we learned
 
+
+We learned a lot about the nuances of front end development
+working with APIs
+Natural Language processing using Textblob and NLTK.
+hosting using flask
+
+
 What's next for youtube-comment-analysis
-",,https://github.com/kasplat/youtube-comment-analyzer,,"Splunk Challenge, Big Data Analytics: Non-Obvious Web Traffic, MLH: Best use of Google Cloud Platform, Best Beginner Hack","python-textblob, jinja, html, youtube, flask",0,Main Auditorium,dunno,"Rochester Institute of Technology, CU Boulder","","",Kvenkatram,"University of Colorado at Boulder, Rochester Institute of Technology",1,kasplat
+
+
+Return main ideas of comments (and comment threads)
+compare the comment statistics of two different videos
+use the time stamp of comments to visualize the community engagement in the video over time
+Display most active commentators
+Which comments are fake
+
+",,https://github.com/kasplat/youtube-comment-analyzer,,"Splunk Challenge, MLH: Best use of Google Cloud Platform, Best Beginner Hack, Big Data Analytics: Non-Obvious Web Traffic","python-textblob, jinja, html, youtube, flask",0,Main Atrium,41,"Rochester Institute of Technology, CU Boulder","","",Kvenkatram,"University of Colorado at Boulder, Rochester Institute of Technology",1,kasplat
 CAN Theft Auto: Blockchain,https://hackcuv.devpost.com/submissions/113938-can-theft-auto-blockchain,"Inspiration
 
 Modern computer systems rely on logging events to keep track of actions that have taken place on a system. However, these logs aren't secured in any way, so if an attacker compromises a system they can modify those logs to remove any traces of their presence. This was an issue in the attacks on the Ukrainian Power Grid, where logs were deliberately modified by attackers to hide their tracks.
@@ -1712,7 +1849,7 @@ We have never written a Smart Contract before, especially not one in Solidity. T
 What's next for CAN Theft Auto: Blockchain
 
 We'd like to flesh out the smart contract we wrote more, and include more data, such as the signature of the hash. We would also like to get real-time data from geotab, but because the car the GeoTab device is in isn't always moving we just used sample data for this project so we had data at-will.
-",,https://github.com/aowsenek/NV_BlockChain/,,Best Smart contract usage,"python, solidity, ropsten-test-network, flask, rsa, sha-256, geotab, json, etherium, html, css, blockchain, logs, blood, sweat, tears",0,Desks in the hallway outside of Winter Park,End of the table closest to hallway,CU Boulder,"","",aowsenek,"University of Colorado, University of Colorado at Boulder",1,apccurtiss881
+",,https://github.com/aowsenek/NV_BlockChain/,,"MLH: Best Domain Registered with Domain.com, Best Smart contract usage","python, solidity, ropsten-test-network, flask, rsa, sha-256, geotab, json, etherium, html, css, blockchain, logs, blood, sweat, tears",0,Desks in the hallway outside of Winter Park,1,CU Boulder,"",Domain.com,aowsenek,"University of Colorado, University of Colorado at Boulder",1,apccurtiss881
 CapSense LED,https://hackcuv.devpost.com/submissions/113939-capsense-led,"What if I made LED's controllable by touch?
 
 Touch sensors are in our everyday life, but with a little work, and a couple of micro controllers, I figured I could add some flare to the ordinary touch sensor. There are only three components: A low power consumption board called the Pearl Gecko, an Arduino Uno, and a strip of LEDs.
@@ -1788,33 +1925,33 @@ What's next for Will you die? A weather experience
 
 At some point I would like to add a user interface of some type
 ",,https://github.com/ParkerMorr/HackCU/tree/master,,"",python,0,Main auditorium,There is no number...,University of Colorado,"","",PorkyPenguin,University of Colorado at Boulder,0
-SIDE KICK,https://hackcuv.devpost.com/submissions/113942-side-kick,"Inspiration
+SideKick,https://hackcuv.devpost.com/submissions/113942-sidekick,"Inspiration
 
-We were looking into what incentives attract students to events, and the more research we did, the more we knew that students are facing with an issue regarding time management and free food or fun activities don't bother them much. So, we came up with SideKick an intuitive scheduler.
+We were looking into what incentives attract students to events, and the more research we did, the more we knew that students are facing with an issue regarding time management and free food or fun activities don't bother them much. So, we came up with SideKick, an intuitive scheduler.
 
 What it does
 
-SideKick is an App that gathers info from Canvas and mycuinfo and builds a schedule around students preferences and other extra-curricular activities while promoting good study habits. 
+SideKick is an App that automatically generates a study schedule using a Canvas LMS integration and a prioritization formula. The schedule is also designed around a student's studying preferences and other extra-curricular activities. Using a redeemable point system, it incentivizes students to follow the schedule.
 
 How I built it
 
-We made it using react native, Javascript and node.js, With expo and text editor, also Figma for our prototype.
+We began making it this weekend using React Native, Javascript and node.js. We used Expo to test the app while building. We used Figma to create our prototype.
 
 Challenges I ran into
 
-Being entirely new to the react native development platform, and with not much prior experience, we were able to create a test app, which works as a to-do list to complete tasks.
+Being entirely new to the react native development framework and Javascript, the learning curve was steep. We were happy to be able to create a test app, which works as a to-do list to complete tasks.
 
 Accomplishments that I'm proud of
 
-We are proud of how far we have come with a very little understanding of javascript.
+We are proud of how far we have come with little understanding of javascript and mobile app development in general.
 
 What I learned
 
-We learnt how hard it is to learn a new language overnight and how much info is available online to continue working on an idea.
+We learned how hard it is to learn a new language overnight and how much info is available online to continue working on an idea.
 
 What's next for SideKick
 
-We are planning on expanding and do further development for the next couple of months, and go through NVC 11 and try for Catalyze CU.
+We are planning on expanding the team to do further development for the next couple of months. We are competing at NVC 11 and Catalyze CU.
 ",,https://github.com/sidekick-learning/App-Version-1,,Best Beginner Hack,"react-native, atom, sublime-text, javascript, expo.io, node.js",1,Main auditorium,no idea,CU boulder,"","",avinashuddaraju,"",0
 Pancake Post,https://hackcuv.devpost.com/submissions/113943-pancake-post,"Inspiration
 
@@ -1843,7 +1980,7 @@ We learned more about flask socket-io and how to communicate between front-end a
 What's next for Pancake Post
 
 We may want to implement supporting inserting images in the forum posts and chat. 
-",,https://github.com/joshf26/Pancake-Post,,"MLH: Best use of Google Cloud Platform, MLH: Best Domain Registered with Domain.com","python, flask, jinja, javascript, html, css, socket.io, postgresql, google-cloud",0,Breck,5,University of Colorado at Boulder,"",Google Cloud Platform,TiffanyVPhan,University of Colorado at Boulder,1,joshf26
+",,https://github.com/joshf26/Pancake-Post,,"MLH: Best Domain Registered with Domain.com, MLH: Best use of Google Cloud Platform","python, flask, jinja, javascript, html, css, socket.io, postgresql, google-cloud",0,Copper Mountain Room,9,University of Colorado at Boulder,"",Google Cloud Platform,TiffanyVPhan,University of Colorado at Boulder,1,joshf26
 PROJEKT JUICE 2088 VR: 358MECH/fate,https://hackcuv.devpost.com/submissions/113944-projekt-juice-2088-vr-358mech-fate,"Inspiration
 
 11 years ago, our world was irreparably changed. The events of The Occurrence have long been shrouded in layers of corporate secrecy, but everyone alive knows the importance of that world-shattering discovery - JUICE. Long had humanity searched for a source of endless power, but it was not found among the gilded halls of alchemy. This holy grail was found in a far humbler place: The Bar of The Multiverse. The knowledge of Juice, long dormant, resurfaced in 2077. Our search for unlimited energy has ended. The mech wars have just begun.
@@ -1927,7 +2064,7 @@ What's next for Automated Emergency Detection & Notification
 Making the users subscribe via an app
 Making the filtering mechanism more reliable
 Extending the support to other social media such as Facebook, Instagram, etc
-",,,,"Coolest Hack with Twilio, Best use of Twitter API","python, twitter, twilio",0,Main Room,5,University of Colorado Boulder,"","",parthadroja,University of Colorado at Boulder,1,animeshgupta50
+",,,,"Best use of Twitter API, Coolest Hack with Twilio","python, twitter, twilio",0,Winter Park,8,University of Colorado Boulder,"","",parthadroja,University of Colorado at Boulder,1,animeshgupta50
 Decrypted The Game,https://hackcuv.devpost.com/submissions/113948-decrypted-the-game,"Inspiration
 
 Elijah and I have grown up around computers, video games, and learning to program from young ages. Cybersecurity is something I have a passion for learning more about and Elijah has a knack for game design. We decided to incorporate both to help teach K-12 about SSL certificates.
@@ -1955,7 +2092,7 @@ I learned Unity from the ground up [Chase]. I knew C++ coming into this which tr
 What's next for Decrypted The Game
 
 We'd like to refine the textures, add more levels with more quests about different topics within the cybersecurity realm. Animation for characters is definitely on of the first things we will tackle however. Maybe even a user customization screen for their character.
-",https://youtu.be/Szyxp7RunZo,http://decryptedgame.com,,"Design, Build or Break Cyber Games for K-12 Education, MLH: Best Domain Registered with Domain.com","unity, c#, photoshop, pycharm, adobe-brackets",0,Lobby,11,"University of Colorado Denver, University of Colorado Colorado Springs","",Domain.com,wallacecs007,"University of Colorado Denver, University of Colorado at Colorado Springs",1,ElijahSalberg
+",https://youtu.be/Szyxp7RunZo,http://decryptedgame.com,,"MLH: Best Domain Registered with Domain.com, Design, Build or Break Cyber Games for K-12 Education","unity, c#, photoshop, pycharm, adobe-brackets",0,Lobby,11,"University of Colorado Denver, University of Colorado Colorado Springs","",Domain.com,wallacecs007,"University of Colorado Denver, University of Colorado at Colorado Springs",1,ElijahSalberg
 Cipher Slueth: Case of the Missing Cellphones,https://hackcuv.devpost.com/submissions/113950-cipher-slueth-case-of-the-missing-cellphones,"Cipher Sleuth: Case of the Missing Cell Phones
 
 Target Age Group: Grades 4-7 (ages 8-12)
@@ -2026,7 +2163,7 @@ What's next for Encrypt-to-Home
 
 MAKE MORE LEVELS!
 We want to make more levels and possibly implement more challenges that teach children other encryption skills beyond Caesar Cipher to appeal to children who have already mastered the basics!
-",,,,"Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack",javascript,1,Vail,53,University of Colorado @ Boulder,"","",kewo2098,University of Colorado at Boulder,2,ViennaWong,dech2018
+",,,,"Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack",javascript,1,Aspen,53,University of Colorado @ Boulder,"","",kewo2098,University of Colorado at Boulder,3,ViennaWong,JustinWon,dech2018
 Back to the Cipher,https://hackcuv.devpost.com/submissions/113952-back-to-the-cipher,"Inspiration
 
 Our inspiration was the history of computer science (and how far we have come) that is not often talked about, and combining it with cryptography which is an important aspect of cybersecurity. Then we combined these ideas with Back to the Future (and time travelling) to add a twist.
@@ -2056,7 +2193,7 @@ We learned a lot about how to engage younger audiences and cater to them while a
 What's next for Back to the Cipher
 
 Now that we have the idea and examples of levels, our next step is to implement the game for users to actually play.
-",,http://www.backtothecipher.com,,"Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack, MLH: Best Domain Registered with Domain.com","",1,Main entry room,near table 48 (by Splunk),University of Colorado at Boulder,"","",IsabellaSchneider,University of Colorado at Boulder,2,mlay0797,drakerutherford
+",,http://www.backtothecipher.com,,"MLH: Best Domain Registered with Domain.com, Design, Build or Break Cyber Games for K-12 Education, Best Beginner Hack","",1,Main entry room,near table 48 (by Splunk),University of Colorado at Boulder,"","",IsabellaSchneider,University of Colorado at Boulder,2,mlay0797,drakerutherford
 Web Histotree,https://hackcuv.devpost.com/submissions/113953-web-histotree,"Inspiration
 
 Often times when surfing the web it's easy to get lost and wonder how you arrived at the page you are currently viewing.
@@ -2138,8 +2275,721 @@ What's next for MaraudersMap
 
 Combining data from several users in real time, to form a true MaraudersMap. 
 _ italics _""We solemnly swear we are up to no good"" 
-",,https://github.com/saitiku/HackCU_V_DISH,,Dish Device Tracker,android-studio,0,C120,45,Colorado State University,"","",saitiku,Colorado State University,1,cinedan
+
+THIS PROJECT FURTHER EXTENDS TO AN AUGMENTED REALITY GAME THAT CAN BE PLAYED BOTH IN THE INDOOR AND THE OUTDOOR ENVIRONMENT. SEE BIKEDOMINATION. 
+",,https://github.com/saitiku/HackCU_V_DISH,,"Kids + Bikes = happier, more attentive students in the classroom, Dish Device Tracker",android-studio,0,C120,45,Colorado State University,"","",saitiku,Colorado State University,1,cinedan
 Domain submission ,https://hackcuv.devpost.com/submissions/113956-domain-submission,"Inspiration
 
 The memes.
 ",,https://defnotrickrolled.com/,,MLH: Best Domain Registered with Domain.com,"domain, website-builder",1,Main entrance room,near 48 by splunk,CU boulder,"","",mlay0797,University of Colorado at Boulder,1,drakerutherford
+Mentor,https://hackcuv.devpost.com/submissions/113958-mentor,"Description
+
+Many computer science students seek to continue developing their skillset, but lack the proper resources to do so. Mentor seeks to fill this gap by providing a companion tool which builds off of fundamental topics and eases
+developers into using new languages and unfamiliar environments. 
+
+As of 2018, over 80% of introductory computer science courses are taught using Python. Google's language Go, however, is not taught much in academia. We decided to leverage this fact in our development and provided new programmers with the ability to write Python code and view corresponding Go syntax. This speeds up the process of learning a new language. 
+
+Integration to use Mentor is seamless. A daemon running on your local machine will watch as you write your code and constantly keep the iPad companion app up-to-date. Our Atom plugin also provides visual feedback as you code. To activate mentor, simply wrap more familiar Python code in our special sequence of characters: ""////"". The iPad companion app will then show Go suggestions and provide direct access to Go's documentation, allowing developers to learn on the fly.
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Mentor
+",,https://github.com/TheMkrage/Mentor,,MLH: Best use of Google Cloud Platform,"swift, python, firebase, gcp",0,N129,54,"Harvey Mudd College, UCLA","",Google Cloud Platform,TheMkrage,"Harvey Mudd College, University of California - Los Angeles",2,IshaanGandhi,yoyashing
+Titanium Joe,https://hackcuv.devpost.com/submissions/113959-titanium-joe,"Inspiration
+
+CU Combat Bots is competing at UC Berkeley in a 3lb ""Beetleweight"" Combat Robotics competition on March 31st.
+
+What it does
+
+Titanium Joe is has a Combat Robot that can drive up to 15 ft/sec. It features an Egg Beater as its main Kinetic Energy weapon, which has a theoretical max energy of 240J, and tip speed of 1227 m/s.
+
+How we built it
+
+We used OnShape to design a test bed that was 3D printed before the hackathon. We used duct tape to mount most of the components to the bed, and nuts and bolts to secure the motors and motor mounts. During the event, the first prototype of the final body was designed in OnShape, but unfortunately was not 3D printed because it would have taken ~30 hours. An Arduino was programmed to translate signals from a receiver to the PWM waves for the motors.
+
+Challenges we ran into
+
+We had to redesign and reprint the motor mounts twice during the hackathon.
+
+Accomplishments that we're proud of
+
+It drives really well!
+
+What we learned
+
+OnShape is a great tool for collaborating on CAD designs.
+
+What's next for Titanium Joe
+
+Printing the first prototypes for the body, and attaching and testing the weapon system.
+",https://youtu.be/iZIqQjOgd70,https://www.facebook.com/CUBoulderCombatBots/posts/2063063477063843,,"Best Hardware Hack, Best Beginner Hack",arduino,1,North Atrium,19,CU Boulder,"","",DavidKopalaCU,University of Colorado at Boulder,0
+Hand Gesture Home Assistant,https://hackcuv.devpost.com/submissions/113960-hand-gesture-home-assistant,"Inspiration
+
+We feel that there is a void to be filled in the area of user interfaces. This project is a demonstration of a solution to this problem. With most devices relying on physical contact or verbal interaction, there is much untapped potential in a world where gesturing is one of the primary means of human communication. This invention could be particularly useful to those individuals who struggle with verbal communication but is also quite applicable to the everyday user.
+
+What it does
+
+Our program reads and processes visual input provided by the Leap Motion sensor, and compares that to a collection of user-trained gestures. It then translates the input into simple phrases to interact with a simulated home automation system.
+
+How we built it
+
+We wrote the gesture detection program with the Leap Motion SDK in C++. We configured this program to simulate requests to our home automation server, hosted on a separate machine running in python code, which we also wrote. The simple home automation simulation frontend is written in HTML5 with JavaScript and WebSockets.
+
+Challenges we ran into
+
+It was particularly difficult to implement the gesture database and recognition algorithm. We struggled with specific problems such as complex memory management in the low-level SDK, accurate comparisons in real 3-space, and properly saving and loading the database without corruption.
+
+Accomplishments that we're proud of
+
+We're proud of the interface that allows users to calibrate and train the device with ease, as well as the overall functionality of our project. Additionally, our dynamic command management system is an exciting and useful feature.
+
+What we learned
+
+We learned a ton about C++ design and management, including operator overloading. Processing, storing and comparing 3-D vector data from the device was much more complex than we had anticipated.
+
+What's next for Hand Gesture Home Assistant
+
+We would like to improve the user training interface to use a GUI rather than a CLI, and would also like to improve the accuracy of our gesture recognition to allow free rotation of gestures.
+",,https://github.com/dhallstr/HackCU-V-Project,,"Best Hardware Hack, Best Beginner Hack","leap-motion, c++, bottle, python, javascript, html5",1,Main auditorium,40,Colorado State University,Leap Motion,"",dhallstr,Colorado State University,1,M3tanym
+Naive clickthrough clusters,https://hackcuv.devpost.com/submissions/113961-naive-clickthrough-clusters,"Inspiration
+
+We love data and we love python so this was a wonderful challenge!
+
+What it does
+
+We have written a set of both functions and organized descriptive code notebooks that parse the medium-sized OppenheimerFund website clickthrough dataset, analyze aspects of its behavior, and provide some options for clustering the data to allow for better classification and prediction of user behavior.
+
+How I built it
+
+The data was provided in a python dataframe, so the pandas python library was a natural choice for manipulating and analyzing the data. Visualizations of the data were performed using Matplotlib, clustering was perform using K-means clustering from the scikit library, and all organization decisions and analysis were performed by us!
+
+Challenges I ran into
+
+While the dataset was only medium-sized it was still large enough to caused many operations to require very noticeable processing delays. Additionally, we had no prior experience working with this type of data before so understanding how to properly organize it was a fun challenge!
+
+Accomplishments that I'm proud of
+
+We were successful at manipulating the data to reveal some of its behavior.
+
+What I learned
+
+We put significant effort into figuring out how to ask complex questions of the data, but probably focused too much time on answering these questons rather than working on techniques for visualizing the data. 
+
+What's next for Naive clickthrough clusters
+
+Given more time we would have developed visualizations of the data clustering. It would have also been nice to finish our experiments with using markov processes to more fully analyze correlation between successive events.
+",,,,"Splunk Challenge, Big Data Analytics: Non-Obvious Web Traffic",python,0,C120,table 45,Colorado State University,"","",cinedan,Colorado State University,1,saitiku
+Fun(d) Chronicles!,https://hackcuv.devpost.com/submissions/113962-fun-d-chronicles,"Inspiration
+
+Big Data!!! The prospect of dealing with anonymous user behavioral data and having to make sense of it,  find a pattern/insights and develop cluster(s).
+
+What it does
+
+Tracking of user behavior across various paths of the website and subsequent determination of the most probable next domain path, behavioral statistics 
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Fun(d) Chronicles!
+
+Table Number : 55
+",,https://github.com/sowmya2910/hack-cu,,"MLH: Best Domain Registered with Domain.com, Best Beginner Hack, Big Data Analytics: Non-Obvious Web Traffic","python, jupyter-notebook, domain.com, heatmap, cluster, pandas, seaborn, nltk, matplotlib",1,Loveland,55,University of Colorado Boulder,"",Domain.com,sowmya2910,University of Colorado at Boulder,3,Sorabh,ArunsundarKannan,PranavPKS
+Huff n' Tuff Passwords,https://hackcuv.devpost.com/submissions/113963-huff-n-tuff-passwords,"Inspiration
+
+Our inspiration was to teach kids about the risks in computers and technology especially because passwords are an important part of protecting our personal information.
+
+What it does
+
+Educational game designed to educate K-5 students on the strength of passwords through a fun game.
+
+How we built it
+
+We attempted to use xcode and only managed to build the game start screen because we are chemical engineers who've never coded but we do have a very detailed report about how people who can actually code can build this.
+
+Challenges we ran into
+
+Coding
+
+Accomplishments that we're proud of
+
+Coding
+
+What we learned
+
+Coding
+
+What's next for Huff n' Tuff Passwords
+
+Coding
+",,https://docs.google.com/document/d/1tOGbVhPVVZ-NGhshLc-oiCgIoreif6DeErfVRvMh81Y/edit?usp=sharing,,"Design, Build or Break Cyber Games for K-12 Education",xcode,1,Cafe,N/A,University of Colorado Boulder,"","",amylenneman,University of Colorado at Boulder,2,YinLinLi,kats7430
+ENSWrapper,https://hackcuv.devpost.com/submissions/113964-enswrapper,"Ethereum Name Service is great, but the domains you register with it can't be easily traded. We'll fix that by wrapping them with an ERC721-compliant contract you can transfer ownership of the deeds to your ENS names, and allow them to be traded on exchanges.
+",,https://github.com/sprusr/ENSWrapper,,Best Smart contract usage,"solidity, javascript",0,Right atrium (if facing front of the building),Next to 14,Aston University,"","",sprusr,"",0
+Hack U Knight (CyberHack Game),https://hackcuv.devpost.com/submissions/113965-hack-u-knight-cyberhack-game,"Inspiration
+
+We really liked the powerpoint about how cybersecurity is underrepresented. David is currently taking a cyber security class and the rest of us are interested.
+
+What it does
+
+Our game is a top-down 2D puzzle game. The goal of the game is to use hacking and cryptography concepts to get your way to the end. We've structured the levels so that each room teaches a different concept. We really wanted to emphasize that the game was a fun learning experience, not a lecture or a tutorial with blocks of text. Our puzzles are designed to have the student realize how each concept works at a base level and experiencing each concept by trying to solve said puzzles. The concepts we cover are Brute Force, Dictionary Attacks, Caesar cipher, Crypto Analytic attack, and Binary Decryption.
+
+How we built it
+
+Caffeine. Lots of it.
+
+We built the game from scratch. Most of us had never used Unity before and the one person who did has never made a top-down 2d game. Many of the art assets were premade or imported. We created all the scripts and mechanics from scratch, Matt worked mainly on the beautiful dialogue system and worked to make sure that the entire system flowed seamlessly. David knew the most about cryptography and worked in getting the concepts into the game and event triggers. Andrew worked on designing the analog puzzle and designed and built the entire circuit. Eric did basic movement mechanics and level design, animation, and event triggering. The entire thing was a huge collaborative effort and a lot of mistakes and learning were done. In the end, we are incredibly proud of our final product!
+
+Challenges we ran into
+
+3 out of 4 of our team members had never touched Unity or c# before ever! Learning to program in the language on a completely alien platform was a challenge when we started. The first 4 hours of this hackathon was spent downloading unity, troubleshooting unity, and learning basic Unity functionality. 
+
+We also tried really hard to incorporate a hardware portion to our project, showing that these very cyber-focused concepts could be applied in real life. None of us are electrical engineers but we were able to create a small circuit system that uses logic gates to represent binary and this aids in solving one of our puzzles!
+
+Accomplishments that we're proud of
+
+Learning Unity and C# in a very short span of time. Creating a game in the span of 24 hours. Creating a circuit board that demonstrates uses of cryptography in an analog setting using logic gates. Pulling an all-nighter (totally worth it). Collaborating on one project and not running into too many merge issues. Actually finishing a La Croix (not worth it). 
+
+Creating a truly fun and educational game that adheres to the bounds of the challenge given.
+
+What we learned
+
+Circuits are super hard. Drawing them is hard, making them work is even harder. But they're super rewarding when they work.
+
+Unity and C#. Public variables are not as good as protected variables. Use prefabs when using an object repeatedly. Crunch time means functionality comes first, but don't let that deteriorate the quality of what you do.
+Lime La Croix still isn't good.
+
+What's next for Hack U Knight (CyberHack Game)
+
+Scaling level difficulty (both conceptually and mechanically) that includes more interaction, contact with ""real"" programming, much more complex encryption methods, etc. We also would like to add a much deeper storyline including but not limited to a physical antagonist that the student has to battle against using the encryption method that they've learned. We want to be able to convey these concepts clearly in as fun of a way possible!
+",,http://bit.ly/2SpfGMq,,"Design, Build or Break Cyber Games for K-12 Education, Best Hardware Hack, Best Beginner Hack","unity, c#",1,Main auditorium,23,CU Boulder,"","",Eric-Weng,University of Colorado at Boulder,1,andrewmeikle
+Bike Along,https://hackcuv.devpost.com/submissions/113966-bike-along,"Inspiration
+
+We want to build a technology that encourages kids to go out and ride their bikes more. We believe that parents today aren't comfortable with their kids going out and biking without supervision, so kids are limited to biking when a parent is available.
+
+What it does
+
+This project consists of 2 apps: one for the parent and one for the child.
+
+The parent's app provides an interface to plan a bike route for their child. The app displays the child's location in real time and sends a notification to the parent if the child deviates from the established route.
+
+The child's app consists of a map (with the planned route plotted) and a panic button. If the panic button is pressed the parent's app is notified of an emergency.
+
+Both apps communicate with a server, which makes sure the child stays on the planned route and notifies the parent otherwise.
+
+How we built it
+
+For both the parent and child apps, we used ReactJS for the front-end. The child app polls for GPS coordinates and posts them to a server. The server determines if the child is still on the planned route and notifies the parent app if not.
+
+Challenges we ran into
+
+We ran into problems deploying to the server.
+
+Accomplishments that we're proud of
+
+We got real-time location tracking using GPS to work. We also got the Google Maps Directions API to give us textual directions for processing.
+
+What we learned
+
+Boskin learned about ReactJS and various dependency managers (NPM and Yarn).
+
+What's next for Bike Along
+
+We want to polish the user interface more and make the navigation directions on the child app more kid-friendly.
+",,https://github.com/JakeC1020/BikeAlong,,"Kids + Bikes = happier, more attentive students in the classroom, Dish Device Tracker","react, docker",0,Vail,51,University of Colorado Boulder,"","",Boskin,University of Colorado at Boulder,2,JakeC1020,BrentDagdagan
+HappyBiking,https://hackcuv.devpost.com/submissions/113968-happybiking,"Inspiration
+
+To help children enjoy biking while going to school or anywhere else. Thus creating a pleasant experience for the student while riding and also giving an urge to go out to do some physical exercise. 
+
+What it does
+
+The students can start a app from their android mobile before they start from their source location and then while the student is on the road, the letters of English alphabets gets collected in the app according to the time and location the student is travelling. Once the student has reached the destination location, he can use the collected letters to make as many words as possible and improve their English skills. This creates an interest in the student to ride more and to learn more eventually. And finally when the student submits the answer, the answer are compared with a text file in the student mobile which is a dictionary.txt which contains all the dictionary word in it and gives out the score of the student as well. Hence he can improve further. 
+
+How we built it
+
+We built it using android studio app and basically created 3 activities to implement the above mentioned functionalities. 
+
+Challenges we ran into
+
+In the above app we tried to integrate the google maps API to improve it much further but it was a tough job and hence for now we excluded that feature and implemented the rest in our app. For now the words are calculated using the time period the student is riding. 
+
+Accomplishments that we're proud of
+
+We are proud that we implemented most of what we had in mind about the app.
+
+What we learned
+
+We learned to integrate API's into mobile app but couldn't combine that integrated API with our main app. We also learnt a lot more about how the mobile application is function as we coded through the activities in our app. 
+
+What's next for HappyBiking
+
+-> We are planning to implement the google maps API and also to integrate one more feature which will help the parents know the students location if they send a message to the students mobile. 
+
+-> For the parent app part, once the parent sends a message, automatically the google map location link(GPS based, if GPS is not working, the network is accessed) from the kids mobile is sent as a text message to the parents without the student's need to access the mobile. 
+
+-> We plan to add this feature that we have already and add the google API and do further improvements to it. One more thing we can add to the app is that check whether the student is originally riding from the source to the destination or not. And if the student tries to use the mobile while riding or inbetween, we can cancel the game for the student during that ride.
+
+-> We can also create a student class community to improve the usage and learning experience in classrooms. Biking leaderboard can also be created eventually.  
+",,https://github.com/subu3396/HappyBiking,,"Kids + Bikes = happier, more attentive students in the classroom, Best Smart contract usage, Best Beginner Hack","java, xml, android-studio",1,Main auditorium,22,Colorado State University,"","",Subramaniam,"Colorado State University, Sri Venkateswara university",3,lizacool612,HariHaraKumar,rohitg17
+Script Kiddie,https://hackcuv.devpost.com/submissions/113971-script-kiddie,"Inspiration
+
+I want to educate people about encryption by incentivizing them with education and cyber security tools. Students will learn about consent and responsibility associated with cyber security. 
+
+What it does
+
+Teaches students how to decode a string, which is a phone number, and the phone number will respond by text with an encryption key. The encryption key is used to decrypt a link to tools and a tutorial. 
+
+How I built it
+
+I used Django on the server to decrypt the student's input according the the encoding selected.
+Twilio is used to send the encryption key to the student.
+
+Challenges I ran into
+
+Using a Python 2 library for the encryption. 
+
+Accomplishments that I'm proud of
+
+Decoding and decrypting using Python. 
+
+What I learned
+
+How to convert the MultiEncoder library to Python 3. The Django framework.
+
+What's next for Script Kiddie
+
+Create user accounts. Add more encoded/encrypted links to tools and tutorials that are unique to each account. Make the web page simple and beautiful. Add a completion certificate that can be deployed to the Ethereum blockchain. 
+",,,,"","python, django",0,Main lobby,West of table 48,Colorado State University,"",Domain.com,CaseyKey,Colorado State University,0
+Horoscopes,https://hackcuv.devpost.com/submissions/113972-horoscopes,"coming soon
+",,,,"","ml5, p5, javascript, html5, css3",0,main auditorium,1,University Of Colorado,"","",userbeau,University of Colorado at Boulder,0
+what_the_click,https://hackcuv.devpost.com/submissions/113973-what_the_click,"Inspiration
+
+Our inspiration was when we were trying to figure out what to do for our project, and we saw a pen. And we wondered, what if it was an IoT pen?
+
+What it does
+
+Through text messaging using Twilio and some Twitter functionality, we can make the pen click itself using a Dragonboard and an Arduino.
+
+How we built it
+
+We used a Dragonboard to run a server that we used to parse SMS commands that either communicates with an Arduino that controls the servo that clicks the pen or interfaces with other apps. 
+
+Challenges we ran into
+
+The Dragonboard doesn't have a PWM pin, which meant we had to also use an Arduino to be able to connect to the servo. We tried to incorporate Fitbit GPS functionality but quickly realized that it was very difficult to get the information from the Fitbit without using the Fitbit companion app, which we didn't want to use. We also tried to incorporate Alexa functionality but it was very difficult trying to register our Dragonboard as an Amazon IoT device. We had issues using OAuth to connect to other users with one Twitter Developer account. The Python dependencies weren't installed on the Dragonboard, which caused us some problems. It was also difficult to make the pen structurally strong enough to be able to handle multiple clicks without moving out of place.
+
+Accomplishments that we're proud of
+
+We made a pen that successfully clicks itself. We were able to incorporate Twilio as well so that we could click the pen using texting features, which also allowed us to use Google Assistant to control the pen using Google Routines. We were also able to tweet using the pen without accessing the Twitter app.
+
+What we learned
+
+We learned about various API's, such as Twilio, Twitter, Fitbit, and Amazon Alexa. We also learned how to use a Dragonboard to run our server. 
+
+What's next for what_the_click
+
+We'd like to make a more elegant, compact design for the pen. We would also like to add accelerometer support. We would also like to be able to make it work without a dedicated power supply. We would also like to add support for other messaging services other than SMS messaging. We would also like to add the ability to log into multiple Twitter accounts using the pen as well. 
+",,https://github.com/adamhoerger/what_the_click,,"MLH: Best IoT Hack using a Qualcomm Device, Best use of Twitter API, Design, Build or Break Cyber Games for K-12 Education, Coolest Hack with Twilio, Best Hardware Hack",python,0,Aspen,52,University of Colorado Boulder,Dragonboard 410c,Qualcomm,neel010427,University of Colorado at Boulder,3,bjkim00,zhouzhouthezhou,adamhoerger
+Run n Hike Monitor,https://hackcuv.devpost.com/submissions/113974-run-n-hike-monitor,"Inspiration:
+
+Being a group of enthusiastic runners and trail aficionados, path tracking at regions without network connectivity was an important issue to us, we ended up brainstorming to solution to develop a 'run/hike tracker' which would still give you an exact path travelled without the need of live network connectivity. 
+
+What it does
+
+This project creates a way for a user to track the path he travels especially in areas where there is no mobile network which can be used to access internet and Google Maps consequently. This project allows the user to track the path he traversed using the GPS module which is present inside smartphone itself. Smartphone is a utility that every person carries so it is also one of the most suitable devices for such an application to be made. The android application developed in MIT App Inventor allows the user to to start and end his trip and the data collected by the GPS module working offline in that trip duration will be used to create a trajectory of the path the user took.
+
+To keep the latitude and longitude locations taken by the GPS module, we have used Firebase by Google which is a real time database. We have implemented a “Send Data” button which the user can use to send the recorded GPS data over internet when he gets back in the network zone. After all the latitude and longitude locations are updated on Firebase, the user will be able to view his trip path on Google Maps by running a python program. The program fetches the Firebase data and uses that to point the exact locations where the user went. Our program also has the functionality of tracing the path using those points and show that on Google Maps.
+
+Challenges we ran into
+
+
+Google map APIs usage
+Removing app local data
+Interfacing google-map APIs with python
+
+
+Accomplishments that we're proud of
+
+
+Precise tracking using mobile GPS
+Calculation of distance and speed.
+Well-designed mobile application.
+Usage of Google-map APIs
+
+
+What we learned
+
+We learned the working of GPS, Google Maps API and creating Android applications!
+
+What's next for Smart Runner
+
+Next updates for the Smart Runner include interfacing Altitude sensor from mobile phone to the app and Google maps. Also, make a 3D view of the total run or hike for a cooler app interface. Adding pictures and videos linked to different locations on the run or hike will add an immersive experience to it and make a sweet memory with the run/hike.
+",,https://github.com/NikhilDivekar7/Hack_CU_2019,,"Dish Device Tracker, MLH: Best use of Google Cloud Platform, Best Beginner Hack","mit-app-inventor, python, html, google-maps, google-map-plotter, ubuntu, android, firebase",1,Loveland,TBD,University of Colorado Boulder,"",Google Cloud Platform,NikhilDivekar,University of Colorado at Boulder,2,AnayGondhalekar,MohitRane8
+Binary Boy!,https://hackcuv.devpost.com/submissions/113975-binary-boy,"Inspiration
+
+Each other
+
+What it does
+
+Teaches kids about cyber security.
+
+How we built it
+
+Using Game Maker Studio 2.
+
+Challenges we ran into
+
+Only had free trial version of game maker.
+
+Accomplishments that we're proud of
+
+We made an entire game!
+
+What we learned
+
+How to use gamemaker.
+
+What's next for Binary Boy!
+
+See the ""future works"" section of our design document ;)
+",,https://github.com/savannahpaul/cyberGame,,"Design, Build or Break Cyber Games for K-12 Education",gamemaker,0,Main,31,Colorado School of Mines,"","",savannahpaul456,Colorado School of Mines,2,jawarcholik,jgranley
+Bittr,https://hackcuv.devpost.com/submissions/113976-bittr,"Inspiration
+
+What it does
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Bittr
+",,,,Coolest Hack with Twilio,"ios, swift",0,Breck,14,Birmingham City Universtiy,"","",abdulajet,University College London,3,sprusr,harshpal,mbell
+Social Engineering Wargames Site,https://hackcuv.devpost.com/submissions/113978-social-engineering-wargames-site,"Team name: Social Re-engineers
+
+Inspiration
+
+A lack of social engineering based wargames.
+
+Summary
+
+A website hosting multiple self-contained hacking wargame style challenges or challenge sets. Each designed to teach various concepts and methods used in social engineering and to raise awareness in the recognition of when social engineering is being used. (Currently a work in progress but planning no development  long term outside of hackathon).
+
+Educational Design
+
+Learning Objectives
+
+
+Learn various concepts/methods in social engineering
+Learn ways people can leverage info on targets
+Learn how interconnected personal information can be
+Learn the potential consequences of releasing seemingly innocuous info to the public
+Better prepare players to approach interactions (especially online interactions) with others with caution and critical thinking
+
+
+Puzzle/Challenge Structure
+
+
+The website will consist of multiple challenges/missions for the player to go through
+Current games: recon & dialogue and social engineering capture the flag
+
+
+Recon & Dialogue - The player will go through a simulation of gaining access to the online bank account of a character we created various accounts for named Alexander Coleman. Will consist of 4 parts:
+
+
+Finding a username from one of the social media sites of the mark. 
+Gathering key information on the mark such as likes, dislikes, residence, the schools they attended, etc.
+Actually interacting with person. This will be done through dialogue trees.
+Combing all of the info gained from steps 1-3 and logging into the mark's bank account through a password reset answering a security question.
+
+Social Engineering CTF - The player must call someone, strike up a conversation, and get the person to answer questions from a provided list. Will have multiple lists at different challenge levels.
+
+
+",,https://k-12-social-engineering.github.io/k12-Social-Engineering.github.io/,,"Design, Build or Break Cyber Games for K-12 Education","html5, javascript",1,Main Auditorium,42,Colorado School of Mines,"","",m0unt4ine3r,Colorado School of Mines,0
+kindaRandom,https://hackcuv.devpost.com/submissions/113979-kindarandom,"Inspiration
+
+We started to create a cybersecurity game, but abandoned it out of boredom. We then just started to brainstorm weird ideas we could do. Our next thought was to have the computer play telephone with itself, but the speech-to-text library we used was hard to implement on all our computers, and worked too well to introduce enough error to make the outcome interesting. We ended up just trying to do whatever, and ended up doing some webscraping and implementing the Twilio API.
+
+What it does
+
+The start of the game is an intentionally bad UI made in pygame. It has 3 buttons when it loads.
+The first scrapes thispersondoesnotexist.com to get a random face and set the background of the game to that image.
+The second scrapes the web for a random quote and then uses text to speech to say the quote, then uses the Twilio API to call one of our team members and say the quote.
+The third exits the program.
+
+How we built it
+
+Python libraries and the Twilio API.
+Lots of trial and error.
+
+Challenges we ran into
+
+Finding ideas for our project,
+Libraries for text to speech didn't work cross-platform,
+learning the Twilio API,
+learning flask.
+
+Accomplishments that we're proud of
+
+We're glad the end result works as well as it does, even if the front end isn't impressive.
+
+What we learned
+
+How to use git, flask, Twilio API
+
+What's next for kindaRandom
+
+m0rE, R@nd0MSesS!1!
+",,https://github.com/ncarn2/kindaRandom,,"Coolest Hack with Twilio, Best Beginner Hack","python, pygame, vim, youtube, twilio, github, api, google, idle, linux, windows-10, beginner, ui, bestui, random, webscrape, beautiful-soup, urlib, flask, ffmpeg",1,Main Auditorium,29,Colorado School of Mines (*3),"","",MajorDerp4,Colorado School of Mines,2,arthurmayer,kmizuno874
+PyVideoMusicifier,https://hackcuv.devpost.com/submissions/113980-pyvideomusicifier,"PyVideoMusicifier
+
+
+
+Procedurally Generated Music Videos
+
+===================================
+
+PyVideoMusicifier is an application that converts arbitrary input video into a
+ music video based on the accompanying song.
+
+How Does It Work?
+
+=================
+
+There are two main processing techniques used in PyVideoMusicifier, fourier
+ analysis and beat detection.
+
+Fourier Analysis
+
+================
+
+Fourier analysis allows us to look at the spectral content of the video.
+ From this spectral content we can figure out what the maximum magnitude of all
+ the peaks are. From this magnitude we can adjust the brightness of the video to
+ correspond.
+
+The Fourier transform is also directly visualized in the video. After sampling
+ the transform, the samples are overlayed on the vignette. This allows certain
+ musical effects to be seen as well as heard.
+
+Beat Detection
+
+==============
+
+Beat detection allows us to figure out at what timestamps beats occur in
+he target audio file. From this list of timestamps we can grow and shrink
+the vignette effect that is overlaying the video.
+",,https://gitlab.com/ColoradoSchoolOfMines/pyvideomusicifier,,"","",0,Main Atrium,32,Colorado School of Mines,"","",robozman,"",0
+JeNeSaisQuoi,https://hackcuv.devpost.com/submissions/113981-jenesaisquoi,"JeNeSaisQuoi
+
+Repository for HackCU Project Team JeNeSaisQuoi
+
+Inspiration
+
+We wanted to explore a big dataset and data visualization techniques. 
+
+How we did it
+
+Our journey led us to create a web app that used node.js for the backend web framework, d3.js for data visualizations, and a host of web apis that could be found in the RapidAPI repository for additional features. 
+
+Challenges we ran into
+
+Our initial plan was to host the dataset in Cloud Firestore, a database on the Google Cloud Platform. However, we ran into a lot of query performance and field-format issues. The field-format issues recurred again when we tried to set up a local mongodb collection.
+",,https://github.com/Alder9/JeNeSaisQuoi,,"MLH: Best use of Google Cloud Platform, RapidAPI Best OctoAPI Hack","javascript, html, css, express.js, rapidapi, bing-search-api",0,Winter Park,9,1,"",Google Cloud Platform,samunnat,University of Colorado at Boulder,1,Alder9
+Leap Motion Mayhem,https://hackcuv.devpost.com/submissions/113982-leap-motion-mayhem,"What it does
+
+A shooting game that allows you to control LEDs using hand gestures
+
+How I built it
+
+Built with Leap Motion, python, and an arduino. We used a cardboard box to mount the LEDs and arduino. We built the software with the Leap Python SDK, PySerial, and Arduino.
+
+Challenges I ran into
+
+None of us had ever worked with the Leap, so we had to figure it out as we went. We spent many hours figuring out how to interface the leap motion with the arduino. We settled with python and pyserial.
+
+Accomplishments that I'm proud of
+
+We were able to create a working game despite having never used the Leap Motion before.
+
+What I learned
+
+I learned a lot about the Leap developer kit and arduino.
+",,,,"Best Hardware Hack, Best Beginner Hack","python, arduino, led, leap-motion",1,Main auditorium,28,"University of Colorado, Boulder",Leap Motion,"",lukesoguero,University of Colorado at Boulder,2,masonm2012,coso9779
+WheresMySat,https://hackcuv.devpost.com/submissions/113984-wheresmysat,"WheresMySat
+
+During the hackathon, we developed satellite orbit determination software keeping in mind accessibility, flexibility, and reusability.
+
+First off, orbit determination allows engineers and scientists to identify where artificial bodies or natural celestial bodies are. Satellite orbit determination serves a wide range of purposes from allowing GPS users to calculate their own position on Earth to keeping tabs on deep space missions. Orbit determination algorithms input a-priori information and measurements of the object whose orbit is to be determined. We use a classical Kalman filter which is a sequential orbit determination algorithm which is able to provide an estimate of where a satellite will be by propagating an initial estimate forward according to system dynamics and updating that estimate each time it receives a measurement according to how ""confident"" the filter is in its own estimate and how ""confident"" the measurements themselves are.
+
+We created a front end in order to present estimates of where a satellite is in order to make our software accessible. Our front end provides real-time solutions and diagnostics, allowing anyone to use the software, making orbit determination accessible to those who are not experts.
+
+In order to address flexibility and reusability, we implemented automatic differentiation in our filter. In different orbit determination problems, states to be estimated and system dynamics vary. Within the filter, we must take partial derivatives of the system dynamics with respect to the states to be estimated which means that setting up each orbit determination problem can be time intensive if we take these partial derivatives numerically or set up analytical expressions to evaluate them. In our project, we implement automatic differentiation which allows us to input any amount of states without resetting the partials.
+
+We set up a python web server to listen for simulated (or real) measurement inputs, which then ran the Kalman filter methods and estimated the state of the satellite at that time. This state was then pushed to an Influx database hosted on another computer, which displayed the data using a real-time updating graphical library.
+",,https://github.com/rconnorjohnstone/WheresMySat,,"",python,0,main,20,CU Boulder,"","",chelseatnvu,University of Colorado at Boulder,1,mellemahp
+Book_Grab,https://hackcuv.devpost.com/submissions/113985-book_grab,"Book_Grab
+
+Grab those old school textbooks collecting dust on a shelf and post them online. When you post your books people will be able to bid on them or buy them outright (including the shipping label). Save money and earn credit to buy other students textbooks for those classes that have required textbooks.
+",,https://github.com/rdbork/Book_Grab,,Best Beginner Hack,"python, css, html, javascript, bootstrap, flask",1,Next to S128,2,University of Colorado Boulder,"","",rabo1997,University of Colorado at Boulder,0
+Lauren's Pong Game,https://hackcuv.devpost.com/submissions/113986-lauren-s-pong-game,"Inspiration
+
+As beginners, we wanted to gain more exposure to making games on Unity.
+
+What it does
+
+2 players can compete against each other. The controls for the left paddle are ""w"" and ""s"", and the right paddle is with ""o"" and ""k."" The game goes until one player reaches a score of 10.
+
+How we built it
+
+One game object at a time.
+
+Challenges we ran into
+
+Getting the ball to keep bouncing in the visual arena, rather than going off the screen into nothingness.
+Also, we had to figure out how to prevent the Heads-Up Display from crashing the game.
+
+Accomplishments that we're proud of
+
+Making objects that can move based on user input.
+
+What we learned
+
+How to problem-solve and pay more attention to detail. We also learned some of what it takes to make a game. It takes much more time and effort than we thought, but yielding the working finished product makes it all worth it!
+
+What's next for Lauren's Pong Game
+
+Distribute for others to enjoy as well! Competition enables people to socialize, and having community with one-another can help build more meaningful friendships.
+",,,,Best Beginner Hack,"unity, visual-studio",1,Eldora,4,United States Air Force Academy,"","",blondieblue242,United States Air Force Academy,2,ggills150,y4b0isius
+HackCU2019,https://hackcuv.devpost.com/submissions/113987-hackcu2019,"HackCU2019
+",,https://github.com/jotk/HackCU2019,,Big Data Analytics: Non-Obvious Web Traffic,jupyter-notebook,0,asdf,adsf,asdf,"","",cyeung,Neumont College of Computer Science,0
+Juxtaposition,https://hackcuv.devpost.com/submissions/113988-juxtaposition,"Inspiration
+
+Chaotic dynamics, static noise, etc...
+
+What it does
+
+its random
+
+How I built it
+
+lots of math
+
+Challenges I ran into
+
+random errors
+
+Accomplishments that I'm proud of
+
+It surprisingly works 
+
+What I learned
+
+double pendulums aren't intuitive
+
+What's next for Juxtaposition
+
+more randomness
+",,,,"","webgl, javascript",0,south wing,1,1,"","",blpa1200,University of Colorado at Boulder,2,saba6857,ChatHelper
+Poker AI,https://hackcuv.devpost.com/submissions/113989-poker-ai,"Inspiration
+
+We are inspired by the lack of competitions for awesome coders like us! We want to create a platform where coders can compete in their ""sport"" and battle theirs peers in a coding arena.
+
+What it does
+
+It simulates a full game of Texas Hold'em with a very user friendly API allowing easy plug in play for any AI model they can dream of!
+
+How we built it
+
+The core game logic is built in python, we choose python because its the strongest widely known AI language. The display and server was built in HTML/Javascript
+
+Challenges we ran into
+
+Our largest challenge was time. If we had more time, we'd have built of vision to the fullest! We didn't waste a minute!
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Poker AI
+",,https://github.com/valyria257/HackCUV.git,,"","python, javascript, html, css",0,Main atrium,39,University of Colorado Boulder,"","",valyria257,University of Colorado at Boulder,2,comu0011,kyhe5005
+Twitter Crawler,https://hackcuv.devpost.com/submissions/113990-twitter-crawler,"Inspiration
+
+I believe we all have a duty to do something to leave a better world of heritage. The most efficient and fun way is mixing technology with social impact.
+Technology has revolutionized industries, businesses, and governments. Now it is time to revolutionize society as well. The year of 2019 is emerging as an opportunity for changes; technology is becoming more accessible and people are increasingly more connected.
+
+What it does
+
+HappyBot is a platform that identifies and engages with young people with depression and suicidal tendencies. Our goal is to contribute to the 1,400,000 suicide attempts in 2017 only in the U.S never be repeated, acting proactively preventing announced tragedies. 
+
+After working in projects with the community in general, we have noticed that young people between 15 and 20 years age in active school life do not share their feelings with relatives and friends, but they use the internet as an outlet. The result is an immense accumulation of relevant information about the youth's personality, which simply is not used. 
+
+How HappyBot Works
+HappyBot will apply AI in Twitter's data to identify if these individuals are going through put their own life in risk. The AI will extract relevant information from tweets, such as:
+
+
+Emotional range
+Entities
+Keywords
+Sentiment analysis
+
+
+How I built it
+
+Once identified, HappyBot will contact these individuals through Chabot conversations, suggesting alternative treatments according to the person's preferences, focused on healthy living practices (community groups, volunteer jobs, practicing sports, etc.)
+
+The Artificial Intelligence engine categorizes thousands of data and shows the information to you in a simple and friendly screen, making it possible to navigate and search across the tweets.
+
+Challenges I ran into
+
+Twitter API accuracy
+
+Accomplishments that I'm proud of
+
+Be able to reach out people who are yelling for help in social media
+
+What I learned
+
+Data is the new oil
+
+What's next for Twitter Crawler
+
+Develop a better UI application
+",,http://inteligenti.mybluemix.net/ui,,Best use of Twitter API,"javascript, python, node-red",0,VAIL,51,watson institute,"","",LucasFaria,"",0
+Secure the Cyber Land,https://hackcuv.devpost.com/submissions/113991-secure-the-cyber-land,"Inspiration
+
+To Teach Kids about Cyber Security
+
+What it does
+
+An interactive world where students learn about how to be prepared for the cyber world through mini-games and an ultimate boss the Cyber Crook you must take down.
+
+How I built it
+
+Game Design Build Microsoft Word
+
+Challenges I ran into
+
+Technological knowledge to create the actual application.
+
+Accomplishments that I'm proud of
+
+The idea has big potential to help prevent bad actors from taking advantage of new users of the internet.
+
+What I learned
+
+General Cyber Security Knowledge
+
+What's next for Secure the Cyber Land
+",,,,"Design, Build or Break Cyber Games for K-12 Education",gdd,0,Main Room at Blockchain table,48 blockchain table,University of Colorado at Boulder,"","",laneolsen21,"",0
