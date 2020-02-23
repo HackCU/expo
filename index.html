@@ -43,19 +43,17 @@
     <table id="expoTable">
       <thead>
         <tr>
-          <th class="number">Room</th>
           <th class="number">Table</th>
           <th class="name">Project</th>
-          <th class="prize">Sponsor Prizes</th>
+          <th class="prize">Tracks</th>
         </tr>
       </thead>
       <tbody class="list">
         {{#data}}
           <tr>
-            <td style=class="number">{{room}}</td>
             <td style=class="number">{{table}}</td>
             <td class="name"><a href="{{{link}}}" target="_blank">{{project}}</a></td>
-            <td class="prize">{{sponsors}}</td>
+            <td class="prize">{{tracks}}</td>
           </tr>
         {{/data}}
       </tbody>
@@ -87,7 +85,7 @@
 
       // CSV format: https://gist.githubusercontent.com/nealrs/510b6ab766d97b42f572/raw/92188f386410fe9ebdfdea381562a4ddff4a02b7/test.csv
 
-      Papa.parse("data/data.csv", {
+      Papa.parse("data/final.csv", {
         download: true,
         header: true,
         complete: function(results) {

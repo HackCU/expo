@@ -6,17 +6,17 @@ expo_list = ["1"]
 #get submissions from csv
 title_col = "Submission Title"
 description_col = "Plain Description"
-sponsors_row = "Desired Prizes"
+tracks_row = "Opt-in prize"
 link_col = "Submission Url"
-room_col = "What Room Are You In?"
-table_col = "What's Your Table Number?"
+# room_col = "What Room Are You In?"
+# table_col = "What's Your Table Number?"
 
-input_path = 'data/devpost.csv'
+input_path = 'data/submissions.csv'
 output_full_path = 'data/data.csv'
 output_gavel_path = 'data/data_gavel.csv'
 
 
-full  = []
+full = []
 
 with open(input_path) as csvfile:
     submissions_reader = list(csv.DictReader(csvfile))
@@ -28,17 +28,18 @@ with open(input_path) as csvfile:
 # write full file (for expo website)
 
 with open(output_full_path, 'w') as csvfile:
-    fieldnames = ['room','table', 'project', 'sponsors', 'link']
+    fieldnames = ['room','table', 'project', 'tracks', 'link']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     writer.writeheader()
     for row in full:
+        print(row[tracks_row])
         writer.writerow(
         {
-            'room': row[room_col],
-            'table': row[table_col],
+            # 'room': row[room_col],
+            # 'table': row[table_col],
             'project': row[title_col],
-            'sponsors': row[sponsors_row],
+            'tracks': row[tracks_row],
             'link': row[link_col]
         })
 
